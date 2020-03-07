@@ -10,8 +10,8 @@ static int d_pointer = 1;
 void controller(){
     
     //debugger
-    jo_set_printf_color_index(JO_COLOR_INDEX_White);
-    jo_printf(1, 1, "%d", d_pointer);
+    //jo_set_printf_color_index(JO_COLOR_INDEX_White);
+    //jo_printf(1, 1, "%d", d_pointer);
     
     //main menu
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){

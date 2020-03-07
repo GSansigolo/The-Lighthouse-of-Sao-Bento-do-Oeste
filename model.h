@@ -4,14 +4,14 @@
 void draw_menu(void){
     set_background("TITLE.TGA", "BG");
     jo_set_printf_color_index(JO_COLOR_INDEX_White);
-    jo_printf(11, 19, "PRESS START BUTTON");
-    jo_printf(34, 28, "@2020");
+    jo_printf(11, 23, "PRESS START BUTTON");
+    //jo_printf(34, 28, "@2020");
     jo_printf(1, 28, "@G_Sansigolo");
 };
 
 void start(void){
     jo_clear_screen();
-    set_background("BG.TGA", "BG");
+    set_background("STREET.TGA", "BG");
     draw_hud();
     //set_sprite("SONIC.TGA", "TEX");
     dialog_001();
