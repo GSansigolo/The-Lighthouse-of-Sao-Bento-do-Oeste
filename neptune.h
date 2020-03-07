@@ -79,7 +79,7 @@ void d(char* text, int line){
  * draw text on the screen
  */
 void h(char* text){
-    jo_set_printf_color_index(JO_COLOR_INDEX_Red);
+    jo_set_printf_color_index(JO_COLOR_INDEX_Purple);
     jo_printf(2, 21+(2*1), text);
 }
 

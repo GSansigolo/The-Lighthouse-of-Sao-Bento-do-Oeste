@@ -49,7 +49,7 @@ void controller(){
     //pointers jump
     if (d_pointer == 2)
         dialog_002();
-
+/*
     if (d_pointer == 3)
         dialog_003();
 
@@ -72,7 +72,7 @@ void controller(){
     
     if (d_pointer == 9)
         dialog_009();
-
+*/
 }
 
 #endif
