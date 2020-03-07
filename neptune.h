@@ -16,7 +16,7 @@
  * plot dialog box
  */
 void draw_hud(){
-    add_hud("HUD.TGA", "BG");
+    add_hud("HUD.TGA", "TEX");
 }
 
 /**
@@ -27,7 +27,7 @@ void set_background(char* filename, char* folder){
     jo_img bg;
 
     bg.data = NULL;
-    jo_tga_loader(&bg, folder, filename, JO_COLOR_Transparent);
+    jo_tga_loader(&bg, folder, filename, JO_COLOR_Green);
     jo_set_background_sprite(&bg, 0, 0);
     jo_free_img(&bg);
 }
@@ -57,8 +57,8 @@ void set_sprite(char* filename, char* folder){
     jo_img sprite;
 
     sprite.data = NULL;
-    jo_tga_loader(&sprite, folder, filename, JO_COLOR_Transparent);
-    jo_set_background_sprite(&sprite, 100, 45);
+    jo_tga_loader(&sprite, folder, filename, JO_COLOR_Green);
+    jo_set_background_sprite(&sprite, 0, 0);
     jo_free_img(&sprite);
 }
 
@@ -69,9 +69,9 @@ void set_sprite(char* filename, char* folder){
 void d(char* text, int line){
     jo_set_printf_color_index(JO_COLOR_INDEX_White);
     if (line == 1)
-        jo_printf(13, 21+(2), text);
+        jo_printf(12, 21+(2), text);
     else
-        jo_printf(2, 21+(2*line), text);
+        jo_printf(1, 21+(2*line), text);
 }
 
 /**
@@ -79,8 +79,8 @@ void d(char* text, int line){
  * draw text on the screen
  */
 void h(char* text){
-    jo_set_printf_color_index(JO_COLOR_INDEX_Purple);
-    jo_printf(2, 21+(2*1), text);
+    jo_set_printf_color_index(JO_COLOR_INDEX_Red);
+    jo_printf(1, 21+(2*1), text);
 }
 
 /**
@@ -90,9 +90,9 @@ void h(char* text){
 void d_n(char* text, int line){
     jo_set_printf_color_index(JO_COLOR_INDEX_White);
     if (line == 1)
-        jo_printf(2, 21+(2), text);
+        jo_printf(1, 21+(2), text);
     else
-        jo_printf(2, 21+(2*line), text);
+        jo_printf(1, 21+(2*line), text);
 }
 
 #endif

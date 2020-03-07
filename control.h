@@ -6,6 +6,10 @@ static int start_menu = 1;
 static int choice_pause = 0;
 static int d_pointer = 1;
 
+void draw_renne_hud(){
+    set_sprite("SONIC.TGA", "TEX");
+}
+
 //main controller function
 void controller(){
     
@@ -26,30 +30,11 @@ void controller(){
         d_pointer++;
         jo_clear_screen();
     } 
-    
-    //lips
-    if (jo_is_pad1_key_down(JO_KEY_A) && d_pointer == 6 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        d_pointer = 7;
-        jo_clear_screen();
-    } 
-
-    if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 6 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        d_pointer = 8;
-        jo_clear_screen();
-    } 
-
-    if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 6 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        d_pointer = 9;
-        jo_clear_screen();
-    } 
 
     //pointers jump
     if (d_pointer == 2)
         dialog_002();
-/*
+
     if (d_pointer == 3)
         dialog_003();
 
@@ -59,20 +44,21 @@ void controller(){
     if (d_pointer == 5)
         dialog_005();
 
-    if (d_pointer == 6){
-        choice_pause = 1;
+    if (d_pointer == 6)
         dialog_006();
-    }
 
     if (d_pointer == 7)
         dialog_007();
     
     if (d_pointer == 8)
         dialog_008();
-    
+
     if (d_pointer == 9)
         dialog_009();
-*/
+
+    if (d_pointer == 10)
+        dialog_010();
+
 }
 
 #endif
