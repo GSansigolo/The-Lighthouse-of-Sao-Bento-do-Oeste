@@ -12,6 +12,7 @@ void jo_main(void){
     
     //callbacks
     jo_core_add_callback(controller);
+	jo_core_add_callback(draw);
 
     //draw main menu
     draw_menu();

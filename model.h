@@ -9,11 +9,13 @@ void draw_menu(void){
     jo_printf(1, 28, "@G_Sansigolo");
 };
 
+void draw_renne_sad(){
+    load_sprites("RENNE2.TGA", "TEX");
+}
+
 void start(void){
     jo_clear_screen();
     set_background("BLACK.TGA", "BG");
-    draw_hud();
-	  jo_core_add_callback(draw);
     dialog_001();
 }
 
@@ -64,31 +66,30 @@ void dialog_008(void){
   d_n("Normally, you never accepted jobs",1); 
     d("outside the state of Sao Paulo, but",2); 
     d("this time you made an exception.",3); 
-}
-/*
-void dialog_009(void){
 
-    set_background("SAIDA.TGA", "BG");
-    
-    jo_datetime now;
-    jo_getdate(&now);
+}
+
+void dialog_009(void){
+    jo_clear_screen();
+    set_background("SAIDA.TGA", "BG");    
+    dialog_010();
+}
+
+void dialog_010(void){
 
   d_n("Sao Bento do Oeste",1); 
     d("Minas Gerais - Brazil",2); 
-    jo_printf(1, 27, "%d/%d/%d", now.day, now.month, now.year);
+    d("Morning",3); 
 }
-*/
-void dialog_009(void)
-{  
-    draw_renne();
-	  jo_core_add_callback(draw2);
 
-    set_background("SAIDA.TGA", "BG");
+void dialog_011(void){  
+    draw_renne_sad();
 
     h("[ Renne ]");
-    d("First, order your active",1);
-    d("unity to one of the spaces within ",2); 
-    d("its range of movement, like Sakura.",3);
+                d("Why am I doing this.",1);
+    d("Probably I can't solve this case.",2); 
+    d("I'm going to apologize and leave...",3);
 }
+
 
 #endif

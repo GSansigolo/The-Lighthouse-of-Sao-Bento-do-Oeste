@@ -6,10 +6,6 @@ static int start_menu = 1;
 static int choice_pause = 0;
 static int d_pointer = 1;
 
-void draw_renne(){
-    load_sprites("RENNE.TGA", "TEX");
-}
-
 //main controller function
 void controller(){
     
@@ -29,6 +25,13 @@ void controller(){
         jo_printf(1, 1, "%d", d_pointer);
         d_pointer++;
         jo_clear_screen();
+    } 
+    
+    //pointer motion with background
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 8){
+        jo_clear_screen();
+        dialog_009();
+        d_pointer = 10;
     } 
 
     //pointers jump
@@ -52,10 +55,9 @@ void controller(){
     
     if (d_pointer == 8)
         dialog_008();
-
-    if (d_pointer == 9)
-        dialog_009();
-
+        
+    if (d_pointer == 11)
+        dialog_011();
 
 }
 

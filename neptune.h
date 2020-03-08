@@ -11,16 +11,7 @@
 #ifndef neptune
 #define neptune
 
-static int HUD_ID;
 static int FACESET_ID;
-
-/**
- * draw_hud()
- * plot dialog box
- */
-void draw_hud(){
-    load_hud("HUD.TGA", "TEX");
-}
 
 /**
  * set_background()
@@ -40,23 +31,7 @@ void set_background(char* filename, char* folder){
  * draw sprites on screen
  */
 void draw(void){
-	jo_sprite_draw3D(HUD_ID, 0, 0, 500);
-}
-
-/**
- * draw2()
- * draw sprites on screen
- */
-void draw2(void){
-	jo_sprite_draw3D(FACESET_ID, -85, -28, 300);
-}
-
-/**
- * add_hud()
- * add dialog box to screen
- */
-void load_hud(char* filename, char* folder){
-    HUD_ID = jo_sprite_add_tga(folder, filename, JO_COLOR_Green);
+	jo_sprite_draw3D(FACESET_ID, -85, -29, 300);
 }
 
 /**
