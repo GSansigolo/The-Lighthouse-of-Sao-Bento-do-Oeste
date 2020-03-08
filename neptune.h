@@ -11,12 +11,15 @@
 #ifndef neptune
 #define neptune
 
+static int HUD_ID;
+static int FACESET_ID;
+
 /**
  * draw_hud()
  * plot dialog box
  */
 void draw_hud(){
-    add_hud("HUD.TGA", "TEX");
+    load_hud("HUD.TGA", "TEX");
 }
 
 /**
@@ -34,32 +37,34 @@ void set_background(char* filename, char* folder){
 
 /**
  * draw()
- * draw sprite on screen
+ * draw sprites on screen
  */
 void draw(void){
-	jo_sprite_draw3D(0, 0, 0, 500);
+	jo_sprite_draw3D(HUD_ID, 0, 0, 500);
+}
+
+/**
+ * draw2()
+ * draw sprites on screen
+ */
+void draw2(void){
+	jo_sprite_draw3D(FACESET_ID, -85, -28, 300);
 }
 
 /**
  * add_hud()
  * add dialog box to screen
  */
-void add_hud(char* filename, char* folder){
-    jo_sprite_add_tga(folder, filename, JO_COLOR_Green);
-	jo_core_add_callback(draw);
+void load_hud(char* filename, char* folder){
+    HUD_ID = jo_sprite_add_tga(folder, filename, JO_COLOR_Green);
 }
 
 /**
  * set_sprite()
  * set sprite image
  */
-void set_sprite(char* filename, char* folder){
-    jo_img sprite;
-
-    sprite.data = NULL;
-    jo_tga_loader(&sprite, folder, filename, JO_COLOR_Green);
-    jo_set_background_sprite(&sprite, 0, 0);
-    jo_free_img(&sprite);
+void load_sprites(char* filename, char* folder){
+    FACESET_ID = jo_sprite_add_tga(folder, filename, JO_COLOR_Green);
 }
 
 /**

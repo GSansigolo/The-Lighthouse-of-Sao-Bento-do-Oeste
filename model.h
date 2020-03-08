@@ -13,6 +13,7 @@ void start(void){
     jo_clear_screen();
     set_background("BLACK.TGA", "BG");
     draw_hud();
+	  jo_core_add_callback(draw);
     dialog_001();
 }
 
@@ -64,7 +65,7 @@ void dialog_008(void){
     d("outside the state of Sao Paulo, but",2); 
     d("this time you made an exception.",3); 
 }
-
+/*
 void dialog_009(void){
 
     set_background("SAIDA.TGA", "BG");
@@ -76,10 +77,13 @@ void dialog_009(void){
     d("Minas Gerais - Brazil",2); 
     jo_printf(1, 27, "%d/%d/%d", now.day, now.month, now.year);
 }
+*/
+void dialog_009(void)
+{  
+    draw_renne();
+	  jo_core_add_callback(draw2);
 
-void dialog_010(void)
-{ 
-    draw_renne_hud();
+    set_background("SAIDA.TGA", "BG");
 
     h("[ Renne ]");
     d("First, order your active",1);

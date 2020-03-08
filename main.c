@@ -10,9 +10,9 @@ void jo_main(void){
     //init screen      
     jo_core_init(JO_COLOR_Black);
     
-    //call the controller
+    //callbacks
     jo_core_add_callback(controller);
-    
+
     //draw main menu
     draw_menu();
 

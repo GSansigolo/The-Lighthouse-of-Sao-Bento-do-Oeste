@@ -6,8 +6,8 @@ static int start_menu = 1;
 static int choice_pause = 0;
 static int d_pointer = 1;
 
-void draw_renne_hud(){
-    set_sprite("SONIC.TGA", "TEX");
+void draw_renne(){
+    load_sprites("RENNE.TGA", "TEX");
 }
 
 //main controller function
@@ -56,8 +56,6 @@ void controller(){
     if (d_pointer == 9)
         dialog_009();
 
-    if (d_pointer == 10)
-        dialog_010();
 
 }
 
