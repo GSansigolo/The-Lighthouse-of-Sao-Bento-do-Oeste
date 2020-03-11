@@ -10,8 +10,8 @@ static int d_pointer = 1;
 void controller(){
     
     //debugger
-    //jo_set_printf_color_index(JO_COLOR_INDEX_White);
-    //jo_printf(1, 1, "%d", d_pointer);
+    jo_set_printf_color_index(JO_COLOR_INDEX_White);
+    jo_printf(1, 1, "%d", d_pointer);
     
     //main menu
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
@@ -33,7 +33,7 @@ void controller(){
         dialog_009();
         d_pointer = 10;
     } 
-
+    
     //pointers jump
     if (d_pointer == 2)
         dialog_002();
@@ -55,10 +55,19 @@ void controller(){
     
     if (d_pointer == 8)
         dialog_008();
-        
+
     if (d_pointer == 11)
         dialog_011();
 
+    if (d_pointer == 12)
+        dialog_012();
+
+    if (d_pointer == 13)
+        dialog_013();
+    
+    if (d_pointer == 14)
+        dialog_014();
+              
 }
 
 #endif

@@ -9,10 +9,6 @@ void draw_menu(void){
     jo_printf(1, 28, "@G_Sansigolo");
 };
 
-void draw_renne_sad(){
-    load_sprites("RENNE2.TGA", "TEX");
-}
-
 void start(void){
     jo_clear_screen();
     set_background("BLACK.TGA", "BG");
@@ -66,7 +62,6 @@ void dialog_008(void){
   d_n("Normally, you never accepted jobs",1); 
     d("outside the state of Sao Paulo, but",2); 
     d("this time you made an exception.",3); 
-
 }
 
 void dialog_009(void){
@@ -83,13 +78,31 @@ void dialog_010(void){
 }
 
 void dialog_011(void){  
-    draw_renne_sad();
-
     h("[ Renne ]");
-                d("Why am I doing this.",1);
-    d("Probably I can't solve this case.",2); 
-    d("I'm going to apologize and leave...",3);
+                d("Hello Sao Bento do Oeste.",1);
+    d("I hope you have a good case for me.",2); 
+    d("",3);
 }
 
+void dialog_012(void){  
+    h("[ Renne ]");
+                d("...",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_013(void){  
+    h("[ Renne ]");
+                d("Okay, now where's Julia.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_014(void){  
+    h("[ Julia ]");
+                d("Renneeeee!",1);
+    d("",2); 
+    d("",3);
+}
 
 #endif
