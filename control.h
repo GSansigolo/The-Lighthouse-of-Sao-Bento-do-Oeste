@@ -10,45 +10,44 @@ static int d_pointer = 999;
 void controller(){
     
     //debugger
-    jo_set_printf_color_index(JO_COLOR_INDEX_White);
-    jo_printf(1, 1, "%d", d_pointer);
+    //jo_set_printf_color_index(JO_COLOR_INDEX_White);
+    //jo_printf(1, 1, "%d", d_pointer);
     
     //main menu
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
         jo_clear_screen();
-        d_pointer = 998;
+        d_pointer = 0;
         start();
     } 
 
     //pointer motion trigger
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0){
-        jo_printf(1, 1, "%d", d_pointer);
-        if (d_pointer == 998)
-            d_pointer = 0;
-        else
-            d_pointer++;
         jo_clear_screen();
+        //jo_printf(1, 1, "%d", d_pointer);
+        d_pointer++;
     } 
     
     //pointer motion with background
-    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 7){
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 8){
         jo_clear_screen();
         dialog_008();
         d_pointer = 9;
     } 
 
-    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 13){
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 14){
         jo_clear_screen();
         dialog_014();
         d_pointer = 15;
     } 
 
-    //pointers jump
-    if (d_pointer == 998){
-        dialog_0000();
-    }
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 67){
+        jo_clear_screen();
+        dialog_067();
+        d_pointer = 68;
+    } 
 
+    //pointers jump
     if (d_pointer == 0)
         dialog_000();
 
@@ -72,9 +71,11 @@ void controller(){
 
     if (d_pointer == 7)
         dialog_007();
-    
+
     if (d_pointer == 8)
         dialog_008();
+
+
 
     if (d_pointer == 10)
         dialog_010();
@@ -91,8 +92,7 @@ void controller(){
     if (d_pointer == 14)
         dialog_014();
 
-    if (d_pointer == 15)
-        dialog_015();
+
 
     if (d_pointer == 16)
         dialog_016();
@@ -208,6 +208,54 @@ void controller(){
     if (d_pointer == 53)
         dialog_053();  
                       
+    if (d_pointer == 54)
+        dialog_054(); 
+
+    if (d_pointer == 55)
+        dialog_055();  
+
+    if (d_pointer == 56)
+        dialog_056(); 
+
+    if (d_pointer == 57)
+        dialog_057(); 
+
+    if (d_pointer == 58)
+        dialog_058();  
+
+    if (d_pointer == 59)
+        dialog_059(); 
+
+    if (d_pointer == 60)
+        dialog_060(); 
+
+    if (d_pointer == 61)
+        dialog_061(); 
+
+    if (d_pointer == 62)
+        dialog_062();  
+
+    if (d_pointer == 63)
+        dialog_063();  
+                      
+    if (d_pointer == 64)
+        dialog_064(); 
+
+    if (d_pointer == 65)
+        dialog_065();  
+
+    if (d_pointer == 66)
+        dialog_066(); 
+
+
+
+    if (d_pointer == 68)
+        dialog_068(); 
+
+    if (d_pointer == 69)
+        dialog_069(); 
+ 
+                
 }
 
 #endif

@@ -11,67 +11,61 @@ void draw_menu(void){
 
 void start(void){
     jo_clear_screen();
-    set_background("BLACK.TGA", "BG"); //CARTA
-    dialog_0000();
+    set_background("CARTA.TGA", "BG"); 
+    dialog_000();
 }
 
-void dialog_0000(void){
+void dialog_000(void){
   d_n("You are Renne Bras, an ordinary",1); 
     d("detective. You entered the business",2); 
     d("seven years ago, just after the",3); 
 }
 
-void dialog_000(void){
+void dialog_001(void){
   d_n("end of your longest relationship.",1); 
     d("You became famous for solving the",2); 
     d("case of kidnappings in the capital.",3); 
 }
 
-void dialog_001(void){
+void dialog_002(void){
   d_n("Ever since you never picked up",1); 
     d("jobs that involved disappearance ",2); 
     d("cases.",3); 
 }
 
-void dialog_002(void){
+void dialog_003(void){
   d_n("Everything changed when days ago",1); 
     d("you received a message from an old",2); 
     d("friend.",3); 
 }
 
-void dialog_003(void){
+void dialog_004(void){
   d_n("Renne long time no see, I am sending",1); 
     d("this message because I am running ",2); 
     d("out of hope. A couple of my friends",3); 
 }
 
-void dialog_004(void){
+void dialog_005(void){
   d_n("went missing a week ago. I called",1); 
     d("the police but they were unable to",2); 
     d("find evidence to proceed.",3); 
 }
 
-void dialog_005(void){
+void dialog_006(void){
   d_n("I would like to hire you to investi-",1); 
     d("gate this case. I live in Sao Bento",2); 
     d("do Oeste, Minas Gerais, near the",3); 
 }
 
-void dialog_006(void){
+void dialog_007(void){
   d_n("border with Sao Paulo. Please help",1); 
     d("me Renne, you are my only hope.",2); 
     d("With love, - Julia.",3); 
 }
 
-void dialog_007(void){
-  d_n("Normally, you never accepted jobs",1); 
-    d("outside the state of Sao Paulo, but",2); 
-    d("this time you made an exception.",3); 
-}
-
 void dialog_008(void){
     jo_clear_screen();
-    set_background("SAIDA.TGA", "BG"); //SAIDA COM RENNE
+    set_background("SAIDA.TGA", "BG");
     dialog_009();
 }
 
@@ -112,7 +106,7 @@ void dialog_013(void){
 
 void dialog_014(void){
     jo_clear_screen();
-    set_background("SAIDA.TGA", "BG"); //SAIDA COM RENNE E JULIA
+    set_background("SAIDA2.TGA", "BG");
     dialog_015();
 }
 
@@ -153,7 +147,7 @@ void dialog_019(void){
 
 void dialog_020(void){  
     h("[ Julia ]");
-                d("Right, the case.",1);
+                d("Oh Right, the case.",1);
     d("",2); 
     d("",3);
 }
@@ -202,15 +196,15 @@ void dialog_026(void){
 
 void dialog_027(void){  
     h("[ Renne ]");
-                d("I see. What was their jobs?",1);
-    d("",2); 
+                d("I see. What was their ",1);
+    d("jobs?",2); 
     d("",3);
 }
 
 void dialog_028(void){  
     h("[ Julia ]");
                 d("Cristiano was a lawyer,",1);
-    d("he had an office on 15th March Street,",2); 
+    d("he had an office on 15th March Street",2); 
     d("the main street of the city.",3);
 }
 
@@ -350,8 +344,8 @@ void dialog_047(void){
 void dialog_048(void){  
     h("[ Julia ]");
                 d("It is the city monument,",1);
-    d("they built it to be a tourist spot for",2); 
-    d("the city.",3);
+    d("they built it to be a tourist spot ",2); 
+    d("for the city.",3);
 }
 
 
@@ -387,7 +381,122 @@ void dialog_053(void){
     h("[ Julia ]");
                 d("work, the house has been ",1);
     d("abandoned, and from what I talked,",2); 
-    d("nobody has seen them since ever since.",3);
+    d("nobody has seen them since ever since",3);
 }
+
+
+void dialog_054(void){  
+    h("[ Renne ]");
+                d("Copy, Is there anything ",1);
+    d("else you want to tell me? ",2); 
+    d("",3);
+}
+
+void dialog_055(void){  
+    h("[ Julia ]");
+                d("I don't think so.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_056(void){  
+    h("[ Renne ]");
+                d("Okay, I'm going to ",1);
+    d("walk around town, to collect some",2); 
+    d("testimonies, if that's okay with you?",3);
+}
+
+void dialog_057(void){  
+    h("[ Julia ]");
+                d("It's all right.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_058(void){  
+    h("[ Julia ]");
+                d("Do you want me to partner",1);
+    d("you?",2); 
+    d("",3);
+}
+
+void dialog_059(void){  
+    h("[ Renne ]");
+                d("I would love to, but it",1);
+    d("can affect how people talk to me.",2); 
+    d("",3);
+}
+
+void dialog_060(void){  
+    h("[ Julia ]");
+                d("I never thought this",1);
+    d("way.",2); 
+    d("",3);
+}
+
+void dialog_061(void){  
+    h("[ Renne ]");
+                d("It's not a big deal, ",1);
+    d("it's just one of my working habits.",2); 
+    d("",3);
+}
+
+void dialog_062(void){  
+    h("[ Julia ]");
+                d("Have a nice day then.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_063(void){  
+    h("[ Renne ]");
+                d("You too.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_064(void){  
+    h("[ Renne ]");
+                d("And before I forget, after ",1);
+    d("all this we are going to have a real",2); 
+    d("dinner together.",3);
+}
+
+void dialog_065(void){  
+    h("[ Julia ]");
+                d("Oh do you still remember",1);
+    d("that...",2); 
+    d("",3);
+}
+
+void dialog_066(void){  
+    h("[ Julia ]");
+                d("Ok, it is settled then.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_067(void){
+    jo_clear_screen();
+    set_background("RUA.TGA", "BG");
+    dialog_009();
+}
+
+void dialog_068(void){
+
+  d_n("Sao Bento do Oeste",1); 
+    d("15th March Street",2); 
+    d("Minutes later",3); 
+}
+
+void dialog_069(void){  
+    h("[ Sabrina ]");
+                d(" Damn it! Who the hell ",1);
+    d("is doing this.",2); 
+    d("",3);
+}
+
+
+
 
 #endif

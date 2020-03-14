@@ -27,22 +27,6 @@ void set_background(char* filename, char* folder){
 }
 
 /**
- * draw()
- * draw sprites on screen
- */
-void draw(void){
-	jo_sprite_draw3D(FACESET_ID, -85, -29, 300);
-}
-
-/**
- * set_sprite()
- * set sprite image
- */
-void load_sprites(char* filename, char* folder){
-    FACESET_ID = jo_sprite_add_tga(folder, filename, JO_COLOR_Green);
-}
-
-/**
  * d()
  * draw text on the screen
  */
