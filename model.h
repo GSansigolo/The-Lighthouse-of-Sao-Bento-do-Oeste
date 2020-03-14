@@ -63,9 +63,15 @@ void dialog_007(void){
     d("With love, - Julia.",3); 
 }
 
+
+
+
+
+
+
 void dialog_008(void){
     jo_clear_screen();
-    set_background("SAIDA.TGA", "BG");
+    set_background("SAIDA0.TGA", "BG");
     dialog_009();
 }
 
@@ -74,25 +80,24 @@ void dialog_009(void){
   d_n("Sao Bento do Oeste",1); 
     d("Minas Gerais - Brazil",2); 
     d("City entrance",3); 
+
 }
 
 void dialog_010(void){  
-    h("[ Renne ]");
-                d("Hello Sao Bento do Oeste.",1);
-    d("I hope you have a good case for me.",2); 
+  d_n("Meet me near the city entrence at 4PM",1);
+    d("- Julia.",2); 
     d("",3);
 }
 
 void dialog_011(void){  
-    h("[ Renne ]");
-                d("...",1);
-    d("",2); 
-    d("",3);
+    jo_clear_screen();
+    set_background("SAIDA.TGA", "BG");
+    dialog_012();
 }
 
 void dialog_012(void){  
     h("[ Renne ]");
-                d("Ok, now where is Julia.",1);
+                d("Finally Sao Bento do Oeste",1);
     d("",2); 
     d("",3);
 }
@@ -316,7 +321,7 @@ void dialog_043(void){
 void dialog_044(void){  
     h("[ Julia ]");
                 d("A week ago Alice said that ",1);
-    d("she wanted to go to the Lighthouse.",2); 
+    d("she wanted to go to the lighthouse.",2); 
     d("",3);
 }
 
@@ -329,7 +334,7 @@ void dialog_045(void){
 
 void dialog_046(void){  
     h("[ Julia ]");
-                d("Yes, the City Lighthouse.",1);
+                d("Yes, the City lighthouse.",1);
     d("",2); 
     d("",3);
 }
@@ -359,7 +364,7 @@ void dialog_049(void){
 void dialog_050(void){  
     h("[ Julia ]");
                 d("Alice said she would go",1);
-    d("to the Lighthouse. Once I heard it, I",2); 
+    d("to the lighthouse. Once I heard it, I",2); 
     d("thought that Cristiano would ask her.",3);
 }
 
@@ -476,10 +481,16 @@ void dialog_066(void){
     d("",3);
 }
 
+
+
+
+
+
+
 void dialog_067(void){
     jo_clear_screen();
-    set_background("RUA.TGA", "BG");
-    dialog_009();
+    set_background("RUA0.TGA", "BG");
+    dialog_068();
 }
 
 void dialog_068(void){
@@ -488,15 +499,247 @@ void dialog_068(void){
     d("15th March Street",2); 
     d("Minutes later",3); 
 }
+void dialog_069(void){
+    jo_clear_screen();
+    set_background("RUA.TGA", "BG");
+    dialog_070();
+}
 
-void dialog_069(void){  
+void dialog_070(void){  
     h("[ Sabrina ]");
-                d(" Damn it! Who the hell ",1);
-    d("is doing this.",2); 
+                d(" Damn it! Who the hell is",1);
+    d("doing this.",2); 
     d("",3);
 }
 
+void dialog_071(void){  
+    h("[ Sabrina ]");
+                d(" I will find out who is",1);
+    d("responsible for these burned  ",2); 
+    d("dumpsters.",3);
+}
 
+void dialog_072(void){  
+    h("[ Sabrina ]");
+                d(" Anyway, here I am ",1);
+    d("Cristiano's office. I will put an ",2); 
+    d("end to this. ",3);
+}
 
+void dialog_073(void){  
+    h("[ Renne ]");
+                d("Hey you, stop right there. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_074(void){
+    jo_clear_screen();
+    set_background("RUA2.TGA", "BG");
+    dialog_075();
+}
+
+void dialog_075(void){  
+    h("[ Renne ]");
+                d("You can't go in there! ",1);
+    d("This place is close due to an ",2); 
+    d("investigation.",3);
+}
+
+void dialog_076(void){  
+    h("[ Sabrina ]");
+                d(" I know That's why I'm ",1);
+    d("here.",2); 
+    d("",3);
+}
+
+void dialog_077(void){  
+    h("[ Renne ]");
+                d("Who are you?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_078(void){  
+    h("[ Sabrina ]");
+                d(" You first, it was you who  ",1);
+    d("showed up accusing me.",2); 
+    d("",3);
+}
+
+void dialog_079(void){  
+    h("[ Renne ]");
+                d("Okay, my name is Renne",1);
+    d("Bras, I'm a hired detective. I'm",2); 
+    d("working on this case.",3);
+}
+
+void dialog_080(void){  
+    h("[ Sabrina ]");
+                d(" Julia's friend?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_081(void){  
+    h("[ Renne ]");
+                d("Yes, and who are you?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_082(void){  
+    h("[ Sabrina ]");
+                d(" My name is Sabrina I am",1);
+    d("a teacher at the same school as Alice",2); 
+    d("I am investigating this case solo.",3);
+}
+
+void dialog_083(void){  
+    h("[ Renne ]");
+                d("I see. Let's go in  ",1);
+    d("together then.",2); 
+    d("",3);
+}
+
+void dialog_084(void){  
+    h("[ Renne ]");
+                d("But first, let me ask you ",1);
+    d("a few questions.",2); 
+    d("",3);
+}
+
+void dialog_085(void){  
+    h("[ Renne ]");
+                d("Could you think of anyone ",1);
+    d("behind  all this.",2); 
+    d("",3);
+}
+
+void dialog_086(void){  
+    h("[ Sabrina ]");
+                d(" Cristiano.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_087(void){  
+    h("[ Renne ]");
+                d("Oh..",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_088(void){  
+    h("[ Renne ]");
+                d("Why him? ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_089(void){  
+    h("[ Sabrina ]");
+                d(" He always seemed to hide ",1);
+    d("something. Alice said it was his way, ",2); 
+    d("but I always had my suspicions.",3);
+}
+
+void dialog_090(void){  
+    h("[ Renne ]");
+                d("About Alice, do you think ",1);
+    d("she was taken to the lighthouse by ",2); 
+    d("force?",3);
+}
+
+void dialog_091(void){  
+    h("[ Sabrina ]");
+                d(" No, she liked it there. ",1);
+    d("I have a strong suspicion that she ",2); 
+    d("went with him without knowing more... ",3);
+}
+
+void dialog_092(void){  
+    h("[ Renne ]");
+                d("Do you think it's a murder",1);
+    d("case?",2); 
+    d("",3);
+}
+
+void dialog_093(void){  
+    h("[ Sabrina ]");
+                d(" Yes, after the police  ",1);
+    d("found the car they used abandoned at",2); 
+    d("the ligthouse I felt it was a murder. ",3);
+}
+
+void dialog_094(void){  
+    h("[ Renne ]");
+                d("Wait, Julia told me they",1);
+    d("didn't have a car. ",2); 
+    d("",3);
+}
+
+void dialog_095(void){  
+    h("[ Sabrina ]");
+                d(" They bought one recently. ",1);
+    d("I know because I was at the car sale ",2); 
+    d("that day. ",3);
+}
+
+void dialog_096(void){  
+    h("[ Renne ]");
+                d("Where and when this car",1);
+    d("sale happen?",2); 
+    d("",3);
+}
+
+void dialog_097(void){  
+    h("[ Sabrina ]");
+                d(" It was in the church ",1);
+    d("square, about ten days ago.",2); 
+    d(" ",3);
+}
+
+void dialog_098(void){  
+    h("[ Renne ]");
+                d("Before you came here to ",1);
+    d("investigate the office, you found ",2); 
+    d("anything else suspicious?",3);
+}
+
+void dialog_099(void){  
+    h("[ Sabrina ]");
+                d(" Let me see..",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_100(void){  
+    h("[ Sabrina ]");
+                d(" The burned dumpsters.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_101(void){  
+    h("[ Sabrina ]");
+                d(" Starting a week ago, ",1);
+    d("someone begin to set fire to the ",2); 
+    d("city's dumpsters.",3);
+}
+
+void dialog_102(void){  
+    h("[ Renne ]");
+                d("That time interval, there",1);
+    d("is something there.",2); 
+    d("",3);
+}
+
+void dialog_103(void){  
+    h("[ Sabrina ]");
+                d(" Anything else? ",1);
+    d(" ",2); 
+    d("",3);
+}
 
 #endif

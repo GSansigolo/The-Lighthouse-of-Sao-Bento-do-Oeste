@@ -34,6 +34,12 @@ void controller(){
         dialog_008();
         d_pointer = 9;
     } 
+    
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 11){
+        jo_clear_screen();
+        dialog_011();
+        d_pointer = 12;
+    } 
 
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 14){
         jo_clear_screen();
@@ -45,6 +51,18 @@ void controller(){
         jo_clear_screen();
         dialog_067();
         d_pointer = 68;
+    } 
+    
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 69){
+        jo_clear_screen();
+        dialog_069();
+        d_pointer = 70;
+    } 
+    
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 74){
+        jo_clear_screen();
+        dialog_074();
+        d_pointer = 75;
     } 
 
     //pointers jump
@@ -83,8 +101,7 @@ void controller(){
     if (d_pointer == 11)
         dialog_011();
 
-    if (d_pointer == 12)
-        dialog_012();
+
 
     if (d_pointer == 13)
         dialog_013();
@@ -255,7 +272,108 @@ void controller(){
     if (d_pointer == 69)
         dialog_069(); 
  
-                
+
+
+ 
+    if (d_pointer == 71)
+        dialog_071(); 
+ 
+    if (d_pointer == 72)
+        dialog_072(); 
+
+    if (d_pointer == 74)
+        dialog_074(); 
+
+    if (d_pointer == 74)
+        dialog_074(); 
+ 
+
+  
+
+    if (d_pointer == 76)
+        dialog_076(); 
+
+    if (d_pointer == 77)
+        dialog_077(); 
+
+    if (d_pointer == 78)
+        dialog_078();  
+
+    if (d_pointer == 79)
+        dialog_079(); 
+
+    if (d_pointer == 80)
+        dialog_080();
+
+    if (d_pointer == 81)
+        dialog_081(); 
+
+    if (d_pointer == 82)
+        dialog_082();  
+
+    if (d_pointer == 83)
+        dialog_083();  
+                      
+    if (d_pointer == 84)
+        dialog_084(); 
+
+    if (d_pointer == 85)
+        dialog_085();  
+
+    if (d_pointer == 86)
+        dialog_086(); 
+
+    if (d_pointer == 87)
+        dialog_087(); 
+
+    if (d_pointer == 88)
+        dialog_088();  
+
+    if (d_pointer == 89)
+        dialog_089(); 
+
+    if (d_pointer == 90)
+        dialog_090();
+
+    if (d_pointer == 91)
+        dialog_091(); 
+
+    if (d_pointer == 92)
+        dialog_092();  
+
+    if (d_pointer == 93)
+        dialog_093();  
+                      
+    if (d_pointer == 94)
+        dialog_094(); 
+
+    if (d_pointer == 95)
+        dialog_095();  
+
+    if (d_pointer == 96)
+        dialog_096(); 
+
+    if (d_pointer == 97)
+        dialog_097(); 
+
+    if (d_pointer == 98)
+        dialog_098(); 
+
+    if (d_pointer == 99)
+        dialog_099(); 
+
+    if (d_pointer == 100)
+        dialog_100(); 
+
+    if (d_pointer == 101)
+        dialog_101(); 
+
+    if (d_pointer == 102)
+        dialog_102(); 
+
+    if (d_pointer == 103)
+        dialog_103(); 
+
 }
 
 #endif
