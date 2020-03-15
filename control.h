@@ -65,6 +65,20 @@ void controller(){
         d_pointer = 75;
     } 
 
+    if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 104 && choice_pause == 1){
+        jo_printf(1, 1, "%d", d_pointer);
+        d_pointer = 104101;
+        choice_pause = 0;
+        jo_clear_screen();
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 104 && choice_pause == 1){
+        jo_printf(1, 1, "%d", d_pointer);
+        d_pointer = 104201;
+        choice_pause = 0;
+        jo_clear_screen();
+    } 
+
     //pointers jump
     if (d_pointer == 0)
         dialog_000();
@@ -273,7 +287,6 @@ void controller(){
         dialog_069(); 
  
 
-
  
     if (d_pointer == 71)
         dialog_071(); 
@@ -284,11 +297,7 @@ void controller(){
     if (d_pointer == 74)
         dialog_074(); 
 
-    if (d_pointer == 74)
-        dialog_074(); 
- 
 
-  
 
     if (d_pointer == 76)
         dialog_076(); 
@@ -373,6 +382,22 @@ void controller(){
 
     if (d_pointer == 103)
         dialog_103(); 
+
+    if (d_pointer == 104){
+        choice_pause = 1;
+        dialog_104(); 
+    }
+
+
+    if (d_pointer == 104101)
+        dialog_104_1_01(); 
+
+    if (d_pointer == 104102)
+        dialog_104_1_02(); 
+
+
+    if (d_pointer == 104201)
+        dialog_104_2_01(); 
 
 }
 

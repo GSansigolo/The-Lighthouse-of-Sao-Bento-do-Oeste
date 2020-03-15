@@ -742,4 +742,66 @@ void dialog_103(void){
     d("",3);
 }
 
+void dialog_104(void){
+  d_n("Choose your next question",1); 
+    d("  Press B to ask about Alice",2); 
+    d("  Press C to ask about Julia",3); 
+}
+
+void dialog_104_1_01(void){
+    h("[ Renne ]");
+                d("Tell me more about Alice",1);
+    d("how was she, what she liked to do in",2); 
+    d("her spare time.. anything.",3);
+}
+
+void dialog_104_1_02(void){
+    h("[ Sabrina ]");
+                d(" Alice? She was lovely.",1);
+    d("We often travel together, either ",2); 
+    d("to the waterfall or anywhere else.",3);
+}
+
+void dialog_104_1_03(void){
+    h("[ Renne ]");
+                d("You two were very close.. ",1);
+    d("I imagine that after Alice fell in love",2); 
+    d("with Cristiano everything changed.",3);
+}
+
+void dialog_104_1_04(void){
+    h("[ Sabrina ]");
+                d(" Yes, I considered that ",1);
+    d("to be the break of our friendship.",2); 
+    d("",3);
+}
+
+void dialog_104_1_05(void){
+    h("[ Renne ]");
+                d("Hmm. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_104_1_06(void){
+    h("[ Renne ]");
+                d("Despite everything you ",1);
+    d("still have a feeling for your friend, ",2); 
+    d("that's why you want to solve this case.",3);
+}
+
+void dialog_104_1_07(void){
+    h("[ Sabrina ]");
+                d(" ... ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_104_2_01(void){
+    h("[ Sabrina ]");
+                d(" Julia",1);
+    d(" ",2); 
+    d("",3);
+}
+
 #endif
