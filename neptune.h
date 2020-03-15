@@ -11,8 +11,6 @@
 #ifndef neptune
 #define neptune
 
-static int FACESET_ID;
-
 /**
  * set_background()
  * plot background image

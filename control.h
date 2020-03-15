@@ -79,6 +79,18 @@ void controller(){
         jo_clear_screen();
     } 
 
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 104109){
+        jo_clear_screen();
+        dialog_105();
+        d_pointer = 105;
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 104211){
+        jo_clear_screen();
+        dialog_105();
+        d_pointer = 105;
+    } 
+
     //pointers jump
     if (d_pointer == 0)
         dialog_000();
@@ -395,9 +407,60 @@ void controller(){
     if (d_pointer == 104102)
         dialog_104_1_02(); 
 
+    if (d_pointer == 104103)
+        dialog_104_1_03(); 
+
+    if (d_pointer == 104104)
+        dialog_104_1_04(); 
+
+    if (d_pointer == 104105)
+        dialog_104_1_05(); 
+
+    if (d_pointer == 104106)
+        dialog_104_1_06(); 
+
+    if (d_pointer == 104107)
+        dialog_104_1_07(); 
+
+    if (d_pointer == 104108)
+        dialog_104_1_08(); 
+
+
 
     if (d_pointer == 104201)
         dialog_104_2_01(); 
+
+    if (d_pointer == 104202)
+        dialog_104_2_02(); 
+    
+    if (d_pointer == 104203)
+        dialog_104_2_03(); 
+    
+    if (d_pointer == 104204)
+        dialog_104_2_04(); 
+    
+    if (d_pointer == 104205)
+        dialog_104_2_05(); 
+    
+    if (d_pointer == 104206)
+        dialog_104_2_06(); 
+    
+    if (d_pointer == 104207)
+        dialog_104_2_07(); 
+    
+    if (d_pointer == 104208)
+        dialog_104_2_08(); 
+    
+    if (d_pointer == 104209)
+        dialog_104_2_09(); 
+    
+    if (d_pointer == 104210)
+        dialog_104_2_10(); 
+    
+
+
+    if (d_pointer == 106)
+        dialog_106(); 
 
 }
 

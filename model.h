@@ -85,7 +85,7 @@ void dialog_009(void){
 
 void dialog_010(void){  
   d_n("Meet me near the city entrence at 4PM",1);
-    d("- Julia.",2); 
+    d("                             - Julia.",2); 
     d("",3);
 }
 
@@ -765,7 +765,7 @@ void dialog_104_1_02(void){
 void dialog_104_1_03(void){
     h("[ Renne ]");
                 d("You two were very close.. ",1);
-    d("I imagine that after Alice fell in love",2); 
+    d("I imagine that after she fell in love",2); 
     d("with Cristiano everything changed.",3);
 }
 
@@ -786,8 +786,8 @@ void dialog_104_1_05(void){
 void dialog_104_1_06(void){
     h("[ Renne ]");
                 d("Despite everything you ",1);
-    d("still have a feeling for your friend, ",2); 
-    d("that's why you want to solve this case.",3);
+    d("still have a feeling for Alice, ",2); 
+    d("that's why you want this case.",3);
 }
 
 void dialog_104_1_07(void){
@@ -797,11 +797,93 @@ void dialog_104_1_07(void){
     d("",3);
 }
 
-void dialog_104_2_01(void){
-    h("[ Sabrina ]");
-                d(" Julia",1);
-    d(" ",2); 
+void dialog_104_1_08(void){
+    h("[ Renne ]");
+                d("Without further ado, let's",1);
+    d("enter Cristiano's office. ",2); 
     d("",3);
+}
+
+void dialog_104_2_01(void){
+    h("[ Renne ]");
+                d("Tell me more about Julia",1);
+    d("how was she, what she liked to do in",2); 
+    d("her spare time.. anything.",3);
+}
+
+void dialog_104_2_02(void){
+    h("[ Sabrina ]");
+                d(" Julia? She is a good ",1);
+    d("friend, we have worked together for ",2); 
+    d("years.",3);
+}
+
+void dialog_104_2_03(void){
+    h("[ Renne ]");
+                d("What about her social ",1);
+    d("life?",2); 
+    d("",3);
+}
+
+void dialog_104_2_04(void){
+    h("[ Sabrina ]");
+                d(" She is very closed, ",1);
+    d("since I met her I have never seen her",2); 
+    d("with anyone for more than a month.",3);
+}
+
+void dialog_104_2_05(void){
+    h("[ Renne ]");
+                d("The same old Julia. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_104_2_06(void){
+    h("[ Renne ]");
+                d("Do you believe that ",1);
+    d("Julia would have hidden anything ",2); 
+    d("from my investigation?",3);
+}
+
+void dialog_104_2_07(void){
+    h("[ Sabrina ]");
+                d(" Her social life. From ",1);
+    d("what I know of Julia, I assume you ",2); 
+    d("two have a past. She probably hid",3);
+}
+
+void dialog_104_2_08(void){
+    h("[ Sabrina ]");
+                d(" information about her ",1);
+    d("mental health. ",2); 
+    d("",3);
+}
+
+void dialog_104_2_09(void){
+    h("[ Renne ]");
+                d("Hmm. I can't do ",1);
+    d("anything about this right now. ",2); 
+    d("",3);
+}
+
+void dialog_104_2_10(void){
+    h("[ Renne ]");
+                d("Without further ado, let's",1);
+    d("enter Cristiano's office. ",2); 
+    d("",3);
+}
+
+void dialog_105(void){
+    jo_clear_screen();
+    set_background("RUA0.TGA", "BG");
+    dialog_106(); 
+}
+
+void dialog_106(void){
+  d_n("Thirty minutes later.",1); 
+    d(" ",2); 
+    d(" ",3); 
 }
 
 #endif
