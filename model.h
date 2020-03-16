@@ -494,11 +494,11 @@ void dialog_067(void){
 }
 
 void dialog_068(void){
-
   d_n("Sao Bento do Oeste",1); 
     d("15th March Street",2); 
     d("Minutes later",3); 
 }
+
 void dialog_069(void){
     jo_clear_screen();
     set_background("RUA.TGA", "BG");
@@ -548,7 +548,7 @@ void dialog_075(void){
 
 void dialog_076(void){  
     h("[ Sabrina ]");
-                d(" I know That's why I'm ",1);
+                d(" I know that's why I'm ",1);
     d("here.",2); 
     d("",3);
 }
@@ -885,5 +885,160 @@ void dialog_106(void){
     d(" ",2); 
     d(" ",3); 
 }
+
+void dialog_107(void){
+  d_n("You and Sabrina spent thirty minutes ",1); 
+    d("searching Cristiano's office.",2); 
+    d(" ",3); 
+}
+
+void dialog_108(void){
+    jo_clear_screen();
+    set_background("RUA2.TGA", "BG");
+    dialog_106(); 
+}
+
+void dialog_109(void){
+    h("[ Sabrina ]");
+                d(" Damn it. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_110(void){
+    h("[ Sabrina ]");
+                d(" There's nothing here. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_111(void){
+    h("[ Renne ]");
+                d("This means that the ",1);
+    d("reason behind the disappearance ",2); 
+    d("is not related work.",3);
+}
+
+void dialog_112(void){
+    h("[ Sabrina ]");
+                d(" Hmm. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_113(void){
+    h("[ Sabrina ]");
+                d(" That was a dead end.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_114(void){
+    h("[ Renne ]");
+                d("... ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_115(void){
+    h("[ Renne ]");
+                d("Not so much.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_116(void){
+    h("[ Sabrina ]");
+                d(" Why?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_117(void){
+    h("[ Renne ]");
+                d("Julia told me that ",1);
+    d("Cristiano often came to drink in the ",2); 
+    d("front bar of his office.",3);
+}
+
+void dialog_118(void){
+    h("[ Renne ]");
+                d("We can work on the ",1);
+    d("hypothesis that Cristiano made his ",2); 
+    d("decisions at the bar, not at work. ",3);
+}
+
+void dialog_119(void){
+    h("[ Sabrina ]");
+                d(" Makes sense.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_120(void){
+    h("[ Sabrina ]");
+                d(" What will you do?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_121(void){
+    h("[ Renne ]");
+                d("Continue to investigate..  ",1);
+    d("You can continue to investigate on  ",2); 
+    d("your own if you want. ",3);
+}
+
+void dialog_122(void){
+    h("[ Sabrina ]");
+                d(" OK good luck.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_123(void){
+    h("[ Renne ]");
+                d("Same to you.  ",1);
+    d("",2); 
+    d("",3);
+}
+
+
+
+
+
+
+
+void dialog_124(void){
+    jo_clear_screen();
+    set_background("IGREJA.TGA", "BG");
+    dialog_106(); 
+}
+
+void dialog_125(void){
+  d_n("Sao Bento do Oeste",1); 
+    d("Church square",2); 
+    d("Minutes later",3); 
+}
+
+void dialog_126(void){
+    jo_clear_screen();
+    set_background("IGREJA1.TGA", "BG");
+    dialog_127(); 
+}
+
+void dialog_127(void){
+    h("[ Carlos ]");
+                d("  ",1);
+    d(" ",2); 
+    d(" ",3);
+}
+
+void dialog_128(void){
+    h("[ Carlos ]");
+                d("  ",1);
+    d(" ",2); 
+    d(" ",3);
+}   
 
 #endif

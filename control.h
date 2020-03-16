@@ -6,6 +6,10 @@ static int start_menu = 1;
 static int choice_pause = 0;
 static int d_pointer = 999;
 
+//narrative variables
+static int knows_about_sabrinas_breakup = 0;
+static int knows_about_julias_mental_health = 0;
+
 //main controller function
 void controller(){
     
@@ -65,6 +69,24 @@ void controller(){
         d_pointer = 75;
     } 
 
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 108){
+        jo_clear_screen();
+        dialog_108();
+        d_pointer = 109;
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 124){
+        jo_clear_screen();
+        dialog_124();
+        d_pointer = 125;
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 126){
+        jo_clear_screen();
+        dialog_126();
+        d_pointer = 127;
+    } 
+
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 104 && choice_pause == 1){
         jo_printf(1, 1, "%d", d_pointer);
         d_pointer = 104101;
@@ -82,12 +104,14 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 104109){
         jo_clear_screen();
         dialog_105();
+        knows_about_sabrinas_breakup = 1;
         d_pointer = 105;
     } 
 
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 104211){
         jo_clear_screen();
         dialog_105();
+        knows_about_julias_mental_health = 1;
         d_pointer = 105;
     } 
 
@@ -306,6 +330,9 @@ void controller(){
     if (d_pointer == 72)
         dialog_072(); 
 
+    if (d_pointer == 73)
+        dialog_073(); 
+
     if (d_pointer == 74)
         dialog_074(); 
 
@@ -457,11 +484,77 @@ void controller(){
     if (d_pointer == 104210)
         dialog_104_2_10(); 
     
-
+    if (d_pointer == 105)
+        dialog_105(); 
 
     if (d_pointer == 106)
         dialog_106(); 
 
+    if (d_pointer == 107)
+        dialog_107(); 
+
+    if (d_pointer == 108)
+        dialog_108(); 
+
+
+
+    if (d_pointer == 110)
+        dialog_110(); 
+
+    if (d_pointer == 111)
+        dialog_111(); 
+
+    if (d_pointer == 112)
+        dialog_112(); 
+
+    if (d_pointer == 113)
+        dialog_113(); 
+
+    if (d_pointer == 114)
+        dialog_114(); 
+
+    if (d_pointer == 115)
+        dialog_115(); 
+
+    if (d_pointer == 116)
+        dialog_116(); 
+
+    if (d_pointer == 117)
+        dialog_117(); 
+
+    if (d_pointer == 118)
+        dialog_118(); 
+
+    if (d_pointer == 119)
+        dialog_119(); 
+
+    if (d_pointer == 120)
+        dialog_120(); 
+
+    if (d_pointer == 121)
+        dialog_121(); 
+
+    if (d_pointer == 122)
+        dialog_122(); 
+
+    if (d_pointer == 123)
+        dialog_123(); 
+
+    if (d_pointer == 124)
+        dialog_124(); 
+
+
+
+    if (d_pointer == 126)
+        dialog_126(); 
+
+
+
+    if (d_pointer == 128)
+        dialog_128(); 
+    
+    
+        
 }
 
 #endif
