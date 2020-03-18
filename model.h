@@ -689,15 +689,15 @@ void dialog_095(void){
 void dialog_096(void){  
     h("[ Renne ]");
                 d("Where and when this car",1);
-    d("sale happen?",2); 
+    d("sale happen? And what car was it?",2); 
     d("",3);
 }
 
 void dialog_097(void){  
     h("[ Sabrina ]");
                 d(" It was in the church ",1);
-    d("square, about ten days ago.",2); 
-    d(" ",3);
+    d("square, about ten days ago. And it",2); 
+    d("was a green Golf.",3);
 }
 
 void dialog_098(void){  
@@ -1029,16 +1029,262 @@ void dialog_126(void){
 
 void dialog_127(void){
     h("[ Carlos ]");
-                d("  ",1);
+                d("My job here is done.",1);
     d(" ",2); 
     d(" ",3);
 }
 
 void dialog_128(void){
+    jo_clear_screen();
+    set_background("IGREJA2.TGA", "BG");
+    dialog_129(); 
+}
+
+void dialog_129(void){
+    h("[ Renne ]");
+                d("Hey you... My name is Renne",1);
+    d("Bras, I am running an investigation on the",2); 
+    d("disappearance in this city.",3);
+}
+
+void dialog_130(void){
+    h("[ Renne ]");
+                d("Can I talk to you for a ",1);
+    d("second?",2); 
+    d("",3);
+}
+
+void dialog_131(void){
     h("[ Carlos ]");
-                d("  ",1);
+                d("Of course. Ask me anything.",1);
     d(" ",2); 
     d(" ",3);
-}   
+}
+
+void dialog_132(void){
+    h("[ Renne ]");
+                d("What is your name, age and ",1);
+    d("occupation?",2); 
+    d("",3);
+}
+
+void dialog_133(void){
+    h("[ Carlos ]");
+                d("My name Carlos, I am 18 ",1);
+    d("years old and I work as a delivery ",2); 
+    d("man in the city.",3);
+}
+
+void dialog_134(void){
+    h("[ Renne ]");
+                d("Are the names Cristiano ",1);
+    d("Machado and Alice Zena familiar to ",2); 
+    d("you?",3);
+}
+
+void dialog_135(void){
+    h("[ Carlos ]");
+                d("I don't think so, the only  ",1);
+    d("Cristiano I know is Tulio.. ",2); 
+    d("",3);
+}
+
+void dialog_136(void){
+    h("[ Renne ]");
+                d("I don't know if we're  ",1);
+    d("talking about the same person.",2); 
+    d("",3);
+}
+
+void dialog_137(void){
+    h("[ Carlos ]");
+                d("He's a dentist, he has a",1);
+    d("clinic at the entrance to the city.",2); 
+    d("",3);
+}
+
+void dialog_138(void){
+    h("[ Renne ]");
+                d("Unfortunately it's not ",1);
+    d("the man I'm looking for.",2); 
+    d("",3);
+}
+
+void dialog_139(void){
+    h("[ Carlos ]");
+                d("Sorry.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_140(void){
+    h("[ Renne ]");
+                d("There is something else",1);
+    d("that you can help.",2); 
+    d("",3);
+}
+
+void dialog_141(void){
+    h("[ Renne ]");
+                d("In this square, about ",1);
+    d("ten days ago a car sale took place.",2); 
+    d("",3);
+}
+
+void dialog_142(void){
+    h("[ Carlos ]");
+                d("Yes, the monthly car sale.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_143(void){
+    h("[ Renne ]");
+                d("Monthly!? ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_144(void){
+    h("[ Carlos ]");
+                d("Yes, every 15th day people ",1);
+    d("with businesses around this square ",2); 
+    d("organize it.",3);
+}
+
+void dialog_145(void){
+    h("[ Renne ]");
+                d("Good... good...",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_146(void){
+    h("[ Renne ]");
+                d("At the last car sale a man ",1);
+    d("named Cristiano bought a green Golf.",2); 
+    d("",3);
+}
+
+void dialog_147(void){
+    h("[ Renne ]");
+                d("I would like more   ",1);
+    d("information about.",2); 
+    d("",3);
+}
+
+void dialog_148(void){
+    h("[ Carlos ]");
+                d("I remember that.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_149(void){
+    h("[ Renne ]");
+                d("Tell me more about it.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_150(void){
+    h("[ Carlos ]");
+                d("It was a disputed sale, ",1);
+    d("the man who won... what was his name...",2); 
+    d("",3);
+}
+
+void dialog_151(void){
+    h("[ Renne ]");
+                d("Cristiano.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_152(void){
+    h("[ Carlos ]");
+                d("Yes. He was very interested",1);
+    d("in the vehicle.",2); 
+    d("",3);
+}
+
+void dialog_153(void){
+    h("[ Renne ]");
+                d("Do you remember if he was ",1);
+    d("with someone?",2); 
+    d("",3);
+}
+
+void dialog_154(void){
+    h("[ Carlos ]");
+                d("Hmm.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_155(void){
+    h("[ Carlos ]");
+                d("He was, there was a young ",1);
+    d("man wearing a scarf with him.",2); 
+    d("",3);
+}
+
+void dialog_156(void){
+    h("[ Renne ]");
+                d("Wasn't there a woman with ",1);
+    d("him?",2); 
+    d("",3);
+}
+
+void dialog_157(void){
+    h("[ Carlos ]");
+                d("No, it was just him and ",1);
+    d("that man. ",2); 
+    d("",3);
+}
+
+void dialog_158(void){
+    h("[ Renne ]");
+                d("Do you think there was ",1);
+    d("any bond between the two? Friends, ",2); 
+    d("co-workers, family ...",3);
+}
+
+void dialog_159(void){
+    h("[ Carlos ]");
+                d("I don't think so, they ",1);
+    d("seemed distant. ",2); 
+    d("",3);
+}
+
+void dialog_160(void){
+    h("[ Renne ]");
+                d("I get it.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_161(void){
+    h("[ Carlos ]");
+                d("Do you excuse me, I've ",1);
+    d("a medical exam scheduled at the club",2); 
+    d("today. I don't want to miss.",3);
+}
+
+void dialog_162(void){
+    h("[ Renne ]");
+                d("Okay, you have been of ",1);
+    d("great help.",2); 
+    d("",3);
+}
+
+void dialog_163(void){
+    h("[ Carlos ]");
+                d("You're welcome.",1);
+    d("",2); 
+    d("",3);
+}
+
+
 
 #endif
