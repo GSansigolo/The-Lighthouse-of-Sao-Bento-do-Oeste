@@ -21,7 +21,7 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
         jo_clear_screen();
-        d_pointer = 0;
+        d_pointer = 162;
         start();
     } 
 
@@ -91,6 +91,19 @@ void controller(){
         jo_clear_screen();
         dialog_128();
         d_pointer = 129;
+    } 
+
+
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 164){
+        jo_clear_screen();
+        dialog_164();
+        d_pointer = 165;
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 167){
+        jo_clear_screen();
+        dialog_167();
+        d_pointer = 168;
     } 
 
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 104 && choice_pause == 1){
@@ -662,9 +675,84 @@ void controller(){
     
     if (d_pointer == 163)
         dialog_163(); 
+
+    if (d_pointer == 164)
+        dialog_164(); 
+        
+
+
+    if (d_pointer == 166)
+        dialog_166(); 
+
+    if (d_pointer == 167)
+        dialog_167(); 
+                        
+    if (d_pointer == 168)
+        dialog_168(); 
+
+    if (d_pointer == 169)
+        dialog_169(); 
+                        
+    if (d_pointer == 170)
+        dialog_170();    
+
+    if (d_pointer == 171)
+        dialog_171(); 
     
-           
-       
+    if (d_pointer == 172)
+        dialog_172(); 
+    
+    if (d_pointer == 173)
+        dialog_173(); 
+    
+    if (d_pointer == 174)
+        dialog_174(); 
+    
+    if (d_pointer == 175)
+        dialog_175(); 
+        
+    if (d_pointer == 176)
+        dialog_176(); 
+    
+    if (d_pointer == 177)
+        dialog_177(); 
+    
+    if (d_pointer == 178)
+        dialog_178(); 
+    
+    if (d_pointer == 179)
+        dialog_179(); 
+    
+    if (d_pointer == 180)
+        dialog_180(); 
+
+    if (d_pointer == 181)
+        dialog_181(); 
+    
+    if (d_pointer == 182)
+        dialog_182(); 
+    
+    if (d_pointer == 183)
+        dialog_183(); 
+    
+    if (d_pointer == 184)
+        dialog_184(); 
+    
+    if (d_pointer == 185)
+        dialog_185(); 
+        
+    if (d_pointer == 186)
+        dialog_186(); 
+    
+    if (d_pointer == 187)
+        dialog_187(); 
+    
+    if (d_pointer == 188)
+        dialog_188(); 
+    
+    if (d_pointer == 189)
+        dialog_189(); 
+    
 }
 
 #endif
