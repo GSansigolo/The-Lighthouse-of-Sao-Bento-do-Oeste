@@ -120,6 +120,20 @@ void controller(){
         jo_clear_screen();
     } 
 
+    if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 191 && choice_pause == 1){
+        jo_printf(1, 1, "%d", d_pointer);
+        d_pointer = 191101;
+        choice_pause = 0;
+        jo_clear_screen();
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 191 && choice_pause == 1){
+        jo_printf(1, 1, "%d", d_pointer);
+        d_pointer = 191201;
+        choice_pause = 0;
+        jo_clear_screen();
+    } 
+
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 104109){
         jo_clear_screen();
         dialog_105();
@@ -752,7 +766,37 @@ void controller(){
     
     if (d_pointer == 189)
         dialog_189(); 
-    
+
+    if (d_pointer == 190)
+        dialog_190(); 
+
+    if (d_pointer == 191){
+        dialog_191(); 
+        choice_pause = 1;
+    }
+
+
+
+
+    if(d_pointer == 191101)
+        dialog_191_1_01(); 
+
+
+    if(d_pointer == 191201)
+        dialog_191_2_01(); 
+
+    if(d_pointer == 191202)
+        dialog_191_2_02(); 
+
+    if(d_pointer == 191203)
+        dialog_191_2_03(); 
+
+    if(d_pointer == 191204)
+        dialog_191_2_04(); 
+
+    if(d_pointer == 191205)
+        dialog_191_2_05(); 
+
 }
 
 #endif

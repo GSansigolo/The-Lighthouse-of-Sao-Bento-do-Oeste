@@ -1463,4 +1463,59 @@ void dialog_189(void){
     d("not walk around the city much.",3);
 }
 
+void dialog_190(void){  
+    h("[ Maria ]");
+                d("Anything else? ",1);
+    d(" ",2); 
+    d("",3);
+}
+
+void dialog_191(void){
+  d_n("Choose your next question",1); 
+    d("  Press B to ask about Sabrina",2); 
+    d("  Press C to ask about Carlos",3); 
+}
+
+void dialog_191_1_01(void){
+    h("[ Renne ]");
+                d("Sabrina",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_191_2_01(void){
+    h("[ Renne ]");
+                d("Minutes ago, here in the",1);
+    d("square I interrogated a boy named ",2); 
+    d("Carlos...",3);
+}
+
+void dialog_191_2_02(void){  
+    h("[ Maria ]");
+                d("What about him?",1);
+    d(" ",2); 
+    d("",3);
+}
+
+void dialog_191_2_03(void){
+    h("[ Renne ]");
+                d("Do you have information ",1);
+    d("about him? So I can confirm his  ",2); 
+    d("testimony and build up a case.",3);
+}
+
+void dialog_191_2_04(void){  
+    h("[ Maria ]");
+                d("Unfortunately I don't",1);
+    d("know this Carlos you mentioned, when ",2); 
+    d("I arrived you were writing alone.",3);
+}
+
+void dialog_191_2_05(void){
+    h("[ Renne ]");
+                d("It's all right... ",1);
+    d("",2); 
+    d("",3);
+}
+
 #endif
