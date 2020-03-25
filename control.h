@@ -148,6 +148,13 @@ void controller(){
         d_pointer = 106;
     } 
 
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 191213){
+        jo_clear_screen();
+        dialog_192();
+        knows_about_julias_mental_health = 1;
+        d_pointer = 192;
+    } 
+
     //pointers jump
     if (d_pointer == 0)
         dialog_000();
@@ -777,9 +784,16 @@ void controller(){
 
 
 
-
     if(d_pointer == 191101)
         dialog_191_1_01(); 
+
+    if(d_pointer == 191102)
+        dialog_191_1_02(); 
+
+    if(d_pointer == 191103)
+        dialog_191_1_03(); 
+
+
 
 
     if(d_pointer == 191201)
@@ -796,6 +810,35 @@ void controller(){
 
     if(d_pointer == 191205)
         dialog_191_2_05(); 
+
+    if(d_pointer == 191206)
+        dialog_191_2_06(); 
+
+    if(d_pointer == 191207)
+        dialog_191_2_07(); 
+
+    if(d_pointer == 191208)
+        dialog_191_2_08(); 
+
+    if(d_pointer == 191209)
+        dialog_191_2_09(); 
+
+    if(d_pointer == 191210)
+        dialog_191_2_10(); 
+
+    if(d_pointer == 191211)
+        dialog_191_2_11(); 
+
+    if(d_pointer == 191212)
+        dialog_191_2_12(); 
+
+    if(d_pointer == 191213)
+        dialog_191_2_13(); 
+
+
+
+    if (d_pointer == 193)
+        dialog_193(); 
 
 }
 

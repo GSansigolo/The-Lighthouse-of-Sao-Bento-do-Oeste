@@ -1320,7 +1320,7 @@ void dialog_169(void){
     h("[ Renne ]");
                 d("Can I ask you a few ",1);
     d("questions? It will take a few ",2); 
-    d("seconds.",3);
+    d("minutes.",3);
 }
 
 void dialog_170(void){
@@ -1476,12 +1476,31 @@ void dialog_191(void){
     d("  Press C to ask about Carlos",3); 
 }
 
+
+
 void dialog_191_1_01(void){
     h("[ Renne ]");
-                d("Sabrina",1);
-    d("",2); 
+                d("Minutes ago I was",1);
+    d("investigating with a teacher from ",2); 
+    d("the city, Sabrina Freire.",3);
+}
+
+void dialog_191_1_02(void){
+    h("[ Maria ]");
+                d("I know her.",1);
+    d(" ",2); 
     d("",3);
 }
+
+void dialog_191_1_03(void){
+    h("[ Renne ]");
+                d("Do you have information ",1);
+    d("about her? So I can confirm her  ",2); 
+    d("testimony and build up a case.",3);
+}
+
+
+
 
 void dialog_191_2_01(void){
     h("[ Renne ]");
@@ -1514,6 +1533,76 @@ void dialog_191_2_04(void){
 void dialog_191_2_05(void){
     h("[ Renne ]");
                 d("It's all right... ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_191_2_06(void){
+    h("[ Renne ]");
+                d("And what about you? In ",1);
+    d("the past ten days have you seen ",2); 
+    d("anything strange?",3);
+}
+
+void dialog_191_2_07(void){  
+    h("[ Maria ]");
+                d("Let me see...",1);
+    d(" ",2); 
+    d("",3);
+}
+
+void dialog_191_2_08(void){  
+    h("[ Maria ]");
+                d("I remembered something... ",1);
+    d("a week ago I saw two men fighting on ",2); 
+    d("the street.",3);
+}
+
+void dialog_191_2_09(void){  
+    h("[ Maria ]");
+                d("They were shouting at ",1);
+    d("each other in the middle of the  ",2); 
+    d("night.",3);
+}
+
+void dialog_191_2_10(void){
+    h("[ Renne ]");
+                d("This is probably a dead ",1);
+    d("end...  ",2); 
+    d("",3);
+}
+
+void dialog_191_2_11(void){
+    h("[ Renne ]");
+                d("Do you remember ",1);
+    d("something that was shouted? ",2); 
+    d("",3);
+}
+
+void dialog_191_2_12(void){  
+    h("[ Maria ]");
+                d("I remember them saying ",1);
+    d("something about dealing with loose",2); 
+    d("ends.",3);
+}
+
+void dialog_191_2_13(void){
+    h("[ Renne ]");
+                d("Interesting. ",1);
+    d(" ",2); 
+    d("",3);
+}
+
+void dialog_192(void){
+    h("[ Renne ]");
+                d("Maria if you're not busy ",1);
+    d("I have a few more questions for you. ",2); 
+    d("",3);
+}
+
+void dialog_193(void){  
+    h("[ Maria ]");
+                d("Don't worry. I am not.",1);
     d("",2); 
     d("",3);
 }
