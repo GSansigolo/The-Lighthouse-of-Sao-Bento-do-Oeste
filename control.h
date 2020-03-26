@@ -9,6 +9,8 @@ static int d_pointer = 999;
 //narrative variables
 static int knows_about_sabrinas_breakup = 0;
 static int knows_about_julias_mental_health = 0;
+static int knows_about_sabrina_friendship = 0;
+static int knows_about_the_arguing = 0;
 
 //main controller function
 void controller(){
@@ -21,7 +23,7 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
         jo_clear_screen();
-        d_pointer = 162;
+        d_pointer = 165;
         start();
     } 
 
@@ -148,10 +150,17 @@ void controller(){
         d_pointer = 106;
     } 
 
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 191115){
+        jo_clear_screen();
+        dialog_192();
+        knows_about_sabrina_friendship = 1;
+        d_pointer = 192;
+    } 
+    
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 191213){
         jo_clear_screen();
         dialog_192();
-        knows_about_julias_mental_health = 1;
+        knows_about_the_arguing = 1;
         d_pointer = 192;
     } 
 
@@ -793,6 +802,41 @@ void controller(){
     if(d_pointer == 191103)
         dialog_191_1_03(); 
 
+    if(d_pointer == 191104)
+        dialog_191_1_04(); 
+
+    if(d_pointer == 191105)
+        dialog_191_1_05(); 
+
+    if(d_pointer == 191106)
+        dialog_191_1_06(); 
+
+    if(d_pointer == 191107)
+        dialog_191_1_07(); 
+
+    if(d_pointer == 191108)
+        dialog_191_1_08(); 
+
+    if(d_pointer == 191109)
+        dialog_191_1_09(); 
+
+    if(d_pointer == 191110)
+        dialog_191_1_10(); 
+
+    if(d_pointer == 191111)
+        dialog_191_1_11(); 
+
+    if(d_pointer == 191112)
+        dialog_191_1_12(); 
+
+    if(d_pointer == 191113)
+        dialog_191_1_13(); 
+
+    if(d_pointer == 191114)
+        dialog_191_1_14(); 
+
+    if(d_pointer == 191115)
+        dialog_191_1_15(); 
 
 
 

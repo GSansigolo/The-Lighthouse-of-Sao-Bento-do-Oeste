@@ -181,8 +181,8 @@ void dialog_023(void){
 void dialog_024(void){  
     h("[ Julia ]");
                 d("Their names are Cristiano",1);
-    d("Machado and Alice Zena. I have known ",2); 
-    d("them for three years.",3);
+    d("Machado and Alice Zena. I known them",2); 
+    d("for almost three years.",3);
 }
 
 void dialog_025(void){  
@@ -230,7 +230,7 @@ void dialog_030(void){
 void dialog_031(void){  
     h("[ Julia ]");
                 d("They seemed very close, ",1);
-    d("a perfect couple, I never saw them ",2); 
+    d("a perfect couple. I never saw them ",2); 
     d("fight...",3);
 }
 
@@ -342,7 +342,7 @@ void dialog_046(void){
 void dialog_047(void){  
     h("[ Renne ]");
                 d("Why does this city have",1);
-    d("a lighthouse? We are in Minas-Gerais,",2); 
+    d("a lighthouse? We are in Minas Gerais,",2); 
     d("there no sea.",3);
 }
 
@@ -1043,7 +1043,7 @@ void dialog_128(void){
 void dialog_129(void){
     h("[ Renne ]");
                 d("Hey... My name is Renne",1);
-    d("I am running an investigation on the",2); 
+    d("I am running an investigation on a",2); 
     d("disappearance in this city.",3);
 }
 
@@ -1367,7 +1367,7 @@ void dialog_175(void){
 
 void dialog_176(void){
     h("[ Renne ]");
-                d("Precisamente.",1);
+                d("Precisely.",1);
     d(" ",2); 
     d("",3);
 }
@@ -1381,6 +1381,7 @@ void dialog_177(void){
 
 void dialog_178(void){
     h("[ Maria ]");
+    
                 d("I didn't go to them, I",1);
     d("don't have the money to buy a car. ",2); 
     d("",3);
@@ -1478,6 +1479,9 @@ void dialog_191(void){
 
 
 
+
+
+
 void dialog_191_1_01(void){
     h("[ Renne ]");
                 d("Minutes ago I was",1);
@@ -1498,6 +1502,91 @@ void dialog_191_1_03(void){
     d("about her? So I can confirm her  ",2); 
     d("testimony and build up a case.",3);
 }
+
+void dialog_191_1_04(void){
+    h("[ Maria ]");
+                d("Let me see, Sabrina is a",1);
+    d("little stubborn, she is open-minded ",2); 
+    d("and understands everyone's problem. ",3);
+}
+
+void dialog_191_1_05(void){
+    h("[ Maria ]");
+                d("But once she puts something",1);
+    d("in mind she doesn't give up.",2); 
+    d(" ",3);
+}
+
+void dialog_191_1_06(void){
+    h("[ Renne ]");
+                d("This is interesting.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_191_1_07(void){
+    h("[ Renne ]");
+                d("Do you believe that ",1);
+    d("Sabrina would have hidden anything ",2); 
+    d("from my investigation?",3);
+}
+
+void dialog_191_1_08(void){
+    h("[ Maria ]");
+                d("Absolutely not, she cares ",1);
+    d("about Alice more than anyone.",2); 
+    d("",3);
+}
+
+void dialog_191_1_09(void){
+    h("[ Renne ]");
+                d("Why do you say that?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_191_1_10(void){
+    h("[ Maria ]");
+                d("These two have been ",1);
+    d("friends since childhood. The two ",2); 
+    d("grew up in this city.",3);
+}
+
+void dialog_191_1_11(void){
+    h("[ Renne ]");
+                d("I didn't know that, so it",1);
+    d("really was the break of their",2); 
+    d("friendship.",3);
+}
+
+void dialog_191_1_12(void){
+    h("[ Maria ]");
+                d("It was something that",1);
+    d("Sabrina told me. ",2); 
+    d("",3);
+}
+
+void dialog_191_1_13(void){
+    h("[ Renne ]");
+                d("About her not hiding, do ",1);
+    d("you really think she wouldn't lie?",2); 
+    d("",3);
+}
+
+void dialog_191_1_14(void){
+    h("[ Maria ]");
+                d("Yes I think, she's  like  ",1);
+    d("an open book. She always spoke during  ",2); 
+    d("classes about her life.",3);
+}
+
+void dialog_191_1_15(void){
+    h("[ Renne ]");
+                d("I see. ",1);
+    d(" ",2); 
+    d("",3);
+}
+
 
 
 
@@ -1592,6 +1681,9 @@ void dialog_191_2_13(void){
     d(" ",2); 
     d("",3);
 }
+
+
+
 
 void dialog_192(void){
     h("[ Renne ]");
