@@ -1481,7 +1481,6 @@ void dialog_191(void){
 
 
 
-
 void dialog_191_1_01(void){
     h("[ Renne ]");
                 d("Minutes ago I was",1);
@@ -1685,6 +1684,7 @@ void dialog_191_2_13(void){
 
 
 
+
 void dialog_192(void){
     h("[ Renne ]");
                 d("Maria if you're not busy ",1);
@@ -1698,5 +1698,152 @@ void dialog_193(void){
     d("",2); 
     d("",3);
 }
+
+void dialog_194(void){
+    h("[ Renne ]");
+                d("About Cristiano, you said ",1);
+    d("he was popular in the city, why do  ",2); 
+    d("you say that?",3);
+}
+
+void dialog_195(void){  
+    h("[ Maria ]");
+                d("He being a famous lawyer",1);
+    d("in town, he had a lot of clients, so ",2); 
+    d("there was always someone who know him.",3);
+}
+
+void dialog_196(void){
+    h("[ Renne ]");
+                d("So he was good at what he did.",1);
+    d("  ",2); 
+    d("",3);
+}
+
+void dialog_197(void){  
+    h("[ Maria ]");
+                d("Yes, according to his",1);
+    d("customers...",2); 
+    d("",3);
+}
+
+void dialog_198(void){
+    h("[ Renne ]");
+                d("Do you know anything ",1);
+    d("about his work in the past ten days?",2); 
+    d("",3);
+}
+
+void dialog_199(void){  
+    h("[ Maria ]");
+                d("No I'm sorry.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_200(void){
+    h("[ Renne ]");
+                d("It's all right.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_201(void){  
+    h("[ Renne ]");
+                d("I had other questions ",1);
+    d("about him but I think that as you ",2); 
+    d("don't know, I don't add much.",3);
+}
+
+void dialog_202(void){  
+    h("[ Maria ]");
+                d("...",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_203(void){  
+    h("[ Renne ]");
+                d("Before I forget, I wanted",1);
+    d(" to go to the city lighthouse, which",2); 
+    d(" way is it?",3);
+}
+
+void dialog_204(void){  
+    h("[ Maria ]");
+                d("Keeps going towards the ",1);
+    d("border of São Paulo, and them turn ",2); 
+    d("left. It is impossible to get lost.",3);
+}
+
+void dialog_205(void){
+    h("[ Renne ]");
+                d("Got it. Thanks for ",1);
+    d("everything Maria.",2); 
+    d("",3);
+}
+
+void dialog_206(void){  
+    h("[ Maria ]");
+                d("It was nothing.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_207(void){
+    h("[ Renne ]");
+                d("Is there anything I can ",1);
+    d("do to make up for your lost time?",2); 
+    d("",3);
+}
+
+void dialog_208(void){  
+    h("[ Maria ]");
+                d("Don't worry, I didn't ",1);
+    d("have anything important to do. If ",2); 
+    d("only the club was open...",3);
+}
+
+void dialog_209(void){
+    h("[ Maria ]");
+                d("Anyway, have a nice day.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_210(void){
+    h("[ Renne ]");
+                d("You too.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_211(void){
+    jo_clear_screen();
+    set_background("FAROL.TGA", "BG");
+    dialog_212(); 
+}
+
+void dialog_212(void){
+  d_n("Sao Bento do Oeste",1); 
+    d("City Lighthouse",2); 
+    d("Minutes later",3); 
+}
+
+void dialog_213(void){
+    jo_clear_screen();
+    set_background("IGREJA1.TGA", "BG");
+    dialog_214(); 
+}
+
+void dialog_214(void){
+    h("[ Lucas ]");
+                d("You too.",1);
+    d("",2); 
+    d("",3);
+}
+
+
+
 
 #endif
