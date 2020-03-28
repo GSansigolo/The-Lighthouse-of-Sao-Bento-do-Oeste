@@ -23,7 +23,7 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
         jo_clear_screen();
-        d_pointer = 165;
+        d_pointer = 210;
         start();
     } 
 

@@ -1832,7 +1832,7 @@ void dialog_212(void){
 
 void dialog_213(void){
     jo_clear_screen();
-    set_background("IGREJA1.TGA", "BG");
+    set_background("FAROL1.TGA", "BG");
     dialog_214(); 
 }
 
@@ -1842,8 +1842,5 @@ void dialog_214(void){
     d("",2); 
     d("",3);
 }
-
-
-
 
 #endif

@@ -253,15 +253,15 @@ Archive member included to satisfy reference by file (symbol)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_fpcmp_parts_df.o)
                               /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_eq_df.o) (__fpcmp_parts_d)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_mul_sf.o)
-                              /tmp/ccmYT6Qb.ltrans0.ltrans.o (__mulsf3)
+                              /tmp/ccxEX94d.ltrans0.ltrans.o (__mulsf3)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_div_sf.o)
-                              /tmp/ccmYT6Qb.ltrans0.ltrans.o (__divsf3)
+                              /tmp/ccxEX94d.ltrans0.ltrans.o (__divsf3)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_sf_to_si.o)
-                              /tmp/ccmYT6Qb.ltrans0.ltrans.o (__fixsfsi)
+                              /tmp/ccxEX94d.ltrans0.ltrans.o (__fixsfsi)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_thenan_sf.o)
                               /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_mul_sf.o) (__thenan_sf)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_usi_to_sf.o)
-                              /tmp/ccmYT6Qb.ltrans0.ltrans.o (__floatunsisf)
+                              /tmp/ccxEX94d.ltrans0.ltrans.o (__floatunsisf)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_pack_sf.o)
                               /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_mul_sf.o) (__pack_f)
 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_unpack_sf.o)
@@ -309,7 +309,7 @@ SLSTART         0x0000000006004000       0x28
 .text           0x0000000006004040    0x12128
  *(.text)
  .text          0x0000000006004040        0x0 ../../Compiler/SGL_302j/LIB_COFF/SGLAREA.O
- .text          0x0000000006004040     0x53b4 /tmp/ccmYT6Qb.ltrans0.ltrans.o
+ .text          0x0000000006004040     0x53b4 /tmp/ccxEX94d.ltrans0.ltrans.o
  *fill*         0x00000000060093f4        0xc 
  .text          0x0000000006009400      0x238 ../../Compiler/SGL_302j/LIB_COFF/SEGA_SYS.A(sys_exit.o)
                 0x0000000006009400                sys_version
@@ -908,12 +908,12 @@ SLSTART         0x0000000006004000       0x28
                 0x0000000006016168                __etext = .
 
 .text.startup   0x0000000006016168      0x484
- .text.startup  0x0000000006016168      0x484 /tmp/ccmYT6Qb.ltrans0.ltrans.o
+ .text.startup  0x0000000006016168      0x484 /tmp/ccxEX94d.ltrans0.ltrans.o
                 0x0000000006016168                main
 
 .rodata         0x0000000006016600      0x63c
  *(.rodata)
- .rodata        0x0000000006016600      0x12c /tmp/ccmYT6Qb.ltrans0.ltrans.o
+ .rodata        0x0000000006016600      0x12c /tmp/ccxEX94d.ltrans0.ltrans.o
  .rodata        0x000000000601672c       0x10 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_thenan_sf.o)
                 0x000000000601672c                __thenan_sf
  .rodata        0x000000000601673c       0x20 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
@@ -932,35 +932,35 @@ SLSTART         0x0000000006004000       0x28
  .rodata        0x0000000006016b3c      0x100 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_clz.o)
                 0x0000000006016b3c                __clz_tab
 
-.rodata.str1.4  0x0000000006016c3c     0x349a
+.rodata.str1.4  0x0000000006016c3c     0x34a6
  .rodata.str1.4
-                0x0000000006016c3c     0x3428 /tmp/ccmYT6Qb.ltrans0.ltrans.o
-                                       0x34a1 (size before relaxing)
+                0x0000000006016c3c     0x3434 /tmp/ccxEX94d.ltrans0.ltrans.o
+                                       0x34ad (size before relaxing)
  .rodata.str1.4
-                0x000000000601a064       0x3a /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
- *fill*         0x000000000601a09e        0x2 
+                0x000000000601a070       0x3a /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
+ *fill*         0x000000000601a0aa        0x2 
  .rodata.str1.4
-                0x000000000601a0a0        0xd /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-dtoa.o)
+                0x000000000601a0ac        0xd /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-dtoa.o)
                                          0x12 (size before relaxing)
- *fill*         0x000000000601a0ad        0x3 
+ *fill*         0x000000000601a0b9        0x3 
  .rodata.str1.4
-                0x000000000601a0b0        0xa /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-locale.o)
+                0x000000000601a0bc        0xa /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-locale.o)
                                          0x12 (size before relaxing)
  .rodata.str1.4
-                0x000000000601a0ba       0x25 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfiprintf.o)
- *fill*         0x000000000601a0ba        0x2 
+                0x000000000601a0c6       0x25 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfiprintf.o)
+ *fill*         0x000000000601a0c6        0x2 
  .rodata.str1.4
-                0x000000000601a0bc       0x1a /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
+                0x000000000601a0c8       0x1a /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
 
-.eh_frame       0x000000000601a0d8      0x170
- .eh_frame      0x000000000601a0d8       0xa8 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udivdi3.o)
- .eh_frame      0x000000000601a180       0xc8 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_umoddi3.o)
+.eh_frame       0x000000000601a0e4      0x170
+ .eh_frame      0x000000000601a0e4       0xa8 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udivdi3.o)
+ .eh_frame      0x000000000601a18c       0xc8 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_umoddi3.o)
                                          0xdc (size before relaxing)
 
-.rela.dyn       0x000000000601a248        0x0
- .rela.text     0x000000000601a248        0x0 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sbrkr.o)
+.rela.dyn       0x000000000601a254        0x0
+ .rela.text     0x000000000601a254        0x0 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sbrkr.o)
  .rela.text.startup
-                0x000000000601a248        0x0 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sbrkr.o)
+                0x000000000601a254        0x0 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sbrkr.o)
 
 SLPROG          0x000000000601a260    0x11720
                 0x000000000601a260                __slprog_start = .
@@ -1229,7 +1229,7 @@ SLPROG          0x000000000601a260    0x11720
 .data           0x000000000602b980      0x624
  *(.data)
  .data          0x000000000602b980        0x0 ../../Compiler/SGL_302j/LIB_COFF/SGLAREA.O
- .data          0x000000000602b980        0xc /tmp/ccmYT6Qb.ltrans0.ltrans.o
+ .data          0x000000000602b980        0xc /tmp/ccxEX94d.ltrans0.ltrans.o
  *fill*         0x000000000602b98c        0x4 
  .data          0x000000000602b990        0x0 ../../Compiler/SGL_302j/LIB_COFF/SEGA_SYS.A(sys_exit.o)
  .data          0x000000000602b990        0x0 ../../Compiler/SGL_302j/LIB_COFF/SEGA_SYS.A(sys_sub.o)
@@ -1373,7 +1373,7 @@ SLPROG          0x000000000601a260    0x11720
                 0x000000000602bfb0                __bstart = .
  *(.bss)
  .bss           0x000000000602bfb0        0x0 ../../Compiler/SGL_302j/LIB_COFF/SGLAREA.O
- .bss           0x000000000602bfb0    0x82e98 /tmp/ccmYT6Qb.ltrans0.ltrans.o
+ .bss           0x000000000602bfb0    0x82e98 /tmp/ccxEX94d.ltrans0.ltrans.o
  *fill*         0x00000000060aee48        0x8 
  .bss           0x00000000060aee50        0x4 ../../Compiler/SGL_302j/LIB_COFF/SEGA_SYS.A(sys_exit.o)
  *fill*         0x00000000060aee54        0xc 
@@ -1534,7 +1534,7 @@ SLPROG          0x000000000601a260    0x11720
                 0x00000000060aeecc                __bend = .
                 0x00000000060aeecc                _end = .
 LOAD ../../Compiler/SGL_302j/LIB_COFF/SGLAREA.O
-LOAD /tmp/ccmYT6Qb.ltrans0.ltrans.o
+LOAD /tmp/ccxEX94d.ltrans0.ltrans.o
 LOAD ../../Compiler/SGL_302j/LIB_COFF/SEGA_SYS.A
 LOAD ../../Compiler/SGL_302j/LIB_COFF/LIBCD.A
 LOAD ../../Compiler/SGL_302j/LIB_COFF/LIBSGL.A
@@ -1548,7 +1548,7 @@ LOAD /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-n
 OUTPUT(sl_coff.coff elf32-sh)
 
 .comment        0x0000000000000000       0x11
- .comment       0x0000000000000000       0x12 /tmp/ccmYT6Qb.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x12 /tmp/ccxEX94d.ltrans0.ltrans.o
  .comment       0x0000000000000000       0x12 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_mul_sf.o)
  .comment       0x0000000000000000       0x12 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_div_sf.o)
  .comment       0x0000000000000000       0x12 /home/sansigolo/Documents/joengine/Compiler/SH_NONE_ELF/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_sf_to_si.o)
