@@ -1838,7 +1838,237 @@ void dialog_213(void){
 
 void dialog_214(void){
     h("[ Lucas ]");
-                d("You too.",1);
+                d("Finally.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_215(void){
+    h("[ Lucas ]");
+                d("The city lighthouse.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_216(void){
+    h("[ Renne ]");
+                d("Hey! You.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_217(void){
+    jo_clear_screen();
+    set_background("FAROL2.TGA", "BG");
+    dialog_214(); 
+}
+
+void dialog_218(void){
+    h("[ Renne ]");
+                d("Stop right there.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_219(void){
+    h("[ Lucas ]");
+                d("Okay..",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_220(void){
+    h("[ Renne ]");
+                d("Wait a second.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_221(void){
+    h("[ Lucas ]");
+                d("It's all right.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_222(void){
+    h("[ Renne ]");
+                d("You are a suspect in the ",1);
+    d("disappearance of Cristiano Machado ",2); 
+    d("and Alice Zena.",3);
+}
+
+void dialog_223(void){
+    h("[ Lucas ]");
+                d("Me?!",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_224(void){
+    h("[ Renne ]");
+                d("Yes, I need your name, ",1);
+    d("age and occupation. ",2); 
+    d("",3);
+}
+
+void dialog_225(void){
+    h("[ Lucas ]");
+                d("My name is Lucas Matos, I ",1);
+    d("am 19 years old and I help out in the ",2); 
+    d("city hospital.",3);
+}
+
+void dialog_226(void){
+    h("[ Renne ]");
+                d("Where were you ten days ",1);
+    d("ago? ",2); 
+    d("",3);
+}
+
+void dialog_227(void){
+    h("[ Lucas ]");
+                d("Ten days ago... it was a ",1);
+    d("Saturday, so I was working at the ",2); 
+    d("hospital.",3);
+}
+
+void dialog_228(void){
+    h("[ Renne ]");
+                d("What can you tell me ",1);
+    d("about the city's monthly car sale?",2); 
+    d("",3);
+}
+
+void dialog_229(void){
+    h("[ Lucas ]");
+                d("I don't know what you ",1);
+    d("want me to answer, I don't know ",2); 
+    d("much about.",3);
+}
+
+void dialog_230(void){
+    h("[ Lucas ]");
+                d("I don't have the money to ",1);
+    d("buy a car so I'm not going.",2); 
+    d("",3);
+}
+
+void dialog_231(void){
+    h("[ Renne ]");
+                d("Is the name Cristiano ",1);
+    d("Machado similar to you?",2); 
+    d("",3);
+}
+
+void dialog_232(void){
+    h("[ Lucas ]");
+                d("Yes, he is the most ",1);
+    d("famous lawyer in town everyone ",2); 
+    d("knows him.",3);
+}
+
+void dialog_233(void){
+    h("[ Renne ]");
+                d("I have information that a ",1);
+    d("young man of your age, wearing a scarf, ",2); 
+    d("was with Cristiano at this car sale.",3);
+}
+
+void dialog_234(void){
+    h("[ Lucas ]");
+                d("It wasn't me, I was not",1);
+    d("close to Cristiano.",2); 
+    d("",3);
+}
+
+void dialog_235(void){
+    h("[ Lucas ]");
+                d("A young man close to ",1);
+    d("Cristiano... it's probably his ",2); 
+    d("brother.",3);
+}
+
+void dialog_236(void){
+    h("[ Renne ]");
+                d("Does Cristiano have a",1);
+    d("brother???",2); 
+    d("",3);
+}
+
+void dialog_237(void){
+    h("[ Lucas ]");
+                d("Yes, he has my age. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_238(void){
+    h("[ Renne ]");
+                d("Why Julia hide this ",1);
+    d("information from me.",2); 
+    d("",3);
+}
+
+void dialog_239(void){
+    h("[ Lucas ]");
+                d("Few people know about his ",1);
+    d("brother. ",2); 
+    d("",3);
+}
+
+void dialog_240(void){
+    h("[ Lucas ]");
+                d("It would be dangerous for ",1);
+    d("a famous criminal lawyer to have a ",2); 
+    d("known relative in the city.",3);
+}
+
+void dialog_241(void){
+    h("[ Renne ]");
+                d("Uhm.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_242(void){
+    h("[ Renne ]");
+                d("Makes sense.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_243(void){
+    h("[ Renne ]");
+                d("Answer me some more ",1);
+    d("questions...",2); 
+    d("",3);
+}
+
+void dialog_244(void){
+    h("[ Lucas ]");
+                d("Sure.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_245(void){
+    h("[ Renne ]");
+                d("Here, the Lightouse, is ",1);
+    d("the last place that Cristiano and ",2); 
+    d("Alice were seen, why you came here?",3);
+}
+
+void dialog_246(void){
+    h("[ Lucas ]");
+                d("I often come here to rest.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_247(void){
+    h("[ Renne ]");
+                d("Got it.",1);
     d("",2); 
     d("",3);
 }

@@ -118,7 +118,13 @@ void controller(){
         dialog_213();
         d_pointer = 214;
     } 
-
+    
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 217){
+        jo_clear_screen();
+        dialog_217();
+        d_pointer = 218;
+    } 
+    
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 104 && choice_pause == 1){
         jo_printf(1, 1, "%d", d_pointer);
         d_pointer = 104101;
@@ -952,7 +958,109 @@ void controller(){
 
     if (d_pointer == 213)
         dialog_213(); 
+    
+    if (d_pointer == 214)
+        dialog_214(); 
 
+    if (d_pointer == 215)
+        dialog_215(); 
+
+    if (d_pointer == 216)
+        dialog_216(); 
+
+    if (d_pointer == 217)
+        dialog_217(); 
+
+    if (d_pointer == 218)
+        dialog_218(); 
+
+    if (d_pointer == 219)
+        dialog_219(); 
+
+    if (d_pointer == 220)
+        dialog_220(); 
+
+    if (d_pointer == 221)
+        dialog_221(); 
+
+    if (d_pointer == 222)
+        dialog_222(); 
+
+    if (d_pointer == 223)
+        dialog_223(); 
+
+    if (d_pointer == 224)
+        dialog_224(); 
+
+    if (d_pointer == 225)
+        dialog_225(); 
+
+    if (d_pointer == 226)
+        dialog_226(); 
+
+    if (d_pointer == 227)
+        dialog_227(); 
+
+    if (d_pointer == 228)
+        dialog_228(); 
+
+    if (d_pointer == 229)
+        dialog_229(); 
+
+    if (d_pointer == 230)
+        dialog_230(); 
+
+    if (d_pointer == 231)
+        dialog_231(); 
+
+    if (d_pointer == 232)
+        dialog_232(); 
+
+    if (d_pointer == 233)
+        dialog_233(); 
+
+    if (d_pointer == 234)
+        dialog_234(); 
+
+    if (d_pointer == 235)
+        dialog_235(); 
+
+    if (d_pointer == 236)
+        dialog_236(); 
+
+    if (d_pointer == 237)
+        dialog_237(); 
+
+    if (d_pointer == 238)
+        dialog_238(); 
+
+    if (d_pointer == 239)
+        dialog_239(); 
+
+    if (d_pointer == 240)
+        dialog_240(); 
+
+    if (d_pointer == 241)
+        dialog_241(); 
+
+    if (d_pointer == 242)
+        dialog_242(); 
+
+    if (d_pointer == 243)
+        dialog_243(); 
+
+    if (d_pointer == 244)
+        dialog_244(); 
+
+    if (d_pointer == 245)
+        dialog_245(); 
+
+    if (d_pointer == 246)
+        dialog_246(); 
+
+    if (d_pointer == 247)
+        dialog_247(); 
+        
 }
 
 #endif
