@@ -75,9 +75,9 @@ void d_n(char* text, int line){
 /**
  * play_cd_audio()
  * play a CD audio
-
+ */
 void play_cd_audio(void){
     jo_audio_play_cd_track(2, 2, 1);
 }
- */
+
 #endif
