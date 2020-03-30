@@ -2,7 +2,7 @@
 #define control
 
 //dialog pointer
-static int start_menu = 1;
+static int start_menu = 3;
 static int choice_pause = 0;
 static int d_pointer = 999;
 
@@ -19,6 +19,15 @@ void controller(){
     //jo_set_printf_color_index(JO_COLOR_INDEX_White);
     //jo_printf(1, 1, "%d", d_pointer);
     
+    //alert
+    if (jo_is_pad1_key_down(JO_KEY_START) || jo_is_pad1_key_down(JO_KEY_A) || jo_is_pad1_key_down(JO_KEY_B) || jo_is_pad1_key_down(JO_KEY_C)){
+        if(start_menu == 3){
+            start_menu = 1;
+            jo_clear_screen();
+            draw_menu();
+        }
+    } 
+
     //main menu
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;

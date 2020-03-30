@@ -1,6 +1,12 @@
 #ifndef model
 #define model
 
+void draw_disclamer(void){
+    jo_clear_screen();
+    set_background("ALERT.TGA", "BG"); 
+    jo_set_printf_color_index(JO_COLOR_INDEX_White);
+}
+
 void draw_menu(void){
     set_background("TITULO.TGA", "BG");
     jo_set_printf_color_index(JO_COLOR_INDEX_White);
