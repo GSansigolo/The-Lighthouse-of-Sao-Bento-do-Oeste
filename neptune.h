@@ -57,4 +57,27 @@ void d_n(char* text, int line){
         jo_printf(1, 21+(2*line), text);
 }
 
+/*
+    To convert any audio file to PCM under Linux or Windows => http://ffmpeg.org
+
+    Just some restriction due to the Sega Saturn hardware:
+
+    Compatible Samplerate : 8000 to 44100 Hz (-ar option)
+    Compatible PCM format : s8 (-f option)
+    Compatible mode: 8/16 bit mono/stereo
+
+    Some command line:
+
+    ffmpeg -i A.WAV -f s16be -ar 44100 A.PCM => JoSoundMono16Bit
+    ffmpeg -i A.MP3 -f s8 -ac 1 -ar 8000 A.PCM => JoSoundStereo8Bit
+*/
+
+/**
+ * play_cd_audio()
+ * play a CD audio
+
+void play_cd_audio(void){
+    jo_audio_play_cd_track(2, 2, 1);
+}
+ */
 #endif

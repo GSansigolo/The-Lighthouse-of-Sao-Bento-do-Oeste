@@ -2073,4 +2073,250 @@ void dialog_247(void){
     d("",3);
 }
 
+void dialog_248(void){
+  d_n("Choose your next question",1); 
+    d("  Press B to ask about Maria",2); 
+    d("  Press C to ask about Cris's brother",3); 
+}
+
+
+void dialog_248_1_01(void){
+    h("[ Renne ]");
+                d("Minutes ago, at the",1);
+    d("square I interrogated a girl named ",2); 
+    d("Maria...",3);
+}
+
+void dialog_248_1_02(void){
+    h("[ Lucas ]");
+                d("Maria? Why did you bring ",1);
+    d("that name?",2); 
+    d("",3);
+}
+
+void dialog_248_1_03(void){
+    h("[ Renne ]");
+                d("I just said... I ",1);
+    d("interrogated her in the square ",2); 
+    d("minutes ago.",3);
+}
+
+void dialog_248_1_04(void){
+    h("[ Lucas ]");
+                d("Tss. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_248_1_05(void){
+    h("[ Renne ]");
+                d("Why are you so defensive?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_248_1_06(void){
+    h("[ Lucas ]");
+                d("I know Maria Vieira, she  ",1);
+    d("is my ex-girlfriend.",2); 
+    d("",3);
+}
+
+void dialog_248_1_07(void){
+    h("[ Renne ]");
+                d("I see, you are ",1);
+    d("uncomfortable, you two must have had ",2); 
+    d("a bad break-up.",3);
+}
+
+void dialog_248_1_08(void){
+    h("[ Lucas ]");
+                d("It is not about that.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_248_1_09(void){
+    h("[ Lucas ]");
+                d("I made a lot of mistakes ",1);
+    d("in this life, especially in the way I ",2); 
+    d("treated Maria.",3);
+}
+
+void dialog_248_1_10(void){
+    h("[ Renne ]");
+                d("It is okay, I made ",1);
+    d("mistakes in past relationships too.",2); 
+    d("",3);
+}
+
+void dialog_248_1_11(void){
+    h("[ Renne ]");
+                d("It is by recognizing our ",1);
+    d("mistakes and learning from them that ",2); 
+    d("we can become better persons.",3);
+}
+
+void dialog_248_1_12(void){
+    h("[ Lucas ]");
+                d("Make sense, sorry about ",1);
+    d("that, about before, what you asked",2); 
+    d("about  Maria?",3);
+}
+
+void dialog_248_1_13(void){
+    h("[ Renne ]");
+                d("Do you believe that ",1);
+    d("Maria would have hidden anything ",2); 
+    d("from my investigation?",3);
+}
+
+void dialog_248_1_14(void){
+    h("[ Lucas ]");
+                d("Maria? Impossible, she ",1);
+    d("always wants to help others, no ",2); 
+    d("matter the cost.",3);
+}
+
+void dialog_248_1_15(void){
+    h("[ Lucas ]");
+                d("This is good to know.",1);
+    d("",2); 
+    d("",3);
+}
+
+
+
+void dialog_248_2_01(void){
+    h("[ Renne ]");
+                d("Tell me more about this ",1);
+    d("brother of Cristiano, I want to know ",2); 
+    d("everything you know about him.",3);
+}
+
+void dialog_248_2_02(void){
+    h("[ Lucas ]");
+                d("I don't remember his ",1);
+    d("first name, as far as I remember he ",2); 
+    d("was called Silva Macahado.",3);
+}
+
+void dialog_248_2_03(void){
+    h("[ Renne ]");
+                d("How was his relationship ",1);
+    d("with his brother?",2); 
+    d("",3);
+}
+
+void dialog_248_2_04(void){
+    h("[ Lucas ]");
+                d("It was very complicated, ",1);
+    d("they were always fighting, but not in ",2); 
+    d("public.",3);
+}
+
+void dialog_248_2_05(void){
+    h("[ Renne ]");
+                d("I see. What about his  ",1);
+    d("body... was he strong... tall... ?",2); 
+    d("",3);
+}
+
+void dialog_248_2_06(void){
+    h("[ Lucas ]");
+                d("He was normal like me. I ",1);
+    d("remember that he had black hair and a ",2); 
+    d("scar on his neck.",3);
+}
+
+void dialog_248_2_07(void){
+    h("[ Renne ]");
+                d("Copy. Do you have any ",1);
+    d("other information about him that ",2); 
+    d("you want to tell me about?",3);
+}
+
+void dialog_248_2_08(void){
+    h("[ Lucas ]");
+                d("I believe that even if he",1);
+    d("is not involved, Silva Macahdo will  ",2); 
+    d("know everything about what happened.",3);
+}
+
+void dialog_248_2_09(void){
+    h("[ Renne ]");
+                d("Why you say that?",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_248_2_10(void){
+    h("[ Lucas ]");
+                d("He was well informed, I",1);
+    d("remember seeing Cristiano asking him",2); 
+    d("information about the city many times",3);
+}
+
+void dialog_248_2_11(void){
+    h("[ Renne ]");
+                d("Noted.",1);
+    d("",2); 
+    d("",3);
+}
+
+
+void dialog_249(void){
+    h("[ Renne ]");
+                d("You were of great help ",1);
+    d("Lucas. Thanks for everything.",2); 
+    d("",3);
+}
+
+void dialog_250(void){
+    h("[ Lucas ]");
+                d("It was nothing.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_251(void){
+    h("[ Renne ]");
+                d("I will continue my ",1);
+    d("investigation from here, have a ",2); 
+    d("great day.",3);
+}
+
+void dialog_252(void){
+    h("[ Lucas ]");
+                d("You too.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_253(void){
+    jo_clear_screen();
+    set_background("FAROL.TGA", "BG");
+    dialog_254(); 
+}
+
+void dialog_254(void){
+  d_n("Sao Bento do Oeste",1); 
+    d("City Lighthouse",2); 
+    d("Minutes later",3); 
+}
+
+void dialog_255(void){
+    jo_clear_screen();
+    set_background("FAROL3.TGA", "BG");
+    dialog_256(); 
+}
+
+void dialog_256(void){
+    h("[ Renne ]");
+                d("You were of great help ",1);
+    d("Lucas. Thanks for everything.",2); 
+    d("",3);
+}
+
+
 #endif

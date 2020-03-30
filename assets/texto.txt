@@ -1,0 +1,2225 @@
+ dialog_000
+  You are Renne Bras, an ordinary 
+    detective. You entered the business 
+    seven years ago, just after the 
+
+
+ dialog_001
+  end of your longest relationship. 
+    You became famous for solving the 
+    case of kidnappings in the capital. 
+
+
+ dialog_002
+  Ever since you never picked up 
+    jobs that involved disappearance  
+    cases. 
+
+
+ dialog_003
+  Everything changed when days ago 
+    you received a message from an old 
+    friend. 
+
+
+ dialog_004
+  Renne long time no see, I am sending 
+    this message because I am running  
+    out of hope. A couple of my friends 
+
+
+ dialog_005
+  went missing a week ago. I called 
+    the police but they were unable to 
+    find evidence to proceed. 
+
+
+ dialog_006
+  I would like to hire you to investi- 
+    gate this case. I live in Sao Bento 
+    do Oeste, Minas Gerais, near the 
+
+
+ dialog_007
+  border with Sao Paulo. Please help 
+    me Renne, you are my only hope. 
+    With love, - Julia. 
+
+
+
+
+
+
+
+
+
+
+ dialog_009
+
+  Sao Bento do Oeste 
+    Minas Gerais - Brazil 
+    City entrance 
+
+
+
+ dialog_010  
+  Meet me near the city entrence at 4PM
+                                 - Julia. 
+    
+
+
+
+
+ dialog_012  
+     Renne 
+                Finally Sao Bento do Oeste
+     
+    
+
+
+ dialog_013  
+     Julia 
+                Rennee!
+     
+    
+
+
+;
+
+
+ dialog_015  
+     Julia 
+                You came!
+     
+    
+
+
+ dialog_016  
+     Renne 
+                I couldn't ignore an old
+    friend. 
+    
+
+
+ dialog_017  
+     Julia 
+                Long time no see.
+     
+    
+
+
+ dialog_018  
+     Renne 
+                Yes, it does.
+     
+    
+
+
+ dialog_019  
+     Renne 
+                I would love to spend an
+    afternoon talking with you... 
+    
+
+
+ dialog_020  
+     Julia 
+                Oh Right, the case.
+     
+    
+
+
+ dialog_021  
+     Renne 
+                I will ask you a few 
+    questions, feel free to ask back 
+    anytime.
+
+
+ dialog_022  
+     Julia 
+                Okay.
+     
+    
+
+
+ dialog_023  
+     Renne 
+                Who are the couple of
+    friends you mentioned? 
+    
+
+
+ dialog_024  
+     Julia 
+                Their names are Cristiano
+    Machado and Alice Zena. I known them 
+    for almost three years.
+
+
+ dialog_025  
+     Julia 
+                Are they married, friends 
+    or something else? 
+    
+
+
+ dialog_026  
+     Julia 
+                They are dating. I
+    remember Alice telling me that she 
+    was waiting for Cris to ask her..
+
+
+ dialog_027  
+     Renne 
+                I see. What was their 
+    jobs? 
+    
+
+
+ dialog_028  
+     Julia 
+                Cristiano was a lawyer,
+    he had an office on 15th March Street 
+    the main street of the city.
+
+
+ dialog_029  
+     Julia 
+                Alice was a Portuguese 
+    teacher at the school I work at. 
+    
+
+
+ dialog_030  
+     Renne 
+                How would you describe
+    their relationship? 
+    
+
+
+ dialog_031  
+     Julia 
+                They seemed very close, 
+    a perfect couple. I never saw them  
+    fight...
+
+
+ dialog_032  
+     Renne 
+                Hum.. 
+     
+    
+
+
+ dialog_033  
+     Julia 
+                I'm sorry did I say
+    something? 
+    
+
+
+ dialog_034  
+     Renne 
+                No, I just remembered one
+    thing... Please continue. 
+    
+
+
+ dialog_035  
+     Julia 
+                They were... I mean they
+    are a beautiful couple. 
+    
+
+
+ dialog_036  
+     Renne 
+                As I understand it, you
+    were much closer to Alice than to 
+    Cristiano right?
+
+
+ dialog_037  
+     Julia 
+                Yes.
+     
+    
+
+
+ dialog_038  
+     Renne 
+                About Cristiano, you knew 
+    something about his life beyond what  
+    Alice told you...
+
+
+ dialog_039  
+     Julia 
+                As far as I remember he
+    used to go to drink in the bar in  
+    front of his office.
+
+
+ dialog_040  
+     Renne 
+                Did you knew Cristiano
+    before his relationship with Alice? 
+    
+
+
+ dialog_041  
+     Julia 
+                Just by sight.
+     
+    
+
+
+ dialog_042  
+     Renne 
+                Right. About the
+    disappearance, how you noticed that 
+    both were gone.
+
+
+ dialog_043  
+     Julia 
+                They don't have a car, so
+    I saw them every day walking to work. 
+    
+
+
+ dialog_044  
+     Julia 
+                A week ago Alice said that 
+    she wanted to go to the lighthouse. 
+    
+
+
+ dialog_045  
+     Renne 
+                Lighthouse?
+     
+    
+
+
+ dialog_046  
+     Julia 
+                Yes, the City lighthouse.
+     
+    
+
+
+ dialog_047  
+     Renne 
+                Why does this city have
+    a lighthouse? We are in Minas Gerais, 
+    there no sea.
+
+
+ dialog_048  
+     Julia 
+                It is the city monument,
+    they built it to be a tourist spot  
+    for the city.
+
+
+
+ dialog_049  
+     Renne 
+                Anyway, let's continue.
+     
+    
+
+
+ dialog_050  
+     Julia 
+                Alice said she would go
+    to the lighthouse. Once I heard it, I 
+    thought that Cristiano would ask her.
+
+
+ dialog_051  
+     Renne 
+                Oh.
+     
+    
+
+
+ dialog_052  
+     Julia 
+                Since then I have not 
+    heard any more news from the two,  
+    both have stopped showing up at their
+
+
+ dialog_053  
+     Julia 
+                work, the house has been 
+    abandoned, and from what I talked, 
+    nobody has seen them since ever since
+
+
+
+ dialog_054  
+     Renne 
+                Copy, Is there anything 
+    else you want to tell me?  
+    
+
+
+ dialog_055  
+     Julia 
+                I don't think so.
+     
+    
+
+
+ dialog_056  
+     Renne 
+                Okay, I'm going to 
+    walk around town, to collect some 
+    testimonies, if that's okay with you?
+
+
+ dialog_057  
+     Julia 
+                It's all right.
+     
+    
+
+
+ dialog_058  
+     Julia 
+                Do you want me to partner
+    you? 
+    
+
+
+ dialog_059  
+     Renne 
+                I would love to, but it
+    can affect how people talk to me. 
+    
+
+
+ dialog_060  
+     Julia 
+                I never thought this
+    way. 
+    
+
+
+ dialog_061  
+     Renne 
+                It's not a big deal, 
+    it's just one of my working habits. 
+    
+
+
+ dialog_062  
+     Julia 
+                Have a nice day then.
+     
+    
+
+
+ dialog_063  
+     Renne 
+                You too.
+     
+    
+
+
+ dialog_064  
+     Renne 
+                And before I forget, after 
+    all this we are going to have a real 
+    dinner together.
+
+
+ dialog_065  
+     Julia 
+                Oh do you still remember
+    that... 
+    
+
+
+ dialog_066  
+     Julia 
+                Ok, it is settled then.
+     
+    
+
+
+
+
+
+
+
+
+
+ dialog_068
+  Sao Bento do Oeste 
+    15th March Street 
+    Minutes later 
+
+
+
+ dialog_070  
+     Sabrina 
+                 Damn it! Who the hell is
+    doing this. 
+    
+
+
+ dialog_071  
+     Sabrina 
+                 I will find out who is
+    responsible for these burned   
+    dumpsters.
+
+
+ dialog_072  
+     Sabrina 
+                 Anyway, here I am 
+    Cristiano's office. I will put an  
+    end to this. 
+
+
+ dialog_073  
+     Renne 
+                Hey you, stop right there. 
+     
+    
+
+
+
+ dialog_075  
+     Renne 
+                You can't go in there! 
+    This place is close due to an  
+    investigation.
+
+
+ dialog_076  
+     Sabrina 
+                 I know that's why I'm 
+    here. 
+    
+
+
+ dialog_077  
+     Renne 
+                Who are you?
+     
+    
+
+
+ dialog_078  
+     Sabrina 
+                 You first, it was you who  
+    showed up accusing me. 
+    
+
+
+ dialog_079  
+     Renne 
+                Okay, my name is Renne
+    Bras, I'm a hired detective. I'm 
+    working on this case.
+
+
+ dialog_080  
+     Sabrina 
+                 Julia's friend?
+     
+    
+
+
+ dialog_081  
+     Renne 
+                Yes, and who are you?
+     
+    
+
+
+ dialog_082  
+     Sabrina 
+                 My name is Sabrina I am
+    a teacher at the same school as Alice 
+    I am investigating this case solo.
+
+
+ dialog_083  
+     Renne 
+                I see. Let's go in  
+    together then. 
+    
+
+
+ dialog_084  
+     Renne 
+                But first, let me ask you 
+    a few questions. 
+    
+
+
+ dialog_085  
+     Renne 
+                Could you think of anyone 
+    behind  all this. 
+    
+
+
+ dialog_086  
+     Sabrina 
+                 Cristiano.
+     
+    
+
+
+ dialog_087  
+     Renne 
+                Oh..
+     
+    
+
+
+ dialog_088  
+     Renne 
+                Why him? 
+     
+    
+
+
+ dialog_089  
+     Sabrina 
+                 He always seemed to hide 
+    something. Alice said it was his way,  
+    but I always had my suspicions.
+
+
+ dialog_090  
+     Renne 
+                About Alice, do you think 
+    she was taken to the lighthouse by  
+    force?
+
+
+ dialog_091  
+     Sabrina 
+                 No, she liked it there. 
+    I have a strong suspicion that she  
+    went with him without knowing more... 
+
+
+ dialog_092  
+     Renne 
+                Do you think it's a murder
+    case? 
+    
+
+
+ dialog_093  
+     Sabrina 
+                 Yes, after the police  
+    found the car they used abandoned at 
+    the ligthouse I felt it was a murder. 
+
+
+ dialog_094  
+     Renne 
+                Wait, Julia told me they
+    didn't have a car.  
+    
+
+
+ dialog_095  
+     Sabrina 
+                 They bought one recently. 
+    I know because I was at the car sale  
+    that day. 
+
+
+ dialog_096  
+     Renne 
+                Where and when this car
+    sale happen? And what car was it? 
+    
+
+
+ dialog_097  
+     Sabrina 
+                 It was in the church 
+    square, about ten days ago. And it 
+    was a green Golf.
+
+
+ dialog_098  
+     Renne 
+                Before you came here to 
+    investigate the office, you found  
+    anything else suspicious?
+
+
+ dialog_099  
+     Sabrina 
+                 Let me see..
+     
+    
+
+
+ dialog_100  
+     Sabrina 
+                 The burned dumpsters.
+     
+    
+
+
+ dialog_101  
+     Sabrina 
+                 Starting a week ago, 
+    someone begin to set fire to the  
+    city's dumpsters.
+
+
+ dialog_102  
+     Renne 
+                That time interval, there
+    is something there. 
+    
+
+
+ dialog_103  
+     Sabrina 
+                 Anything else? 
+      
+    
+
+
+ dialog_104
+  Choose your next question 
+      Press B to ask about Alice 
+      Press C to ask about Julia 
+
+
+ dialog_104_1_01
+     Renne 
+                Tell me more about Alice
+    how was she, what she liked to do in 
+    her spare time.. anything.
+
+
+ dialog_104_1_02
+     Sabrina 
+                 Alice? She was lovely.
+    We often travel together, either  
+    to the waterfall or anywhere else.
+
+
+ dialog_104_1_03
+     Renne 
+                You two were very close.. 
+    I imagine that after she fell in love 
+    with Cristiano everything changed.
+
+
+ dialog_104_1_04
+     Sabrina 
+                 Yes, I considered that 
+    to be the break of our friendship. 
+    
+
+
+ dialog_104_1_05
+     Renne 
+                Hmm. 
+     
+    
+
+
+ dialog_104_1_06
+     Renne 
+                Despite everything you 
+    still have a feeling for Alice,  
+    that's why you want this case.
+
+
+ dialog_104_1_07
+     Sabrina 
+                 ... 
+     
+    
+
+
+ dialog_104_1_08
+     Renne 
+                Without further ado, let's
+    enter Cristiano's office.  
+    
+
+
+ dialog_104_2_01
+     Renne 
+                Tell me more about Julia
+    how was she, what she liked to do in 
+    her spare time.. anything.
+
+
+ dialog_104_2_02
+     Sabrina 
+                 Julia? She is a good 
+    friend, we have worked together for  
+    years.
+
+
+ dialog_104_2_03
+     Renne 
+                What about her social 
+    life? 
+    
+
+
+ dialog_104_2_04
+     Sabrina 
+                 She is very closed, 
+    since I met her I have never seen her 
+    with anyone for more than a month.
+
+
+ dialog_104_2_05
+     Renne 
+                The same old Julia. 
+     
+    
+
+
+ dialog_104_2_06
+     Renne 
+                Do you believe that 
+    Julia would have hidden anything  
+    from my investigation?
+
+
+ dialog_104_2_07
+     Sabrina 
+                 Her social life. From 
+    what I know of Julia, I assume you  
+    two have a past. She probably hid
+
+
+ dialog_104_2_08
+     Sabrina 
+                 information about her 
+    mental health.  
+    
+
+
+ dialog_104_2_09
+     Renne 
+                Hmm. I can't do 
+    anything about this right now.  
+    
+
+
+ dialog_104_2_10
+     Renne 
+                Without further ado, let's
+    enter Cristiano's office.  
+    
+
+
+
+
+ dialog_106
+  Thirty minutes later. 
+      
+      
+
+
+ dialog_107
+  You and Sabrina spent thirty minutes  
+    searching Cristiano's office. 
+      
+
+
+
+ dialog_109
+     Sabrina 
+                 Damn it. 
+     
+    
+
+
+ dialog_110
+     Sabrina 
+                 There's nothing here. 
+     
+    
+
+
+ dialog_111
+     Renne 
+                This means that the 
+    reason behind the disappearance  
+    is not related work.
+
+
+ dialog_112
+     Sabrina 
+                 Hmm. 
+     
+    
+
+
+ dialog_113
+     Sabrina 
+                 That was a dead end.
+     
+    
+
+
+ dialog_114
+     Renne 
+                ... 
+     
+    
+
+
+ dialog_115
+     Renne 
+                Not so much.
+     
+    
+
+
+ dialog_116
+     Sabrina 
+                 Why?
+     
+    
+
+
+ dialog_117
+     Renne 
+                Julia told me that 
+    Cristiano often came to drink in the  
+    front bar of his office.
+
+
+ dialog_118
+     Renne 
+                We can work on the 
+    hypothesis that Cristiano made his  
+    decisions at the bar, not at work. 
+
+
+ dialog_119
+     Sabrina 
+                 Makes sense.
+     
+    
+
+
+ dialog_120
+     Sabrina 
+                 What will you do?
+     
+    
+
+
+ dialog_121
+     Renne 
+                Continue to investigate..  
+    You can continue to investigate on   
+    your own if you want. 
+
+
+ dialog_122
+     Sabrina 
+                 OK good luck.
+     
+    
+
+
+ dialog_123
+     Renne 
+                Same to you.  
+     
+    
+
+
+
+
+
+
+
+
+
+
+ dialog_125
+  Sao Bento do Oeste 
+    Church square 
+    Minutes later 
+
+
+
+ dialog_127
+     Carlos 
+                My job here is done.
+      
+     
+
+
+
+
+ dialog_129
+     Renne 
+                Hey... My name is Renne
+    I am running an investigation on a 
+    disappearance in this city.
+
+
+ dialog_130
+     Renne 
+                Can I talk to you for a 
+    second? 
+    
+
+
+ dialog_131
+     Carlos 
+                Of course. Ask me 
+    anything.  
+     
+
+
+ dialog_132
+     Renne 
+                What is your name, age  
+    and occupation? 
+    
+
+
+ dialog_133
+     Carlos 
+                My name Carlos, I am 18 
+    years old and I work as a delivery  
+    man in the city.
+
+
+ dialog_134
+     Renne 
+                Are the names Cristiano 
+    Machado and Alice Zena familiar to  
+    you?
+
+
+ dialog_135
+     Carlos 
+                I don't think so, the   
+    only Cristiano I know is Tulio..  
+    
+
+
+ dialog_136
+     Renne 
+                I don't know if we're  
+    talking about the same person. 
+    
+
+
+ dialog_137
+     Carlos 
+                He's a dentist, he has 
+    a clinic at the entrance to the  
+    city.
+
+
+ dialog_138
+     Renne 
+                Unfortunately it's not 
+    the man I'm looking for. 
+    
+
+
+ dialog_139
+     Carlos 
+                Sorry.
+     
+    
+
+
+ dialog_140
+     Renne 
+                There is something else
+    that you can help. 
+    
+
+
+ dialog_141
+     Renne 
+                In this square, about 
+    ten days ago a car sale took place. 
+    
+
+
+ dialog_142
+     Carlos 
+                Yes, the monthly car 
+    sale. 
+    
+
+
+ dialog_143
+     Renne 
+                Monthly!? 
+     
+    
+
+
+ dialog_144
+     Carlos 
+                Yes, every 15th day people 
+    with businesses around this square  
+    organize it.
+
+
+ dialog_145
+     Renne 
+                Good... good...
+     
+    
+
+
+ dialog_146
+     Renne 
+                At the last car sale a  
+    man named Cristiano bought a green  
+    Golf.
+
+
+ dialog_147
+     Renne 
+                I would like more   
+    information about. 
+    
+
+
+ dialog_148
+     Carlos 
+                I remember that.
+     
+    
+
+
+ dialog_149
+     Renne 
+                Tell me more about it.
+     
+    
+
+
+ dialog_150
+     Carlos 
+                It was a disputed sale, 
+    the man who won... what was his  
+    name...
+
+
+ dialog_151
+     Renne 
+                Cristiano.
+     
+    
+
+
+ dialog_152
+     Carlos 
+                Yes. He was very 
+    interested in the vehicle. 
+    
+
+
+ dialog_153
+     Renne 
+                Do you remember if he  
+    was with someone? 
+    
+
+
+ dialog_154
+     Carlos 
+                Hmm.
+     
+    
+
+
+ dialog_155
+     Carlos 
+                He was, there was a  
+    young man wearing a scarf with him. 
+    
+
+
+ dialog_156
+     Renne 
+                Wasn't there a woman with 
+    him? 
+    
+
+
+ dialog_157
+     Carlos 
+                No, it was just him and 
+    that man.  
+    
+
+
+ dialog_158
+     Renne 
+                Do you think there was 
+    any bond between the two? Friends,  
+    co-workers, family ...
+
+
+ dialog_159
+     Carlos 
+                I don't think so, they 
+    seemed distant.  
+    
+
+
+ dialog_160
+     Renne 
+                I get it.
+     
+    
+
+
+ dialog_161
+     Carlos 
+                Do you excuse me, I've 
+    a medical exam scheduled at the  
+    club today. I don't want to miss.
+
+
+ dialog_162
+     Renne 
+                Okay, you have been of 
+    great help. 
+    
+
+
+ dialog_163
+     Carlos 
+                You're welcome.
+     
+    
+
+
+
+
+
+ dialog_165
+  Thirty minutes later. 
+      
+      
+
+
+ dialog_166
+  You approached a girl who was  
+    in the square.  
+      
+
+
+
+ dialog_168
+     Renne 
+                My name is Renne, I am
+    running an investigation on the 
+    disappearance in this city.
+
+
+ dialog_169
+     Renne 
+                Can I ask you a few 
+    questions? It will take a few  
+    minutes.
+
+
+ dialog_170
+     Maria 
+                Of course, take your time.
+     
+    
+
+
+ dialog_171
+     Renne 
+                Perfect, first I would 
+    like to know your name, your age and  
+    your occupation.
+
+
+ dialog_172
+     Maria 
+                My name is Maria Vieira, 
+    I'm 18 years old and I'm a student. I  
+    don't have a job.
+
+
+ dialog_173
+     Renne 
+                Right... right...
+     
+    
+
+
+ dialog_174
+     Renne 
+                Here in this square 
+    there is a car sale. 
+    
+
+
+ dialog_175
+     Maria 
+                The monthly car sale.
+      
+    
+
+
+ dialog_176
+     Renne 
+                Precisely.
+      
+    
+
+
+ dialog_177
+     Renne 
+                Were you at the last? I 
+    have some questions about her.  
+    
+
+
+ dialog_178
+     Maria 
+    
+                I didn't go to them, I
+    don't have the money to buy a car.  
+    
+
+
+ dialog_179
+     Renne 
+                It makes sense, okay, I 
+    have another question. 
+    
+
+
+ dialog_180
+     Renne 
+                Are the names Cristiano 
+    Machado and Alice Zena familiar to  
+    you?
+
+
+ dialog_181
+     Maria 
+                I know these two, they 
+    are famous in the city, Cristiano is  
+    the most famous lawyer in the city.
+
+
+ dialog_182
+     Maria 
+                And Alice is a teacher, 
+    so all students know her, I think  
+    everyone knows these two.
+
+
+ dialog_183
+     Renne 
+                I see. These two  
+    disappeared a week ago in the city, I 
+    am investigating their disappearance.
+
+
+ dialog_184
+     Maria 
+                Oh my god... I didn't 
+    know that... I want to help you  
+    with whatever you needg.
+
+
+ dialog_185
+     Renne 
+                Thanks, about that do  
+    you remember any of the two doing  
+    something in the city? 
+
+
+ dialog_186
+     Maria 
+                Let me see... I remember 
+    Alice going to work normally, the   
+    last time I saw her.
+
+
+ dialog_187
+     Maria 
+                About Cristiano.. I 
+    don't remember seeing him in  
+    the last few days.. 
+
+
+ dialog_188
+     Renne 
+                About that... 
+     
+    
+
+
+ dialog_189
+     Maria 
+                But just to make it 
+    clear, this is normal, he did  
+    not walk around the city much.
+
+
+ dialog_190  
+     Maria 
+                Anything else? 
+      
+    
+
+
+ dialog_191
+  Choose your next question 
+      Press B to ask about Sabrina 
+      Press C to ask about Carlos 
+
+
+
+
+
+
+ dialog_191_1_01
+     Renne 
+                Minutes ago I was
+    investigating with a teacher from  
+    the city, Sabrina Freire.
+
+
+ dialog_191_1_02
+     Maria 
+                I know her.
+      
+    
+
+
+ dialog_191_1_03
+     Renne 
+                Do you have information 
+    about her? So I can confirm her   
+    testimony and build up a case.
+
+
+ dialog_191_1_04
+     Maria 
+                Let me see, Sabrina is a
+    little stubborn, she is open-minded  
+    and understands everyone's problem. 
+
+
+ dialog_191_1_05
+     Maria 
+                But once she puts something
+    in mind she doesn't give up. 
+     
+
+
+ dialog_191_1_06
+     Renne 
+                This is interesting.
+     
+    
+
+
+ dialog_191_1_07
+     Renne 
+                Do you believe that 
+    Sabrina would have hidden anything  
+    from my investigation?
+
+
+ dialog_191_1_08
+     Maria 
+                Absolutely not, she cares 
+    about Alice more than anyone. 
+    
+
+
+ dialog_191_1_09
+     Renne 
+                Why do you say that?
+     
+    
+
+
+ dialog_191_1_10
+     Maria 
+                These two have been 
+    friends since childhood. The two  
+    grew up in this city.
+
+
+ dialog_191_1_11
+     Renne 
+                I didn't know that, so it
+    really was the break of their 
+    friendship.
+
+
+ dialog_191_1_12
+     Maria 
+                It was something that
+    Sabrina told me.  
+    
+
+
+ dialog_191_1_13
+     Renne 
+                About her not hiding, do 
+    you really think she wouldn't lie? 
+    
+
+
+ dialog_191_1_14
+     Maria 
+                Yes I think, she's  like  
+    an open book. She always spoke during   
+    classes about her life.
+
+
+ dialog_191_1_15
+     Renne 
+                I see. 
+      
+    
+
+
+
+
+
+
+ dialog_191_2_01
+     Renne 
+                Minutes ago, here in the
+    square I interrogated a boy named  
+    Carlos...
+
+
+ dialog_191_2_02  
+     Maria 
+                What about him?
+      
+    
+
+
+ dialog_191_2_03
+     Renne 
+                Do you have information 
+    about him? So I can confirm his   
+    testimony and build up a case.
+
+
+ dialog_191_2_04  
+     Maria 
+                Unfortunately I don't
+    know this Carlos you mentioned, when  
+    I arrived you were writing alone.
+
+
+ dialog_191_2_05
+     Renne 
+                It's all right... 
+     
+    
+
+
+ dialog_191_2_06
+     Renne 
+                And what about you? In 
+    the past ten days have you seen  
+    anything strange?
+
+
+ dialog_191_2_07  
+     Maria 
+                Let me see...
+      
+    
+
+
+ dialog_191_2_08  
+     Maria 
+                I remembered something... 
+    a week ago I saw two men fighting on  
+    the street.
+
+
+ dialog_191_2_09  
+     Maria 
+                They were shouting at 
+    each other in the middle of the   
+    night.
+
+
+ dialog_191_2_10
+     Renne 
+                This is probably a dead 
+    end...   
+    
+
+
+ dialog_191_2_11
+     Renne 
+                Do you remember 
+    something that was shouted?  
+    
+
+
+ dialog_191_2_12  
+     Maria 
+                I remember them saying 
+    something about dealing with loose 
+    ends.
+
+
+ dialog_191_2_13
+     Renne 
+                Interesting. 
+      
+    
+
+
+
+
+
+
+ dialog_192
+     Renne 
+                Maria if you're not busy 
+    I have a few more questions for you.  
+    
+
+
+ dialog_193  
+     Maria 
+                Don't worry. I am not.
+     
+    
+
+
+ dialog_194
+     Renne 
+                About Cristiano, you said 
+    he was popular in the city, why do   
+    you say that?
+
+
+ dialog_195  
+     Maria 
+                He being a famous lawyer
+    in town, he had a lot of clients, so  
+    there was always someone who know him.
+
+
+ dialog_196
+     Renne 
+                So he was good at what he did.
+       
+    
+
+
+ dialog_197  
+     Maria 
+                Yes, according to his
+    customers... 
+    
+
+
+ dialog_198
+     Renne 
+                Do you know anything 
+    about his work in the past ten days? 
+    
+
+
+ dialog_199  
+     Maria 
+                No I'm sorry.
+     
+    
+
+
+ dialog_200
+     Renne 
+                It's all right.
+     
+    
+
+
+ dialog_201  
+     Renne 
+                I had other questions 
+    about him but I think that as you  
+    don't know, I don't add much.
+
+
+ dialog_202  
+     Maria 
+                ...
+     
+    
+
+
+ dialog_203  
+     Renne 
+                Before I forget, I wanted
+     to go to the city lighthouse, which 
+     way is it?
+
+
+ dialog_204  
+     Maria 
+                Keeps going towards the 
+    border of São Paulo, and them turn  
+    left. It is impossible to get lost.
+
+
+ dialog_205
+     Renne 
+                Got it. Thanks for 
+    everything Maria. 
+    
+
+
+ dialog_206  
+     Maria 
+                It was nothing.
+     
+    
+
+
+ dialog_207
+     Renne 
+                Is there anything I can 
+    do to make up for your lost time? 
+    
+
+
+ dialog_208  
+     Maria 
+                Don't worry, I didn't 
+    have anything important to do. If  
+    only the club was open...
+
+
+ dialog_209
+     Maria 
+                Anyway, have a nice day.
+     
+    
+
+
+ dialog_210
+     Renne 
+                You too.
+     
+    
+
+
+
+
+ dialog_212
+  Sao Bento do Oeste 
+    City Lighthouse 
+    Minutes later 
+
+
+
+ dialog_214
+     Lucas 
+                Finally.
+     
+    
+
+
+ dialog_215
+     Lucas 
+                The city lighthouse.
+     
+    
+
+
+ dialog_216
+     Renne 
+                Hey! You.
+     
+    
+
+
+
+
+ dialog_218
+     Renne 
+                Stop right there.
+     
+    
+
+
+ dialog_219
+     Lucas 
+                Okay..
+     
+    
+
+
+ dialog_220
+     Renne 
+                Wait a second.
+     
+    
+
+
+ dialog_221
+     Lucas 
+                It's all right.
+     
+    
+
+
+ dialog_222
+     Renne 
+                You are a suspect in the 
+    disappearance of Cristiano Machado  
+    and Alice Zena.
+
+
+ dialog_223
+     Lucas 
+                Me?!
+     
+    
+
+
+ dialog_224
+     Renne 
+                Yes, I need your name, 
+    age and occupation.  
+    
+
+
+ dialog_225
+     Lucas 
+                My name is Lucas Matos, I 
+    am 19 years old and I help out in the  
+    city hospital.
+
+
+ dialog_226
+     Renne 
+                Where were you ten days 
+    ago?  
+    
+
+
+ dialog_227
+     Lucas 
+                Ten days ago... it was a 
+    Saturday, so I was working at the  
+    hospital.
+
+
+ dialog_228
+     Renne 
+                What can you tell me 
+    about the city's monthly car sale? 
+    
+
+
+ dialog_229
+     Lucas 
+                I don't know what you 
+    want me to answer, I don't know  
+    much about.
+
+
+ dialog_230
+     Lucas 
+                I don't have the money to 
+    buy a car so I'm not going. 
+    
+
+
+ dialog_231
+     Renne 
+                Is the name Cristiano 
+    Machado similar to you? 
+    
+
+
+ dialog_232
+     Lucas 
+                Yes, he is the most 
+    famous lawyer in town everyone  
+    knows him.
+
+
+ dialog_233
+     Renne 
+                I have information that a 
+    young man of your age, wearing a scarf,  
+    was with Cristiano at this car sale.
+
+
+ dialog_234
+     Lucas 
+                It wasn't me, I was not
+    close to Cristiano. 
+    
+
+
+ dialog_235
+     Lucas 
+                A young man close to 
+    Cristiano... it's probably his  
+    brother.
+
+
+ dialog_236
+     Renne 
+                Does Cristiano have a
+    brother??? 
+    
+
+
+ dialog_237
+     Lucas 
+                Yes, he has my age. 
+     
+    
+
+
+ dialog_238
+     Renne 
+                Why Julia hide this 
+    information from me. 
+    
+
+
+ dialog_239
+     Lucas 
+                Few people know about his 
+    brother.  
+    
+
+
+ dialog_240
+     Lucas 
+                It would be dangerous for 
+    a famous criminal lawyer to have a  
+    known relative in the city.
+
+
+ dialog_241
+     Renne 
+                Uhm.
+     
+    
+
+
+ dialog_242
+     Renne 
+                Makes sense.
+     
+    
+
+
+ dialog_243
+     Renne 
+                Answer me some more 
+    questions... 
+    
+
+
+ dialog_244
+     Lucas 
+                Sure.
+     
+    
+
+
+ dialog_245
+     Renne 
+                Here, the Lightouse, is 
+    the last place that Cristiano and  
+    Alice were seen, why you came here?
+
+
+ dialog_246
+     Lucas 
+                I often come here to rest.
+     
+    
+
+
+ dialog_247
+     Renne 
+                Got it.
+     
+    
+
+
+ dialog_248
+  Choose your next question 
+      Press B to ask about Maria 
+      Press C to ask about Cris's brother 
+
+
+
+ dialog_248_1_01
+     Renne 
+                Minutes ago, at the
+    square I interrogated a girl named  
+    Maria...
+
+
+ dialog_248_1_02
+     Lucas 
+                Maria? Why did you bring 
+    that name? 
+    
+
+
+ dialog_248_1_03
+     Renne 
+                I just said... I 
+    interrogated her in the square  
+    minutes ago.
+
+
+ dialog_248_1_04
+     Lucas 
+                Tss. 
+     
+    
+
+
+ dialog_248_1_05
+     Renne 
+                Why are you so defensive?
+     
+    
+
+
+ dialog_248_1_06
+     Lucas 
+                I know Maria Vieira, she  
+    is my ex-girlfriend. 
+    
+
+
+ dialog_248_1_07
+     Renne 
+                I see, you are 
+    uncomfortable, you two must have had  
+    a bad break-up.
+
+
+ dialog_248_1_08
+     Lucas 
+                It is not about that.
+     
+    
+
+
+ dialog_248_1_09
+     Lucas 
+                I made a lot of mistakes 
+    in this life, especially in the way I  
+    treated Maria.
+
+
+ dialog_248_1_10
+     Renne 
+                It is okay, I made 
+    mistakes in past relationships too. 
+    
+
+
+ dialog_248_1_11
+     Renne 
+                It is by recognizing our 
+    mistakes and learning from them that  
+    we can become better persons.
+
+
+ dialog_248_1_12
+     Lucas 
+                Make sense, sorry about 
+    that, about before, what you asked 
+    about  Maria?
+
+
+ dialog_248_1_13
+     Renne 
+                Do you believe that 
+    Maria would have hidden anything  
+    from my investigation?
+
+
+ dialog_248_1_14
+     Lucas 
+                Maria? Impossible, she 
+    always wants to help others, no  
+    matter the cost.
+
+
+ dialog_248_1_15
+     Lucas 
+                This is good to know.
+     
+    
+
+
+
+
+ dialog_248_2_01
+     Renne 
+                Tell me more about this 
+    brother of Cristiano, I want to know  
+    everything you know about him.
+
+
+ dialog_248_2_02
+     Lucas 
+                I don't remember his 
+    first name, as far as I remember he  
+    was called Silva Macahado.
+
+
+ dialog_248_2_03
+     Renne 
+                How was his relationship 
+    with his brother? 
+    
+
+
+ dialog_248_2_04
+     Lucas 
+                It was very complicated, 
+    they were always fighting, but not in  
+    public.
+
+
+ dialog_248_2_05
+     Renne 
+                I see. What about his  
+    body... was he strong... tall... ? 
+    
+
+
+ dialog_248_2_06
+     Lucas 
+                He was normal like me. I 
+    remember that he had black hair and a  
+    scar on his neck.
+
+
+ dialog_248_2_07
+     Renne 
+                Copy. Do you have any 
+    other information about him that  
+    you want to tell me about?
+
+
+ dialog_248_2_08
+     Lucas 
+                I believe that even if he
+    is not involved, Silva Macahdo will   
+    know everything about what happened.
+
+
+ dialog_248_2_09
+     Renne 
+                Why you say that?
+     
+    
+
+
+ dialog_248_2_10
+     Lucas 
+                He was well informed, I
+    remember seeing Cristiano asking him 
+    information about the city many times
+
+
+ dialog_248_2_11
+     Renne 
+                Noted.
+     
+    
+
+
+
+ dialog_249
+     Renne 
+                You were of great help 
+    Lucas. Thanks for everything. 
+    
+
+
+ dialog_250
+     Lucas 
+                It was nothing.
+     
+    
+
+
+ dialog_251
+     Renne 
+                I will continue my 
+    investigation from here, have a  
+    great day.
+
+
+ dialog_252
+     Lucas 
+                You too.
+     
+    
+
+
+
+ dialog_254
+  Sao Bento do Oeste 
+    City Lighthouse 
+    Minutes later 
+
+
+
+
+ dialog_256
+     Renne 
+                You were of great help 
+    Lucas. Thanks for everything. 
+    
+
+
