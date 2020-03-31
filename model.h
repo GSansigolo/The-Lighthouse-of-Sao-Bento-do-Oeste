@@ -1,17 +1,22 @@
 #ifndef model
 #define model
 
-void draw_disclamer(void){
+void draw_intro(void){
     jo_clear_screen();
     set_background("ALERT.TGA", "BG"); 
     jo_set_printf_color_index(JO_COLOR_INDEX_White);
+
+    jo_spin_wait(0);
+    jo_clear_screen();
+    draw_menu();
 }
 
 void draw_menu(void){
+    jo_clear_screen();
     set_background("TITULO.TGA", "BG");
     jo_set_printf_color_index(JO_COLOR_INDEX_White);
     jo_printf(11, 23, "PRESS START BUTTON");
-    //jo_printf(34, 28, "@2020");
+    jo_printf(25, 28, "@NeptuneEngine");
     jo_printf(1, 28, "@G_Sansigolo");
 };
 
@@ -1721,8 +1726,8 @@ void dialog_195(void){
 
 void dialog_196(void){
     h("[ Renne ]");
-                d("So he was good at what he did.",1);
-    d("  ",2); 
+                d("So he was good at what he",1);
+    d("did.  ",2); 
     d("",3);
 }
 
@@ -1771,14 +1776,14 @@ void dialog_202(void){
 void dialog_203(void){  
     h("[ Renne ]");
                 d("Before I forget, I wanted",1);
-    d(" to go to the city lighthouse, which",2); 
-    d(" way is it?",3);
+    d("to go to the city lighthouse, which",2); 
+    d("way is it?",3);
 }
 
 void dialog_204(void){  
     h("[ Maria ]");
                 d("Keeps going towards the ",1);
-    d("border of São Paulo, and them turn ",2); 
+    d("border of Sao Paulo, and them turn ",2); 
     d("left. It is impossible to get lost.",3);
 }
 
@@ -1969,16 +1974,16 @@ void dialog_231(void){
 
 void dialog_232(void){
     h("[ Lucas ]");
-                d("Yes, he is the most ",1);
-    d("famous lawyer in town everyone ",2); 
-    d("knows him.",3);
+                d("Yes, he is the most famous",1);
+    d("lawyer in town everyone knows him.",2); 
+    d("",3);
 }
 
 void dialog_233(void){
     h("[ Renne ]");
-                d("I have information that a ",1);
-    d("young man of your age, wearing a scarf, ",2); 
-    d("was with Cristiano at this car sale.",3);
+                d("I've information that a man",1);
+    d("of your age, wearing a scarf, was with",2); 
+    d("Cristiano at this car sale.",3);
 }
 
 void dialog_234(void){
@@ -2318,11 +2323,200 @@ void dialog_255(void){
 }
 
 void dialog_256(void){
-    h("[ Renne ]");
-                d("You were of great help ",1);
-    d("Lucas. Thanks for everything.",2); 
+    d_n("You spent minutes looking for clues ",1);
+    d("at the Lighthouse.",2); 
     d("",3);
 }
 
+void dialog_257(void){
+    d_n("Unfortunately you did not find ",1);
+    d("anything useful.",2); 
+    d("",3);
+}
+
+void dialog_258(void){
+    h("[ Renne ]");
+                d("Damn it. Another dead end.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_259(void){
+    h("[ Renne ]");
+                d("Let me rethink the case.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_260(void){
+    h("[ Renne ]");
+                d("The two disappeared here, ",1);
+    d("in the lighthouse, a week ago.",2); 
+    d("",3);
+}
+
+void dialog_261(void){
+    h("[ Renne ]");
+                d("They had a good relation.",1);
+    d("However, Sabrina was suspicious of",2); 
+    d("Cristiano.",3);
+}
+
+void dialog_262(void){
+    h("[ Renne ]");
+                d("Let's think before, there ",1);
+    d("was the car fair. Cristiano and his ",2); 
+    d("brother bought a green Golf.",3);
+}
+
+void dialog_263(void){
+    h("[ Renne ]");
+                d("Days later they arrived ",1);
+    d("the Lighthouse by car. And they left ",2); 
+    d("the car here. What happened here?",3);
+}
+
+void dialog_264(void){
+    h("[ Renne ]");
+                d("Some pieces that still ",1);
+    d("didn't fit were the discussion ",2); 
+    d("listened to by Maria.",3);
+}
+
+void dialog_265(void){
+    h("[ Renne ]");
+                d("..dealing with loose ends.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_266(void){
+    h("[ Renne ]");
+                d("I can work with the ",1);
+    d("theory that the two were Cristiano ",2); 
+    d("and his brother. ",3);
+}
+
+void dialog_267(void){
+    h("[ Renne ]");
+                d("Another piece that still ",1);
+    d("doesn't fit is Cristiano's brother.",2); 
+    d("",3);
+}
+
+void dialog_268(void){
+    h("[ Renne ]");
+                d("If he knew everything, ",1);
+    d("then he was able to maintain frequent ",2); 
+    d("contact without arousing suspicion.",3);
+}
+
+void dialog_269(void){
+    h("[ Renne ]");
+                d("To do so he would need ",1);
+    d("to work with something that involved ",2); 
+    d("movement though the city.",3);
+}
+
+void dialog_270(void){
+  d_n("Choose your next deduction",1); 
+    d("  Press B to Carlos is Cris's brother",2); 
+    d("  Press C to Maria is Cris's sister",3); 
+}
+
+void dialog_270_1_01(void){
+    h("[ Renne ]");
+                d("Carlos is Cristiano's ",1);
+    d("brother!",2); 
+    d("",3);
+}
+
+void dialog_270_1_02(void){
+    h("[ Renne ]");
+                d("It makes sense, once he ",1);
+    d("knew that I was investigating his ",2); 
+    d("brother started to lie. ",3);
+}
+
+void dialog_270_1_03(void){
+    h("[ Renne ]");
+                d("This explains why he ",1);
+    d("points to Lucas as a suspect, he made ",2); 
+    d("me chase a false culprit.",3);
+}
+
+void dialog_270_1_04(void){
+    h("[ Renne ]");
+                d("And the burned dumps are ",1);
+    d("Carlos getting rid of thist brothers ",2); 
+    d("tracks.",3);
+}
+
+void dialog_270_1_05(void){
+    h("[ Renne ]");
+                d("Carlos has the answer for ",1);
+    d("everything. I need to find him.",2); 
+    d("",3);
+}
+
+void dialog_270_1_06(void){
+  d_n("You went to town to look for Carlos.",1); 
+    d("",2); 
+    d("",3); 
+}
+
+
+void dialog_270_2_01(void){
+    h("[ Renne ]");
+                d("Maria is Cristiano's ",1);
+    d("sister. It doesn't make a lot of ",2); 
+    d("sense.",3);
+}
+
+void dialog_270_2_02(void){
+    d_n("You followed a wrong lead and came ",1);
+    d("to a dead end.",2); 
+    d("",3);
+}
+
+void dialog_270_2_03(void){
+    d_n("You failed to solve the case.",1);
+    d("",2); 
+    d("",3);
+}
+
+
+void dialog_271(void){
+    jo_clear_screen();
+    set_background("SAIDA0.TGA", "BG");
+    dialog_272();
+}
+
+void dialog_272(void){
+
+  d_n("Sao Bento do Oeste",1); 
+    d("Minas Gerais - Brazil",2); 
+    d("City entrance",3); 
+}
+
+void dialog_273(void){
+    jo_clear_screen();
+    set_background("SAIDA.TGA", "BG");
+    dialog_274();
+}
+
+void dialog_274(void){
+    h("[ Renne ]");
+                d("1",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_275(void){
+    h("[ Renne ]");
+                d("2",1);
+    d("",2); 
+    d("",3);
+}
 
 #endif

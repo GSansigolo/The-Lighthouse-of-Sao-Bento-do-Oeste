@@ -14,7 +14,7 @@ void jo_main(void){
     jo_core_add_callback(controller);
 
     //draw main menu
-    draw_disclamer();
+    draw_intro();
 
     //run code
     jo_core_run();

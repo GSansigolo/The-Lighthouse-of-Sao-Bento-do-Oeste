@@ -2,7 +2,7 @@
 #define control
 
 //dialog pointer
-static int start_menu = 3;
+static int start_menu = 1;
 static int choice_pause = 0;
 static int d_pointer = 999;
 
@@ -11,6 +11,7 @@ static int knows_about_sabrinas_breakup = 0;
 static int knows_about_julias_mental_health = 0;
 static int knows_about_sabrina_friendship = 0;
 static int knows_about_the_arguing = 0;
+static int knows_about_the_brother = 0;
 
 //main controller function
 void controller(){
@@ -18,21 +19,12 @@ void controller(){
     //debugger
     //jo_set_printf_color_index(JO_COLOR_INDEX_White);
     //jo_printf(1, 1, "%d", d_pointer);
-    
-    //alert
-    if (jo_is_pad1_key_down(JO_KEY_START) || jo_is_pad1_key_down(JO_KEY_A) || jo_is_pad1_key_down(JO_KEY_B) || jo_is_pad1_key_down(JO_KEY_C)){
-        if(start_menu == 3){
-            start_menu = 1;
-            jo_clear_screen();
-            draw_menu();
-        }
-    } 
 
     //main menu
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
         jo_clear_screen();
-        d_pointer = 210;
+        d_pointer = 250;
         start();
     } 
 
@@ -146,6 +138,18 @@ void controller(){
         d_pointer = 256;
     } 
 
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 271){
+        jo_clear_screen();
+        dialog_271();
+        d_pointer = 272;
+    } 
+
+   if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 273){
+        jo_clear_screen();
+        dialog_273();
+        d_pointer = 274;
+    } 
+
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 104 && choice_pause == 1){
         jo_printf(1, 1, "%d", d_pointer);
         d_pointer = 104101;
@@ -174,7 +178,6 @@ void controller(){
         jo_clear_screen();
     } 
 
-
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 248 && choice_pause == 1){
         jo_printf(1, 1, "%d", d_pointer);
         d_pointer = 248101;
@@ -186,6 +189,22 @@ void controller(){
         jo_printf(1, 1, "%d", d_pointer);
         d_pointer = 248201;
         choice_pause = 0;
+        knows_about_the_brother = 1;
+        jo_clear_screen();
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 270 && choice_pause == 1){
+        jo_printf(1, 1, "%d", d_pointer);
+        d_pointer = 270101;
+        choice_pause = 0;
+        jo_clear_screen();
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 270 && choice_pause == 1){
+        jo_printf(1, 1, "%d", d_pointer);
+        d_pointer = 270201;
+        choice_pause = 0;
+        knows_about_the_brother = 1;
         jo_clear_screen();
     } 
 
@@ -227,6 +246,18 @@ void controller(){
         jo_clear_screen();
         dialog_249();
         d_pointer = 249;
+    } 
+
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 270106){
+        jo_clear_screen();
+        dialog_271();
+        d_pointer = 272;
+    } 
+    
+    if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 270204){
+        jo_clear_screen();
+        draw_intro();
+        start_menu = 1;
     } 
 
     //pointers jump
@@ -1217,7 +1248,110 @@ void controller(){
     if(d_pointer == 255)
         dialog_255();
         
+
+
+
+    if(d_pointer == 257)
+        dialog_257();
         
+    if(d_pointer == 258)
+        dialog_258();
+
+    if(d_pointer == 259)
+        dialog_259();
+
+    if(d_pointer == 260)
+        dialog_260();
+
+    if(d_pointer == 261)
+        dialog_261();
+        
+    if(d_pointer == 262)
+        dialog_262();
+   
+    if(d_pointer == 263)
+        dialog_263();
+   
+    if(d_pointer == 264){
+        if (knows_about_the_arguing == 1)
+            dialog_264();
+        else{
+            jo_clear_screen();
+            dialog_267();
+            d_pointer = 267;
+        }
+    }
+
+    if(d_pointer == 265)
+        dialog_265();
+   
+    if(d_pointer == 266)
+        dialog_266();
+   
+    if(d_pointer == 267){
+        if (knows_about_the_brother == 1)
+            dialog_267();
+        else{
+            jo_clear_screen();
+            dialog_270();
+            d_pointer = 270;
+        }
+    }
+        
+    if(d_pointer == 268)
+        dialog_268();
+   
+    if(d_pointer == 269)
+        dialog_269();
+   
+    if(d_pointer == 270){
+        dialog_270();
+        choice_pause = 1;
+    }
+
+    if(d_pointer == 270101)
+        dialog_270_1_01();
+
+    if(d_pointer == 270102)
+        dialog_270_1_02();
+    
+    if(d_pointer == 270103)
+        dialog_270_1_03();
+    
+    if(d_pointer == 270104)
+        dialog_270_1_04();
+    
+    if(d_pointer == 270105)
+        dialog_270_1_05();
+    
+    if(d_pointer == 270106)
+        dialog_270_1_06();
+   
+    if(d_pointer == 270106)
+        dialog_270_1_06();
+   
+
+    if(d_pointer == 270201)
+        dialog_270_2_01();
+
+    if(d_pointer == 270202)
+        dialog_270_2_02();
+
+    if(d_pointer == 270203)
+        dialog_270_2_03();
+
+
+    if(d_pointer == 272)
+        dialog_272();
+
+    if(d_pointer == 273)
+        dialog_273();
+
+
+    if(d_pointer == 275)
+        dialog_275();
+
+
 }
 
 #endif
