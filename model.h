@@ -2420,8 +2420,8 @@ void dialog_269(void){
 
 void dialog_270(void){
   d_n("Choose your next deduction",1); 
-    d("  Press B to Carlos is Cris's brother",2); 
-    d("  Press C to Maria is Cris's sister",3); 
+    d("Press B - Carlos is Cristiano brother",2); 
+    d("Press C - Maria is Cristiano sister",3); 
 }
 
 void dialog_270_1_01(void){
@@ -2507,15 +2507,234 @@ void dialog_273(void){
 
 void dialog_274(void){
     h("[ Renne ]");
-                d("1",1);
+                d("Where is he?",1);
     d("",2); 
     d("",3);
 }
 
 void dialog_275(void){
     h("[ Renne ]");
-                d("2",1);
+                d("I need to find him.",1);
     d("",2); 
+    d("",3);
+}
+
+void dialog_276(void){
+    h("[ Renne ]");
+                d("As soon as I find him, I",1);
+    d("will have my answers.",2); 
+    d("",3);
+}
+
+void dialog_277(void){
+    d_n("You spent minutes looking for Carlos ",1);
+    d("at the entrance to the city.",2); 
+    d("",3);
+}
+
+void dialog_278(void){
+    h("[ Renne ]");
+                d("...",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_279(void){
+    h("[ Renne ]");
+                d("Damn it, he's not here.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_280(void){
+    d_n("You continued to walk around the city",1);
+    d("to find him.",2); 
+    d("",3);
+}
+
+void dialog_281(void){
+    jo_clear_screen();
+    set_background("SAIDA0.TGA", "BG");
+    dialog_282();
+}
+
+void dialog_282(void){
+  d_n("Thirty minutes later.",1); 
+    d(" ",2); 
+    d(" ",3); 
+}
+
+void dialog_283(void){
+    jo_clear_screen();
+    set_background("SAIDA2.TGA", "BG");
+    dialog_284();
+}
+
+void dialog_284(void){
+    h("[ Renne ]");
+                d("Hey, stop right there!",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_285(void){
+    h("[ Carlos ]");
+                d("...",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_286(void){
+    h("[ Renne ]");
+                d("You are under arrest for ",1);
+    d("obstruction of evidence.",2); 
+    d("",3);
+}
+
+void dialog_287(void){
+    jo_clear_screen();
+    set_background("SAIDA0.TGA", "BG");
+    dialog_288();
+}
+
+void dialog_288(void){
+  d_n("Thirty minutes later.",1); 
+    d(" ",2); 
+    d(" ",3); 
+}
+
+void dialog_289(void){
+    jo_clear_screen();
+    set_background("SAIDA2.TGA", "BG");
+    dialog_290();
+}
+
+void dialog_290(void){
+    h("[ Renne ]");
+                d("I will ask only once, what ",1);
+    d("happened to Cristiano Machado and  ",2); 
+    d("Alice Zena.",3);
+}
+
+void dialog_291(void){
+    h("[ Carlos ]");
+                d("They are gone...",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_292(void){
+    h("[ Renne ]");
+                d("So it's really a murder ",1);
+    d("case.",2); 
+    d("",3);
+}
+
+void dialog_293(void){
+    h("[ Carlos ]");
+                d("It wasn't supposed to end ",1);
+    d("like this, Alice didn't do anything ",2); 
+    d("wrong.",3);
+}
+
+void dialog_294(void){
+    h("[ Renne ]");
+                d("What happened at the ",1);
+    d("lighthouse? Answer me.",2); 
+    d("",3);
+}
+
+void dialog_295(void){
+    h("[ Carlos ]");
+                d("A break up!",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_296(void){
+  d_n("You in your head started to put the",1); 
+    d("pieces together. ",2); 
+    d(" ",3); 
+}
+
+void dialog_297(void){
+    h("[ Renne ]");
+                d("After something involving",1);
+    d("the purchase of the car ten days ago.",2); 
+    d("Alice and Cristiano fought.",3);
+}
+
+void dialog_298(void){
+    h("[ Renne ]");
+                d("At the lighthouse, Alice ",1);
+    d("announced the end of their ",2); 
+    d("relationship.",3);
+}
+
+void dialog_299(void){
+    h("[ Renne ]");
+                d("Cristiano was shocked.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_300(void){
+    h("[ Renne ]");
+                d("You, as well informed, ",1);
+    d("found out about the end of their ",2); 
+    d("relationship.",3);
+}
+
+void dialog_301(void){
+  d_n("Choose who you think is the culprit",1); 
+    d("  Press B to choose Cristiano",2); 
+    d("  Press C to choose Carlos",3); 
+}
+
+void dialog_301_1_01(void){
+    h("[ Renne ]");
+                d("Cristiano is behind all ",1);
+    d("this. ",2); 
+    d("",3);
+}
+
+void dialog_301_2_01(void){
+    h("[ Renne ]");
+                d("You are behind all this.",1);
+    d(" ",2); 
+    d("",3);
+}
+
+void dialog_301_2_02(void){
+    d_n("You chose the wrong culprit. ",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_301_2_03(void){
+    d_n("You failed to solve the case.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_302(void){
+    h("[ Carlos ]");
+                d("...",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_303(void){
+    h("[ Renne ]");
+                d("Answer me.",1);
+    d(" ",2); 
+    d("",3);
+}
+
+void dialog_304(void){
+    h("[ Carlos ]");
+                d("Yes. He was the one who ",1);
+    d("made the whole mess.",2); 
     d("",3);
 }
 
