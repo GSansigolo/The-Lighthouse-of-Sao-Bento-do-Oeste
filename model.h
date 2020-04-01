@@ -2554,7 +2554,7 @@ void dialog_280(void){
 
 void dialog_281(void){
     jo_clear_screen();
-    set_background("SAIDA0.TGA", "BG");
+    set_background("IGREJA.TGA", "BG");
     dialog_282();
 }
 
@@ -2566,7 +2566,7 @@ void dialog_282(void){
 
 void dialog_283(void){
     jo_clear_screen();
-    set_background("SAIDA2.TGA", "BG");
+    set_background("IGREJA2.TGA", "BG");
     dialog_284();
 }
 
@@ -2593,7 +2593,7 @@ void dialog_286(void){
 
 void dialog_287(void){
     jo_clear_screen();
-    set_background("SAIDA0.TGA", "BG");
+    set_background("IGREJA.TGA", "BG");
     dialog_288();
 }
 
@@ -2605,7 +2605,7 @@ void dialog_288(void){
 
 void dialog_289(void){
     jo_clear_screen();
-    set_background("SAIDA2.TGA", "BG");
+    set_background("IGREJA2.TGA", "BG");
     dialog_290();
 }
 
@@ -2735,6 +2735,137 @@ void dialog_304(void){
     h("[ Carlos ]");
                 d("Yes. He was the one who ",1);
     d("made the whole mess.",2); 
+    d("",3);
+}
+
+void dialog_305(void){
+    h("[ Renne ]");
+                d("Explain everything to ",1);
+    d("me, maybe I can do something to ",2); 
+    d("lower your sentence. ",3);
+}
+
+void dialog_306(void){
+    h("[ Carlos ]");
+                d("Cristiano liked to drink,",1);
+    d("he always celebrated cases in the ",2); 
+    d("bar in front of his office.",3);
+}
+
+void dialog_307(void){
+    h("[ Carlos ]");
+                d("Ten days ago he managed ",1);
+    d("to buy a car at the city car sale.",2); 
+    d(" A green Golf.",3);
+}
+
+void dialog_308(void){
+    h("[ Carlos ]");
+                d("Unfortunately, two days ",1);
+    d("later, after one of his drinking, he ",2); 
+    d("did something horrible.",3);
+}
+void dialog_309(void){
+    h("[ Carlos ]");
+                d("He ran over a girl on ",1);
+    d("the street.",2); 
+    d("",3);
+}
+void dialog_310(void){
+    h("[ Carlos ]");
+                d("To maintain his status ",1);
+    d("as a renowned lawyer and hide his",2); 
+    d("crime he disappeared with the body.",3);
+}
+
+void dialog_311(void){
+    h("[ Carlos ]");
+                d("Until that moment, I ",1);
+    d("didn't get involved. Everything ",2); 
+    d("happened at the lighthouse.",3);
+}
+
+void dialog_312(void){
+    h("[ Carlos ]");
+                d("I am not sure how it ",1);
+    d("happened, but Alice found out about",2); 
+    d("it. ",3);
+}
+
+void dialog_313(void){
+    h("[ Carlos ]");
+                d("She break up with ",1);
+    d("Cristiano, and said she would speak ",2); 
+    d("to the authorities. ",3);
+}
+
+void dialog_314(void){
+    h("[ Carlos ]");
+                d("There, Cristiano killed ",1);
+    d("Alice.",2); 
+    d("",3);
+}
+
+void dialog_315(void){
+    h("[ Carlos ]");
+                d("A day later I found out ",1);
+    d("about everything, and went down to ",2); 
+    d("clean my brother.",3);
+}
+
+void dialog_316(void){
+    h("[ Carlos ]");
+                d("It was a busy day.",1);
+    d("",2); 
+    d("",3);
+}
+
+void dialog_317(void){
+    h("[ Carlos ]");
+                d("Unfortunately the loss",1);
+    d("of his girlfriend made Cristiano ",2); 
+    d("lose the will to live.",3);
+}
+
+void dialog_318(void){
+    h("[ Carlos ]");
+                d("And one day later hie ",1);
+    d("take his own life.",2); 
+    d("",3);
+}
+
+void dialog_319(void){
+    h("[ Carlos ]");
+                d("Since then I have been ",1);
+    d("burning evidence that could point to ",2); 
+    d("Cristiano. To cover the crime.",3);
+}
+
+void dialog_320(void){
+    h("[ Carlos ]");
+                d("For a brief moment I ",1);
+    d("thought that what I was doing was ",2); 
+    d("right, I was helping my brother.",3);
+}
+
+void dialog_321(void){
+    h("[ Carlos ]");
+                d("But I was wrong, he ",1);
+    d("didn't deserve it.",2); 
+    d("",3);
+}
+
+void dialog_322(void){
+    h("[ Renne ]");
+                d("I'm speechless.",1);
+    d(" ",2); 
+    d("",3);
+}
+
+void dialog_323(void){
+    h("[ Renne ]");
+                d("With your brother dead, ",1);
+    d("I hope you pay for your crimes. ",2); 
     d("",3);
 }
 

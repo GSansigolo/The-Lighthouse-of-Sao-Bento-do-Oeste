@@ -24,7 +24,7 @@ void controller(){
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
         jo_clear_screen();
-        d_pointer = 271;
+        d_pointer = 0;
         start();
     } 
 
@@ -1498,6 +1498,69 @@ void controller(){
     if(d_pointer == 304)
         dialog_304();
 
+    if(d_pointer == 305)
+        dialog_305();
+
+    if(d_pointer == 306)
+        dialog_306();
+
+    if(d_pointer == 307)
+        dialog_307();
+
+    if(d_pointer == 308)
+        dialog_308();
+
+    if(d_pointer == 309)
+        dialog_309();
+
+    if(d_pointer == 310)
+        dialog_310();
+
+    if(d_pointer == 311)
+        dialog_311();
+
+    if(d_pointer == 312)
+        dialog_312();
+
+    if(d_pointer == 313)
+        dialog_313();
+
+    if(d_pointer == 314)
+        dialog_314();
+
+    if(d_pointer == 315)
+        dialog_315();
+
+    if(d_pointer == 316)
+        dialog_316();
+
+    if(d_pointer == 317)
+        dialog_317();
+
+    if(d_pointer == 318)
+        dialog_318();
+
+    if(d_pointer == 319)
+        dialog_319();
+
+    if(d_pointer == 320)
+        dialog_320();
+
+    if(d_pointer == 321)
+        dialog_321();
+
+    if(d_pointer == 322)
+        dialog_322();
+
+    if(d_pointer == 323)
+        dialog_323();
+    
+    if(d_pointer == 324){
+        d_pointer = 999;
+        jo_clear_screen();
+        draw_intro();
+        start_menu = 1;
+    }
 }
 
 #endif
