@@ -26,7 +26,7 @@ static int knows_about_the_brother = 0;
 //main controller function
 void controller(){
 
-    //debugger
+    //debug
     //jo_set_printf_color_index(JO_COLOR_INDEX_White);
     //jo_printf(1, 1, "%d", d_pointer);
 
