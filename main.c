@@ -7,9 +7,9 @@
 //main function
 void jo_main(void){
 
-    //init screen      
+    //init screen
     jo_core_init(JO_COLOR_Black);
-    
+
     //callbacks
     jo_core_add_callback(controller);
 
@@ -18,4 +18,5 @@ void jo_main(void){
 
     //run code
     jo_core_run();
+
 }
