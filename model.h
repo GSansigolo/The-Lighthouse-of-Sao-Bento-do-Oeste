@@ -28,7 +28,7 @@ void draw_intro(void){
 
 void draw_menu(void){
     jo_clear_screen();
-    set_background("TITULO.TGA", "BG");
+    set_background("TITLE.TGA", "BG");
     jo_set_printf_color_index(JO_COLOR_INDEX_White);
     jo_printf(11, 23, "PRESS START BUTTON");
     jo_printf(25, 28, "@NeptuneEngine");
@@ -37,7 +37,7 @@ void draw_menu(void){
 
 void start(void){
     jo_clear_screen();
-    set_background("CARTA.TGA", "BG");
+    set_background("LETTER.TGA", "BG");
     dialog_000();
 }
 
@@ -91,7 +91,7 @@ void dialog_007(void){
 
 void dialog_008(void){
     jo_clear_screen();
-    set_background("SAIDA0.TGA", "BG");
+    set_background("EXIT0.TGA", "BG");
     dialog_009();
 }
 
@@ -111,7 +111,7 @@ void dialog_010(void){
 
 void dialog_011(void){
     jo_clear_screen();
-    set_background("SAIDA.TGA", "BG");
+    set_background("EXIT.TGA", "BG");
     dialog_012();
 }
 
@@ -131,7 +131,7 @@ void dialog_013(void){
 
 void dialog_014(void){
     jo_clear_screen();
-    set_background("SAIDA2.TGA", "BG");
+    set_background("EXIT2.TGA", "BG");
     dialog_015();
 }
 
@@ -502,7 +502,7 @@ void dialog_066(void){
 
 void dialog_067(void){
     jo_clear_screen();
-    set_background("RUA0.TGA", "BG");
+    set_background("STREET0.TGA", "BG");
     dialog_068();
 }
 
@@ -514,7 +514,7 @@ void dialog_068(void){
 
 void dialog_069(void){
     jo_clear_screen();
-    set_background("RUA.TGA", "BG");
+    set_background("STREET.TGA", "BG");
     dialog_070();
 }
 
@@ -548,7 +548,7 @@ void dialog_073(void){
 
 void dialog_074(void){
     jo_clear_screen();
-    set_background("RUA2.TGA", "BG");
+    set_background("STREET2.TGA", "BG");
     dialog_075();
 }
 
@@ -889,7 +889,7 @@ void dialog_420(void){
 
 void dialog_105(void){
     jo_clear_screen();
-    set_background("RUA0.TGA", "BG");
+    set_background("STREET0.TGA", "BG");
     dialog_106();
 }
 
@@ -907,7 +907,7 @@ void dialog_107(void){
 
 void dialog_108(void){
     jo_clear_screen();
-    set_background("RUA2.TGA", "BG");
+    set_background("STREET2.TGA", "BG");
     dialog_106();
 }
 
@@ -1018,7 +1018,7 @@ void dialog_123(void){
 
 void dialog_124(void){
     jo_clear_screen();
-    set_background("IGREJA.TGA", "BG");
+    set_background("CHURCH.TGA", "BG");
     dialog_106();
 }
 
@@ -1030,7 +1030,7 @@ void dialog_125(void){
 
 void dialog_126(void){
     jo_clear_screen();
-    set_background("IGREJA1.TGA", "BG");
+    set_background("CHURCH1.TGA", "BG");
     dialog_127();
 }
 
@@ -1043,7 +1043,7 @@ void dialog_127(void){
 
 void dialog_128(void){
     jo_clear_screen();
-    set_background("IGREJA2.TGA", "BG");
+    set_background("CHURCH2.TGA", "BG");
     dialog_129();
 }
 
@@ -1294,7 +1294,7 @@ void dialog_163(void){
 
 void dialog_164(void){
     jo_clear_screen();
-    set_background("IGREJA.TGA", "BG");
+    set_background("CHURCH.TGA", "BG");
     dialog_165();
 }
 
@@ -1312,7 +1312,7 @@ void dialog_166(void){
 
 void dialog_167(void){
     jo_clear_screen();
-    set_background("IGREJA3.TGA", "BG");
+    set_background("CHURCH3.TGA", "BG");
     dialog_168();
 }
 
@@ -1815,7 +1815,7 @@ void dialog_210(void){
 
 void dialog_211(void){
     jo_clear_screen();
-    set_background("FAROL.TGA", "BG");
+    set_background("LIGHT.TGA", "BG");
     dialog_212();
 }
 
@@ -1827,7 +1827,7 @@ void dialog_212(void){
 
 void dialog_213(void){
     jo_clear_screen();
-    set_background("FAROL1.TGA", "BG");
+    set_background("LIGHT1.TGA", "BG");
     dialog_214();
 }
 
@@ -1854,7 +1854,7 @@ void dialog_216(void){
 
 void dialog_217(void){
     jo_clear_screen();
-    set_background("FAROL2.TGA", "BG");
+    set_background("LIGHT2.TGA", "BG");
     dialog_214();
 }
 
@@ -2287,7 +2287,7 @@ void dialog_252(void){
 
 void dialog_253(void){
     jo_clear_screen();
-    set_background("FAROL.TGA", "BG");
+    set_background("LIGHT.TGA", "BG");
     dialog_254();
 }
 
@@ -2299,7 +2299,7 @@ void dialog_254(void){
 
 void dialog_255(void){
     jo_clear_screen();
-    set_background("FAROL3.TGA", "BG");
+    set_background("LIGHT3.TGA", "BG");
     dialog_256();
 }
 
@@ -2467,7 +2467,7 @@ void dialog_513(void){
 
 void dialog_271(void){
     jo_clear_screen();
-    set_background("SAIDA0.TGA", "BG");
+    set_background("EXIT0.TGA", "BG");
     dialog_272();
 }
 
@@ -2480,7 +2480,7 @@ void dialog_272(void){
 
 void dialog_273(void){
     jo_clear_screen();
-    set_background("SAIDA.TGA", "BG");
+    set_background("EXIT.TGA", "BG");
     dialog_274();
 }
 
@@ -2533,7 +2533,7 @@ void dialog_280(void){
 
 void dialog_281(void){
     jo_clear_screen();
-    set_background("IGREJA.TGA", "BG");
+    set_background("CHURCH.TGA", "BG");
     dialog_282();
 }
 
@@ -2545,7 +2545,7 @@ void dialog_282(void){
 
 void dialog_283(void){
     jo_clear_screen();
-    set_background("IGREJA2.TGA", "BG");
+    set_background("CHURCH2.TGA", "BG");
     dialog_284();
 }
 
@@ -2572,7 +2572,7 @@ void dialog_286(void){
 
 void dialog_287(void){
     jo_clear_screen();
-    set_background("IGREJA.TGA", "BG");
+    set_background("CHURCH.TGA", "BG");
     dialog_288();
 }
 
@@ -2584,7 +2584,7 @@ void dialog_288(void){
 
 void dialog_289(void){
     jo_clear_screen();
-    set_background("IGREJA2.TGA", "BG");
+    set_background("CHURCH2.TGA", "BG");
     dialog_290();
 }
 
