@@ -46,25 +46,23 @@ void dialog_282(void);
 
 void draw_intro(void){
     define_dialogs();
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("ALERT.TGA", "BG");
-    jo_set_printf_color_index(JO_COLOR_INDEX_White);
     jo_spin_wait(0);
-    jo_clear_screen();
+    jo_nbg2_clear();
     draw_menu();
 }
-
+/*
 void draw_menu(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("TITLE.TGA", "BG");
-    jo_set_printf_color_index(JO_COLOR_INDEX_White);
-    jo_printf(11, 23, "PRESS START BUTTON");
-    jo_printf(25, 28, "@NeptuneEngine");
-    jo_printf(1, 28, "@G_Sansigolo");
+    jo_nbg2_printf(11, 23, "PRESS START BUTTON");
+    jo_nbg2_printf(25, 28, "@NeptuneEngine");
+    jo_nbg2_printf(1, 28, "@G_Sansigolo");
 };
 
 void start(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("LETTER.TGA", "BG");
     dialog_000();
 }
@@ -118,7 +116,7 @@ void dialog_007(void){
 }
 
 void dialog_008(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("EXIT0.TGA", "BG");
     dialog_009();
 }
@@ -138,7 +136,7 @@ void dialog_010(void){
 }
 
 void dialog_011(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("EXIT.TGA", "BG");
     dialog_012();
 }
@@ -158,7 +156,7 @@ void dialog_013(void){
 }
 
 void dialog_014(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("EXIT2.TGA", "BG");
     dialog_015();
 }
@@ -529,7 +527,7 @@ void dialog_066(void){
 }
 
 void dialog_067(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("STREET0.TGA", "BG");
     dialog_068();
 }
@@ -541,7 +539,7 @@ void dialog_068(void){
 }
 
 void dialog_069(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("STREET.TGA", "BG");
     dialog_070();
 }
@@ -575,7 +573,7 @@ void dialog_073(void){
 }
 
 void dialog_074(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("STREET2.TGA", "BG");
     dialog_075();
 }
@@ -916,7 +914,7 @@ void dialog_420(void){
 }
 
 void dialog_105(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("STREET0.TGA", "BG");
     dialog_106();
 }
@@ -934,7 +932,7 @@ void dialog_107(void){
 }
 
 void dialog_108(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("STREET2.TGA", "BG");
     dialog_106();
 }
@@ -1045,7 +1043,7 @@ void dialog_123(void){
 }
 
 void dialog_124(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH.TGA", "BG");
     dialog_106();
 }
@@ -1057,7 +1055,7 @@ void dialog_125(void){
 }
 
 void dialog_126(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH1.TGA", "BG");
     dialog_127();
 }
@@ -1070,7 +1068,7 @@ void dialog_127(void){
 }
 
 void dialog_128(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH2.TGA", "BG");
     dialog_129();
 }
@@ -1321,7 +1319,7 @@ void dialog_163(void){
 }
 
 void dialog_164(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH.TGA", "BG");
     dialog_165();
 }
@@ -1339,7 +1337,7 @@ void dialog_166(void){
 }
 
 void dialog_167(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH3.TGA", "BG");
     dialog_168();
 }
@@ -1842,7 +1840,7 @@ void dialog_210(void){
 }
 
 void dialog_211(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("LIGHT.TGA", "BG");
     dialog_212();
 }
@@ -1854,7 +1852,7 @@ void dialog_212(void){
 }
 
 void dialog_213(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("LIGHT1.TGA", "BG");
     dialog_214();
 }
@@ -1881,7 +1879,7 @@ void dialog_216(void){
 }
 
 void dialog_217(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("LIGHT2.TGA", "BG");
     dialog_214();
 }
@@ -2314,7 +2312,7 @@ void dialog_252(void){
 }
 
 void dialog_253(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("LIGHT.TGA", "BG");
     dialog_254();
 }
@@ -2326,7 +2324,7 @@ void dialog_254(void){
 }
 
 void dialog_255(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("LIGHT3.TGA", "BG");
     dialog_256();
 }
@@ -2494,7 +2492,7 @@ void dialog_513(void){
 }
 
 void dialog_271(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("EXIT0.TGA", "BG");
     dialog_272();
 }
@@ -2507,7 +2505,7 @@ void dialog_272(void){
 }
 
 void dialog_273(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("EXIT.TGA", "BG");
     dialog_274();
 }
@@ -2560,7 +2558,7 @@ void dialog_280(void){
 }
 
 void dialog_281(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH.TGA", "BG");
     dialog_282();
 }
@@ -2572,7 +2570,7 @@ void dialog_282(void){
 }
 
 void dialog_283(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH2.TGA", "BG");
     dialog_284();
 }
@@ -2599,7 +2597,7 @@ void dialog_286(void){
 }
 
 void dialog_287(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH.TGA", "BG");
     dialog_288();
 }
@@ -2611,7 +2609,7 @@ void dialog_288(void){
 }
 
 void dialog_289(void){
-    jo_clear_screen();
+    jo_nbg2_clear();
     set_background("CHURCH2.TGA", "BG");
     dialog_290();
 }
@@ -2874,6 +2872,2828 @@ void dialog_324(void){
                 d("With your brother dead, ",1);
     d("I hope you pay for your crimes. ",2);
     d("",3);
+}
+*/
+
+void draw_menu(void){
+    jo_nbg2_clear();
+    set_background("TITLE.TGA", "BG");
+    jo_nbg2_printf(11, 23, "àèìòùáéíóúýâêîôûãñõ¿");
+    jo_nbg2_printf(25, 28, "@NeptuneEngine");
+    jo_nbg2_printf(1, 28, "@G_Sansigolo");
+};
+
+void start(void){
+    jo_nbg2_clear();
+    set_background("LETTER.TGA", "BG");
+    dialog_000();
+}
+
+void dialog_000(void){
+  d_n("Eres el famoso detective Renne",1);
+    d("Bras. Empezaste tu carrera hace",2);
+    d("siete años, tras acabar tu",3);
+}
+
+void dialog_001(void){
+  d_n("relación más duradera. La fama",1);
+    d("te llegó tras resolver el caso",2);
+    d("de los secuestros en la capital.",3);
+}
+
+void dialog_002(void){
+  d_n("Y, desde entonces, no has vuelto",1);
+    d("a aceptar casos de desapariciones.",2);
+    d("",3);
+}
+
+void dialog_003(void){
+  d_n("Hace unos días, recibiste una",1);
+    d("carta de una vieja amiga y todo",2);
+    d("cambió.",3);
+}
+
+void dialog_004(void){
+  d_n("¡Cuánto tiempo Renne! Te escribo",1);
+    d("porque eres mi última esperanza.",2);
+    d("Hace una semana que no se nada de",3);
+}
+
+void dialog_005(void){
+  d_n("unos amigos. He hablado con la",1);
+    d("policía, pero no han encontrado",2);
+    d("pruebas con las que poder investigar.",3);
+}
+
+void dialog_006(void){
+  d_n("Me gustaría contratarte para este",1);
+    d("caso. Vivo en Sao Bento do Oeste,",2);
+    d("Minas Gerais, que está pegado a",3);
+}
+
+void dialog_007(void){
+  d_n("Sao Paulo. Por favor, eres mi",1);
+    d("única esperanza, detective Bras.",2);
+    d("Con cariño, - Julia.",3);
+}
+
+void dialog_008(void){
+    jo_nbg2_clear();
+    set_background("EXIT0.TGA", "BG");
+    dialog_009();
+}
+
+void dialog_009(void){
+
+  d_n("Sao Bento do Oeste",1);
+    d("Minas Gerais - Brasil",2);
+    d("Entrada de la ciudad",3);
+
+}
+
+void dialog_010(void){
+  d_n("Nos vemos a las cuatro de la tarde",1);
+    d("en la entrada de la ciudad.",2);
+    d("                             - Julia.",3);
+}
+
+void dialog_011(void){
+    jo_nbg2_clear();
+    set_background("EXIT.TGA", "BG");
+    dialog_012();
+}
+
+void dialog_012(void){
+    h("[ Renne ]");
+                d("Sao Bento do Oeste, ya",1);
+    d("estoy aquí.",2);
+    d("",3);
+}
+
+void dialog_013(void){
+    h("[ Julia ]");
+                d("¡Renne!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_014(void){
+    jo_nbg2_clear();
+    set_background("EXIT2.TGA", "BG");
+    dialog_015();
+}
+
+void dialog_015(void){
+    h("[ Julia ]");
+                d("¡Has venido!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_016(void){
+    h("[ Renne ]");
+                d("No iba a dejar tirada a",1);
+    d("una vieja amiga.",2);
+    d("",3);
+}
+
+void dialog_017(void){
+    h("[ Julia ]");
+                d("Hace mucho de la última",1);
+    d("vez.",2);
+    d("",3);
+}
+
+void dialog_018(void){
+    h("[ Renne ]");
+                d("Y tanto que sí.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_019(void){
+    h("[ Renne ]");
+                d("Me pasaría todo el día",1);
+    d("hablando contigo pero...",2);
+    d("",3);
+}
+
+void dialog_020(void){
+    h("[ Julia ]");
+                d("¡Ostras! Es verdad,",1);
+    d("el caso.",2);
+    d("",3);
+}
+
+void dialog_021(void){
+    h("[ Renne ]");
+                d("Quería hacerte unas ",1);
+    d("preguntas y puedes preguntame lo",2);
+    d("que quieras, ¿de acuerdo?",3);
+}
+
+void dialog_022(void){
+    h("[ Julia ]");
+                d("Entendido.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_023(void){
+    h("[ Renne ]");
+                d("Esos amigos tuyos que",1);
+    d("mencionas en la carta, ¿quiénes",2);
+    d("son?",3);
+}
+
+void dialog_024(void){
+    h("[ Julia ]");
+                d("Cristiano Machado y",1);
+    d("Alice Zena. Hace unos tres años",2);
+    d("que los conocí.",3);
+}
+
+void dialog_025(void){
+    h("[ Julia ]");
+                d("¿Qué me puedes decir ",1);
+    d("sobre su relación? ¿Son amigos",2);
+    d("o hay algo más?",3);
+}
+
+void dialog_026(void){
+    h("[ Julia ]");
+                d("Han quedado alguna",1);
+    d("vez. Alice me dijo que estaba",2);
+    d("esperando que le pidiera salir.",3);
+}
+
+void dialog_027(void){
+    h("[ Renne ]");
+                d("Entiendo. ¿A qué se ",1);
+    d("dedican?",2);
+    d("",3);
+}
+
+void dialog_028(void){
+    h("[ Julia ]");
+                d("Cristiano es abogado, su",1);
+    d("oficina está en el 15 March Street,",2);
+    d("la calle principal de la ciudad.",3);
+}
+
+void dialog_029(void){
+    h("[ Julia ]");
+                d("Alice es profesora de ",1);
+    d("portugués en mi colegio.",2);
+    d("",3);
+}
+
+void dialog_030(void){
+    h("[ Renne ]");
+                d("¿Cómo describirías la",1);
+    d("relación de ambos?",2);
+    d("",3);
+}
+
+void dialog_031(void){
+    h("[ Julia ]");
+                d("Nunca los he visto ",1);
+    d("pelearse, siempre parecen estar ",2);
+    d("muy unidos. Hacen buena pareja.",3);
+}
+
+void dialog_032(void){
+    h("[ Renne ]");
+                d("Mmm... ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_033(void){
+    h("[ Julia ]");
+                d("¿Acaso he dicho algo",1);
+    d("malo?",2);
+    d("",3);
+}
+
+void dialog_034(void){
+    h("[ Renne ]");
+                d("Para nada, es simplemente",1);
+    d("que acabo de recordar algo.",2);
+    d("Continúa, por favor.",3);
+}
+
+void dialog_035(void){
+    h("[ Julia ]");
+                d("Eran... Quiero decir,",1);
+    d("son una pareja maravillosa.",2);
+    d("",3);
+}
+
+void dialog_036(void){
+    h("[ Renne ]");
+                d("Parece que estabas mucho",1);
+    d("más unida a Alice que a Cristiano,",2);
+    d("¿me equivoco?",3);
+}
+
+void dialog_037(void){
+    h("[ Julia ]");
+                d("No te equivocas.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_038(void){
+    h("[ Renne ]");
+                d("¿Algo que sepas sobre ",1);
+    d("la vida de Cristiano, más allá de",2);
+    d("lo que te contara Alice?",3);
+}
+
+void dialog_039(void){
+    h("[ Julia ]");
+                d("Si no recuerdo mal, ",1);
+    d("solía beber en el bar que había ",2);
+    d("enfrente de su oficina.",3);
+}
+
+void dialog_040(void){
+    h("[ Renne ]");
+                d("¿Conocías a Cristiano",1);
+    d("antes de su relación con Alice?",2);
+    d("",3);
+}
+
+void dialog_041(void){
+    h("[ Julia ]");
+                d("Pero solo de vista.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_042(void){
+    h("[ Renne ]");
+                d("Bien. ¿Cómo te diste",1);
+    d("cuenta de que los dos habían",2);
+    d("desaparecido?",3);
+}
+
+void dialog_043(void){
+    h("[ Julia ]");
+                d("Ninguno de los dos tiene",1);
+    d("coche, así que los veía todos los",2);
+    d("días de camino al trabajo.",3);
+}
+
+void dialog_044(void){
+    h("[ Julia ]");
+                d("Hace justo una semana ",1);
+    d("Alice me comentó que quería ir",2);
+    d("al faro.",3);
+}
+
+void dialog_045(void){
+    h("[ Renne ]");
+                d("¿Al faro?",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_046(void){
+    h("[ Julia ]");
+                d("Así es, el faro de la",1);
+    d("ciudad.",2);
+    d("",3);
+}
+
+void dialog_047(void){
+    h("[ Renne ]");
+                d("¿Se puede saber por qué",1);
+    d("esta ciudad tiene faro? Estamos en",2);
+    d("Minas Gerais, aquí no hay mar.",3);
+}
+
+void dialog_048(void){
+    h("[ Julia ]");
+                d("Es el monumento más",1);
+    d("importante de la ciudad, se construyó",2);
+    d("como reclamo turístico.",3);
+}
+
+void dialog_049(void){
+    h("[ Renne ]");
+                d("Bueno, da igual,",1);
+    d("continúa.",2);
+    d("",3);
+}
+
+void dialog_050(void){
+    h("[ Julia ]");
+                d("Alice me dijo que iba",1);
+    d("a ir al faro y pense que Cristiano",2);
+    d("se ofrecería a ir con ella.",3);
+}
+
+void dialog_051(void){
+    h("[ Renne ]");
+                d("Oh.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_052(void){
+    h("[ Julia ]");
+                d("Ya no he vuelto a saber ",1);
+    d("de ellos desde entonces, ninguno ha ",2);
+    d("pisado por sus respectivos trabajos,",3);
+}
+
+void dialog_053(void){
+    h("[ Julia ]");
+                d("sus casas están vacías ",1);
+    d("y por lo que he oído, nadie los ha",2);
+    d("vuelto a ver.",3);
+}
+
+
+void dialog_054(void){
+    h("[ Renne ]");
+                d("Entiendo. ¿Hay algo más ",1);
+    d("que quieras comentarme? ",2);
+    d("",3);
+}
+
+void dialog_055(void){
+    h("[ Julia ]");
+                d("No, creo que no.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_056(void){
+    h("[ Renne ]");
+                d("Perfecto. Pues voy a ",1);
+    d("darme una vuelta por la ciudad para",2);
+    d("recopilar algunos testimonios.",3);
+}
+
+void dialog_057(void){
+    h("[ Julia ]");
+                d("Me parece bien.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_058(void){
+    h("[ Julia ]");
+                d("¿Quieres que te",1);
+    d("acompañe?",2);
+    d("",3);
+}
+
+void dialog_059(void){
+    h("[ Renne ]");
+                d("Me encantaría, pero puede",1);
+    d("que tu presencia condicionara los",2);
+    d("testimonios.",3);
+}
+
+void dialog_060(void){
+    h("[ Julia ]");
+                d("¡Vaya! No había caido",1);
+    d("en eso.",2);
+    d("",3);
+}
+
+void dialog_061(void){
+    h("[ Renne ]");
+                d("No te preocupes, ",1);
+    d("estoy acostumbrado a trabajar así.",2);
+    d("",3);
+}
+
+void dialog_062(void){
+    h("[ Julia ]");
+                d("¡Que tengas un buen día!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_063(void){
+    h("[ Renne ]");
+                d("Igualmente.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_064(void){
+    h("[ Renne ]");
+                d("¡Ah! Antes de que se me ",1);
+    d("olvide. Cuando todo esto acabe,",2);
+    d("tu y yo tendremos esa cena.",3);
+}
+
+void dialog_065(void){
+    h("[ Julia ]");
+                d("Ya veo que sigues",1);
+    d("recordando aquello...",2);
+    d("",3);
+}
+
+void dialog_066(void){
+    h("[ Julia ]");
+                d("Venga vale, trato hecho.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_067(void){
+    jo_nbg2_clear();
+    set_background("STREET0.TGA", "BG");
+    dialog_068();
+}
+
+void dialog_068(void){
+  d_n("Sao Bento do Oeste",1);
+    d("15 de March Street",2);
+    d("Unos minutos más tarde",3);
+}
+
+void dialog_069(void){
+    jo_nbg2_clear();
+    set_background("STREET.TGA", "BG");
+    dialog_070();
+}
+
+void dialog_070(void){
+    h("[ Sabrina ]");
+                d(" ¡Maldita sea! ¿Quién",1);
+    d("diablos está haciendo esto?",2);
+    d("",3);
+}
+
+void dialog_071(void){
+    h("[ Sabrina ]");
+                d(" Voy a encontrar a los",1);
+    d("responsables de quemar todos estos  ",2);
+    d("contenedores. ¡Bárbaros!",3);
+}
+
+void dialog_072(void){
+    h("[ Sabrina ]");
+                d(" No importa, ya estoy ",1);
+    d("aquí. La oficina de Cristiano, ",2);
+    d("acabemos con esto. ",3);
+}
+
+void dialog_073(void){
+    h("[ Renne ]");
+                d("¡Oiga! ¡Deténgase! ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_074(void){
+    jo_nbg2_clear();
+    set_background("STREET2.TGA", "BG");
+    dialog_075();
+}
+
+void dialog_075(void){
+    h("[ Renne ]");
+                d("El lugar está cerrado, ",1);
+    d("hay una investigación en marcha. ",2);
+    d("No puede entrar.",3);
+}
+
+void dialog_076(void){
+    h("[ Sabrina ]");
+                d(" Lo sé, por eso estoy ",1);
+    d("aquí.",2);
+    d("",3);
+}
+
+void dialog_077(void){
+    h("[ Renne ]");
+                d("¿Quién es usted?",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_078(void){
+    h("[ Sabrina ]");
+                d(" ¡Tú primero! No soy  ",1);
+    d("yo la que va acusando a la gente.",2);
+    d("",3);
+}
+
+void dialog_079(void){
+    h("[ Renne ]");
+                d("Vale. Me llamo Renne",1);
+    d("Bras y me han contratado como",2);
+    d("detective en este caso.",3);
+}
+
+void dialog_080(void){
+    h("[ Sabrina ]");
+                d(" ¿Eres amigo de Julia?",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_081(void){
+    h("[ Renne ]");
+                d("Así es, y tú eres...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_082(void){
+    h("[ Sabrina ]");
+                d(" Me llamo Sabrina y soy",1);
+    d("profesora en el colegio de Alice.",2);
+    d("También estoy investigando el caso.",3);
+}
+
+void dialog_083(void){
+    h("[ Renne ]");
+                d("Ya veo, entonces  ",1);
+    d("podemos entrar juntos.",2);
+    d("",3);
+}
+
+void dialog_084(void){
+    h("[ Renne ]");
+                d("Pero antes permíteme ",1);
+    d("hacerte unas cuantas preguntas.",2);
+    d("",3);
+}
+
+void dialog_085(void){
+    h("[ Renne ]");
+                d("¿Se te ocurre alguien que ",1);
+    d("pueda estar detrás de todo esto?",2);
+    d("",3);
+}
+
+void dialog_086(void){
+    h("[ Sabrina ]");
+                d(" Cristiano.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_087(void){
+    h("[ Renne ]");
+                d("Vaya...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_088(void){
+    h("[ Renne ]");
+                d("¿Y por qué Cristiano? ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_089(void){
+    h("[ Sabrina ]");
+                d(" Siempre parecía estar ",1);
+    d("ocultando algo. Alice decía que era ",2);
+    d("su forma de ser... era sospechoso...",3);
+}
+
+void dialog_090(void){
+    h("[ Renne ]");
+                d("¿Crees que se llevaron ",1);
+    d("a Alice al faro a la fuerza?",2);
+    d("",3);
+}
+
+void dialog_091(void){
+    h("[ Sabrina ]");
+                d(" No, le encanta ese sitio. ",1);
+    d("Tengo la sospecha de que fue allí ",2);
+    d("con él sin saber lo que iba a pasar. ",3);
+}
+
+void dialog_092(void){
+    h("[ Renne ]");
+                d("¿Crees que estamos ante",1);
+    d("un caso de asesinato?",2);
+    d("",3);
+}
+
+void dialog_093(void){
+    h("[ Sabrina ]");
+                d(" Así es, lo tuve claro  ",1);
+    d("cuando la policía encontró el",2);
+    d("coche abandonado en el faro. ",3);
+}
+
+void dialog_094(void){
+    h("[ Renne ]");
+                d("Un momento, eso no me",1);
+    d("cuadra. Julia me dijo que ninguno ",2);
+    d("de los dos tenía coche",3);
+}
+
+void dialog_095(void){
+    h("[ Sabrina ]");
+                d(" Hace poco compraron uno. ",1);
+    d("Lo sé porque ese día estaba en la",2);
+    d("feria de compraventa de coches. ",3);
+}
+
+void dialog_096(void){
+    h("[ Renne ]");
+                d("¿Dónde y cuándo se",1);
+    d("compraron el coche? Y ¿qué ",2);
+    d("coche era?",3);
+}
+
+void dialog_097(void){
+    h("[ Sabrina ]");
+                d(" Se compraron un Golf ",1);
+    d("verde hace unos diez días. La feria",2);
+    d("es en la esquina de la iglesia.",3);
+}
+
+void dialog_098(void){
+    h("[ Renne ]");
+                d("¿Hubo algo que te llamara ",1);
+    d("la atención después de investigar ",2);
+    d("la oficina?",3);
+}
+
+void dialog_099(void){
+    h("[ Sabrina ]");
+                d(" Mmm... Déjame pensar...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_100(void){
+    h("[ Sabrina ]");
+                d(" Los contenedores",1);
+    d("quemados.",2);
+    d("",3);
+}
+
+void dialog_101(void){
+    h("[ Sabrina ]");
+                d(" Empezó hace una semana. ",1);
+    d("Alguien se ha dedicado a quemar los ",2);
+    d("contenedores de la ciudad.",3);
+}
+
+void dialog_102(void){
+    h("[ Renne ]");
+                d("Tiene que haber alguna",1);
+    d("relación en ese intervalo de tiempo.",2);
+    d("",3);
+}
+
+void dialog_103(void){
+    h("[ Sabrina ]");
+                d(" ¿Quieres preguntarme ",1);
+    d("algo más? ",2);
+    d("",3);
+}
+
+void dialog_104(void){
+  d_n("Elige tu próxima pregunta",1);
+    d("  Pulsa B para preguntar por Alice",2);
+    d("  Pulsa C para preguntar por Julia",3);
+}
+
+void dialog_401(void){
+    h("[ Renne ]");
+                d("Dime, ¿cómo era Alice?",1);
+    d("¿Qué le gustaba hacer en su tiempo",2);
+    d("libre? Cualquier cosa es útil.",3);
+}
+
+void dialog_402(void){
+    h("[ Sabrina ]");
+                d(" Alice era encantadora.",1);
+    d("Solíamos hacer escapadas juntas, ",2);
+    d("nos encantaban las cataratas.",3);
+}
+
+void dialog_403(void){
+    h("[ Renne ]");
+                d("Veo que estábais muy ",1);
+    d("unidas. Supongo que todo cambió al",2);
+    d("empezar a salir con Cristiano.",3);
+}
+
+void dialog_404(void){
+    h("[ Sabrina ]");
+                d(" Sí, aquello fue lo que ",1);
+    d("dinamitó nuestra amistad.",2);
+    d("",3);
+}
+
+void dialog_405(void){
+    h("[ Renne ]");
+                d("Mmm... ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_406(void){
+    h("[ Renne ]");
+                d("Pero aquí estás, ",1);
+    d("intentando averiguar qué le pasó ",2);
+    d("a tu amiga Alice.",3);
+}
+
+void dialog_407(void){
+    h("[ Sabrina ]");
+                d(" ... ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_408(void){
+    h("[ Renne ]");
+                d("Bueno, entremos en la",1);
+    d("oficina de Cristiano. ",2);
+    d("",3);
+}
+
+void dialog_411(void){
+    h("[ Renne ]");
+                d("Dime, ¿cómo era Julia?",1);
+    d("¿Qué le gustaba hacer en su tiempo",2);
+    d("libre? Cualquier cosa es útil.",3);
+}
+
+void dialog_412(void){
+    h("[ Sabrina ]");
+                d(" Julia es una buena ",1);
+    d("amiga, llevamos muchos años ",2);
+    d("trabajando juntas.",3);
+}
+
+void dialog_413(void){
+    h("[ Renne ]");
+                d("¿Qué me puedes contar ",1);
+    d("de su vida social?",2);
+    d("",3);
+}
+
+void dialog_414(void){
+    h("[ Sabrina ]");
+                d(" Es muy cerrada, desde ",1);
+    d("que la conozco nunca la he visto",2);
+    d("salir con nadie más de un mes.",3);
+}
+
+void dialog_415(void){
+    h("[ Renne ]");
+                d("Típico de Julia. ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_416(void){
+    h("[ Renne ]");
+                d("¿Crees que me puede ",1);
+    d("estar ocultando algo sobre la ",2);
+    d("investigacion?",3);
+}
+
+void dialog_417(void){
+    h("[ Sabrina ]");
+                d(" Su vida privada. Por ",1);
+    d("lo que sé, supongo que vosotros ",2);
+    d("dos ya os conocíais. Es posible ",3);
+}
+
+void dialog_418(void){
+    h("[ Sabrina ]");
+                d(" que haya ocultado ",1);
+    d("información sobre su salud mental. ",2);
+    d("",3);
+}
+
+void dialog_419(void){
+    h("[ Renne ]");
+                d("Mmm... No puedo hacer ",1);
+    d("nada con esto por el momento. ",2);
+    d("",3);
+}
+
+void dialog_420(void){
+    h("[ Renne ]");
+                d("Bueno, entremos en la",1);
+    d("oficina de Cristiano. ",2);
+    d("",3);
+}
+
+void dialog_105(void){
+    jo_nbg2_clear();
+    set_background("STREET0.TGA", "BG");
+    dialog_106();
+}
+
+void dialog_106(void){
+  d_n("Treinta minutos después.",1);
+    d(" ",2);
+    d(" ",3);
+}
+
+void dialog_107(void){
+  d_n("Sabrina y tu estáis media hora ",1);
+    d("investigando en la oficina de",2);
+    d("Cristiano. ",3);
+}
+
+void dialog_108(void){
+    jo_nbg2_clear();
+    set_background("STREET2.TGA", "BG");
+    dialog_106();
+}
+
+void dialog_109(void){
+    h("[ Sabrina ]");
+                d(" ¡Mierda! ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_110(void){
+    h("[ Sabrina ]");
+                d(" Aquí no hay nada. ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_111(void){
+    h("[ Renne ]");
+                d("Esto significa que ",1);
+    d("la razón de la desaparción no está ",2);
+    d("relacionada con el trabajo.",3);
+}
+
+void dialog_112(void){
+    h("[ Sabrina ]");
+                d(" Mmm... ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_113(void){
+    h("[ Sabrina ]");
+                d(" Estamos como al ",1);
+    d("principio.",2);
+    d("",3);
+}
+
+void dialog_114(void){
+    h("[ Renne ]");
+                d("... ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_115(void){
+    h("[ Renne ]");
+                d("No tan rápido.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_116(void){
+    h("[ Sabrina ]");
+                d(" ¿Cómo?",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_117(void){
+    h("[ Renne ]");
+                d("Julia me comentó que ",1);
+    d("Cristiano solía frecuentar el bar ",2);
+    d("de en frente de su oficina.",3);
+}
+
+void dialog_118(void){
+    h("[ Renne ]");
+                d("¿Y si Cristiano ",1);
+    d("planeó todo el secuestro en el ",2);
+    d("bar y no en la oficina? ",3);
+}
+
+void dialog_119(void){
+    h("[ Sabrina ]");
+                d(" Es una buena hipótesis.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_120(void){
+    h("[ Sabrina ]");
+                d(" ¿Qué quieres hacer?",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_121(void){
+    h("[ Renne ]");
+                d("Seguir investigando.  ",1);
+    d("Si quieres puedes investigar por  ",2);
+    d("tu cuenta. ",3);
+}
+
+void dialog_122(void){
+    h("[ Sabrina ]");
+                d(" Me parece bien, buena",1);
+    d("suerte detective Bras.",2);
+    d("",3);
+}
+
+void dialog_123(void){
+    h("[ Renne ]");
+                d("Igualmente, Sabrina.  ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_124(void){
+    jo_nbg2_clear();
+    set_background("CHURCH.TGA", "BG");
+    dialog_106();
+}
+
+void dialog_125(void){
+  d_n("Sao Bento do Oeste",1);
+    d("Esquina de la iglesia",2);
+    d("Unos minutos después",3);
+}
+
+void dialog_126(void){
+    jo_nbg2_clear();
+    set_background("CHURCH1.TGA", "BG");
+    dialog_127();
+}
+
+void dialog_127(void){
+    h("[ Carlos ]");
+                d("Y con esto ya he",1);
+    d("terminado. ",2);
+    d(" ",3);
+}
+
+void dialog_128(void){
+    jo_nbg2_clear();
+    set_background("CHURCH2.TGA", "BG");
+    dialog_129();
+}
+
+void dialog_129(void){
+    h("[ Renne ]");
+                d("Hola, me llamo Renne",1);
+    d("Bras y estoy investigando un caso",2);
+    d("de desaparición en la ciudad.",3);
+}
+
+void dialog_130(void){
+    h("[ Renne ]");
+                d("¿Te importa si te robo ",1);
+    d("unos minutos?",2);
+    d("",3);
+}
+
+void dialog_131(void){
+    h("[ Carlos ]");
+                d("Por supuesto que no. ",1);
+    d("¿Qué quieres saber? ",2);
+    d(" ",3);
+}
+
+void dialog_132(void){
+    h("[ Renne ]");
+                d("¿Cómo te llamas?  ",1);
+    d("¿Cuántos años tienes? ¿A qué",2);
+    d("te dedicas?",3);
+}
+
+void dialog_133(void){
+    h("[ Carlos ]");
+                d("Me llamo Carlos, tengo ",1);
+    d("18 años y soy repartidor por la ",2);
+    d("ciudad.",3);
+}
+
+void dialog_134(void){
+    h("[ Renne ]");
+                d("¿Te suenan los nombres ",1);
+    d("de Cristiano Machado y Alice Zena? ",2);
+    d("",3);
+}
+
+void dialog_135(void){
+    h("[ Carlos ]");
+                d("La verdad es que no,   ",1);
+    d("el único Cristiano que conozco es ",2);
+    d("Tulio.",3);
+}
+
+void dialog_136(void){
+    h("[ Renne ]");
+                d("No creo que estemos  ",1);
+    d("hablando de la misma persona.",2);
+    d("",3);
+}
+
+void dialog_137(void){
+    h("[ Carlos ]");
+                d("Es dentista, tiene la ",1);
+    d("clínica en la entrada de la ",2);
+    d("ciudad.",3);
+}
+
+void dialog_138(void){
+    h("[ Renne ]");
+                d("Ya veo, me temo que no ",1);
+    d("es el hombre que estoy buscando.",2);
+    d("",3);
+}
+
+void dialog_139(void){
+    h("[ Carlos ]");
+                d("Lo siento, tío.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_140(void){
+    h("[ Renne ]");
+                d("Hay algo más que me",1);
+    d("gustaría preguntarte.",2);
+    d("",3);
+}
+
+void dialog_141(void){
+    h("[ Renne ]");
+                d("Hace diez días tuvo lugar ",1);
+    d("en esta misma esquina una feria de",2);
+    d("compraventa de coches.",3);
+}
+
+void dialog_142(void){
+    h("[ Carlos ]");
+                d("Así es, como todos ",1);
+    d("los meses.",2);
+    d("",3);
+}
+
+void dialog_143(void){
+    h("[ Renne ]");
+                d("¿Todos los meses? ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_144(void){
+    h("[ Carlos ]");
+                d("Sí, todos lo que tienen ",1);
+    d("algún negocio cerca de esta esquina ",2);
+    d("lo organizan los 15 de cada mes.",3);
+}
+
+void dialog_145(void){
+    h("[ Renne ]");
+                d("Eso es muy interesante...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_146(void){
+    h("[ Renne ]");
+                d("Un tipo llamado  ",1);
+    d("Cristiano se hizo con un Golf verde",2);
+    d("en la última feria.",3);
+}
+
+void dialog_147(void){
+    h("[ Renne ]");
+                d("¿Te suena de algo?   ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_148(void){
+    h("[ Carlos ]");
+                d("Creo que ya se de lo que",1);
+    d("hablas.",2);
+    d("",3);
+}
+
+void dialog_149(void){
+    h("[ Renne ]");
+                d("Te escucho atentamente.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_150(void){
+    h("[ Carlos ]");
+                d("La venta estuvo muy ",1);
+    d("reñida, ¿cómo se llamaba el tipo ",2);
+    d("que ganó...?",3);
+}
+
+void dialog_151(void){
+    h("[ Renne ]");
+                d("¿Cristiano?",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_152(void){
+    h("[ Carlos ]");
+                d("¡Cristiano! El tío ",1);
+    d("estaba bastante interesado en",2);
+    d("comprar el coche.",3);
+}
+
+void dialog_153(void){
+    h("[ Renne ]");
+                d("¿Recuerdas si iba con  ",1);
+    d("alguien más?",2);
+    d("",3);
+}
+
+void dialog_154(void){
+    h("[ Carlos ]");
+                d("Déjame pensar...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_155(void){
+    h("[ Carlos ]");
+                d("Creo recordar que  ",1);
+    d("había un chaval con un pañuelo",2);
+    d("acompañándolo.",3);
+}
+
+void dialog_156(void){
+    h("[ Renne ]");
+                d("¿No había ninguna mujer ",1);
+    d("con él?",2);
+    d("",3);
+}
+
+void dialog_157(void){
+    h("[ Carlos ]");
+                d("No. Solo estaban ",1);
+    d("Cristiano y ese muchacho. ",2);
+    d("",3);
+}
+
+void dialog_158(void){
+    h("[ Renne ]");
+                d("¿Sabrías decirme si ",1);
+    d("esos dos tenían algún tipo de ",2);
+    d("relación? Hermanos, amigos...",3);
+}
+
+void dialog_159(void){
+    h("[ Carlos ]");
+                d("No creo, la verdad. ",1);
+    d("Parecían distantes. ",2);
+    d("",3);
+}
+
+void dialog_160(void){
+    h("[ Renne ]");
+                d("Entiendo...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_161(void){
+    h("[ Carlos ]");
+                d("Me va a disculpar, ",1);
+    d("tengo un examen médico hoy en el ",2);
+    d("club y no me gustaría perdérmelo.",3);
+}
+
+void dialog_162(void){
+    h("[ Renne ]");
+                d("Por supuesto, has sido ",1);
+    d("de gran ayuda. Muchas gracias.",2);
+    d("",3);
+}
+
+void dialog_163(void){
+    h("[ Carlos ]");
+                d("No hay de qué,",1);
+    d("señor detective.",2);
+    d("",3);
+}
+
+void dialog_164(void){
+    jo_nbg2_clear();
+    set_background("CHURCH.TGA", "BG");
+    dialog_165();
+}
+
+void dialog_165(void){
+  d_n("Treinta minutos más tarde.",1);
+    d(" ",2);
+    d(" ",3);
+}
+
+void dialog_166(void){
+  d_n("Te acercas a una chica que está ",1);
+    d("en la esquina de la iglesia. ",2);
+    d(" ",3);
+}
+
+void dialog_167(void){
+    jo_nbg2_clear();
+    set_background("CHURCH3.TGA", "BG");
+    dialog_168();
+}
+
+void dialog_168(void){
+    h("[ Renne ]");
+                d("Muy buenas, me llamo",1);
+    d("Renne Bras, estoy investigando un ",2);
+    d("caso de desaparición en la ciudad.",3);
+}
+
+void dialog_169(void){
+    h("[ Renne ]");
+                d("¿Puedo hacerle unas ",1);
+    d("cuantas preguntas? Será rápido, lo ",2);
+    d("prometo.",3);
+}
+
+void dialog_170(void){
+    h("[ Maria ]");
+                d("Claro, no se preocupe.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_171(void){
+    h("[ Renne ]");
+                d("¡Genial! Primero, me ",1);
+    d("gustaría saber su nombre, edad y",2);
+    d("ocupación.",3);
+}
+
+void dialog_172(void){
+    h("[ Maria ]");
+                d("Me llamo Maria Vieira, ",1);
+    d("tengo 18 años y soy estudiante.",2);
+    d("Ahora mismo no tengo trabajo.",3);
+}
+
+void dialog_173(void){
+    h("[ Renne ]");
+                d("Bien... bien...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_174(void){
+    h("[ Renne ]");
+                d("En esta esquina se ",1);
+    d("celebra una feria de compraventa ",2);
+    d("de coches.",3);
+}
+
+void dialog_175(void){
+    h("[ Maria ]");
+                d("La feria mensual de ",1);
+    d("coches.",2);
+    d("",3);
+}
+
+void dialog_176(void){
+    h("[ Renne ]");
+                d("¡Exacto!",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_177(void){
+    h("[ Renne ]");
+                d("¿Estuvo en la última? ",1);
+    d("Tengo unas cuantas preguntas que ",2);
+    d("hacerle sobre ella.",3);
+}
+
+void dialog_178(void){
+    h("[ Maria ]");
+
+                d("Nunca voy, sin trabajo ",1);
+    d("no puedo permitirme comprar un coche. ",2);
+    d("",3);
+}
+
+void dialog_179(void){
+    h("[ Renne ]");
+                d("Claro, tiene sentido. ",1);
+    d("Una última pregunta.",2);
+    d("",3);
+}
+
+void dialog_180(void){
+    h("[ Renne ]");
+                d("¿Le suenan los nombres ",1);
+    d("de Cristiano Machado y Alice Zena? ",2);
+    d("",3);
+}
+
+void dialog_181(void){
+    h("[ Maria ]");
+                d("Pues claro que sí, son ",1);
+    d("famosos en la ciudad. Cristiano es el",2);
+    d("abogado más famoso de la ciudad.",3);
+}
+
+void dialog_182(void){
+    h("[ Maria ]");
+                d("Y Alice es profesora, ",1);
+    d("así que todos los estudiantes la ",2);
+    d("conocemos. Todo el mundo los conoce.",3);
+}
+
+void dialog_183(void){
+    h("[ Renne ]");
+                d("Entiendo. Hace siete días",1);
+    d("que no se sabe nada de ellos y estoy",2);
+    d("llevando el caso de la desaparición.",3);
+}
+
+void dialog_184(void){
+    h("[ Maria ]");
+                d("¿En serio? Dios mío... ",1);
+    d("No tenía ni idea... Me gustaría ",2);
+    d("ayudar en lo que pueda detective.",3);
+}
+
+void dialog_185(void){
+    h("[ Renne ]");
+                d("Se lo agradezco.  ",1);
+    d("Dígame, ¿recuerda haber visto a la ",2);
+    d("pareja por la ciudad? ",3);
+}
+
+void dialog_186(void){
+    h("[ Maria ]");
+                d("Déjeme pensar... La ",1);
+    d("última vez que ví a Alice iba tan  ",2);
+    d("normal de camino al trabajo.",3);
+}
+
+void dialog_187(void){
+    h("[ Maria ]");
+                d("Sin embargo, no ",1);
+    d("recuerdo haber visto a Cristiano ",2);
+    d("en los últimos días. ",3);
+}
+
+void dialog_188(void){
+    h("[ Renne ]");
+                d("¿En serio? ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_189(void){
+    h("[ Maria ]");
+                d("Pero esto es normal, ",1);
+    d("por lo que sé, no era habitual ",2);
+    d("verlo andando por la ciudad.",3);
+}
+
+void dialog_190(void){
+    h("[ Maria ]");
+                d("¿Tiene alguna pregunta ",1);
+    d("más? ",2);
+    d("",3);
+}
+
+void dialog_191(void){
+  d_n("Elige tu próxima pregunta",1);
+    d("  Pulsa B para preguntar por Sabrina",2);
+    d("  Pulsa C para preguntar por Carlos",3);
+}
+
+void dialog_421(void){
+    h("[ Renne ]");
+                d("Hace un rato estaba",1);
+    d("investigando con Sabrina Freire, ",2);
+    d("una profesora de la ciudad.",3);
+}
+
+void dialog_422(void){
+    h("[ Maria ]");
+                d("Conozco a Sabrina.",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_423(void){
+    h("[ Renne ]");
+                d("Necesito información ",1);
+    d("sobre ella para poder corroborar  ",2);
+    d("su testimonio y avanzar en el caso.",3);
+}
+
+void dialog_424(void){
+    h("[ Maria ]");
+                d("Déjeme pensar... Sabrina",1);
+    d("es una persona terca, abierta de ",2);
+    d("mente y que comprende a la gente. ",3);
+}
+
+void dialog_425(void){
+    h("[ Maria ]");
+                d("La verdad es que cuando se",1);
+    d("propone algo, no descansa hasta",2);
+    d("conseguirlo. ",3);
+}
+
+void dialog_426(void){
+    h("[ Renne ]");
+                d("Interesante...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_427(void){
+    h("[ Renne ]");
+                d("¿Cree que Sabrina ha ",1);
+    d("podido ocultarme información ",2);
+    d("relevante para el caso?",3);
+}
+
+void dialog_428(void){
+    h("[ Maria ]");
+                d("Estoy completamente ",1);
+    d("segura de que no. Se preocupa más ",2);
+    d("por Alice que por sí misma.",3);
+}
+
+void dialog_429(void){
+    h("[ Renne ]");
+                d("¿Cómo puedes estar ",1);
+    d("tan segura?",2);
+    d("",3);
+}
+
+void dialog_430(void){
+    h("[ Maria ]");
+                d("Las dos han sido amigas ",1);
+    d("desde su infancia y han crecido ",2);
+    d("juntas en esta ciudad.",3);
+}
+
+void dialog_431(void){
+    h("[ Renne ]");
+                d("No sabía nada de eso...",1);
+    d("Osea que sí fue una ruptura dolorosa ",2);
+    d("la que sufrieron.",3);
+}
+
+void dialog_432(void){
+    h("[ Maria ]");
+                d("Sin duda. Me lo dijo ",1);
+    d("Sabrina. ",2);
+    d("",3);
+}
+
+void dialog_433(void){
+    h("[ Renne ]");
+                d("¿De verdad cree usted que ",1);
+    d("Sabrina no me oculta nada, que dice",2);
+    d("la verdad?",3);
+}
+
+void dialog_434(void){
+    h("[ Maria ]");
+                d("Totalmete. Sabrina es un ",1);
+    d("libro abierto. Siempre está contando ",2);
+    d("cosas sobre su vida privada en clase",3);
+}
+
+void dialog_435(void){
+    h("[ Renne ]");
+                d("Entiendo. ",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_441(void){
+    h("[ Renne ]");
+                d("Hace un rato interrogué",1);
+    d("en esta esquina a un chico llamado ",2);
+    d("Carlos...",3);
+}
+
+void dialog_442(void){
+    h("[ Maria ]");
+                d("¿Qué quiere saber de él?",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_443(void){
+    h("[ Renne ]");
+                d("Necesito información ",1);
+    d("sobre él para poder corroborar su  ",2);
+    d("testimonio y avanzar en el caso.",3);
+}
+
+void dialog_444(void){
+    h("[ Maria ]");
+                d("Por desgracia no conozco",1);
+    d("a ningún Carlos. Cuando he llegado ",2);
+    d("estaba usted escribiendo aquí solo.",3);
+}
+
+void dialog_445(void){
+    h("[ Renne ]");
+                d("Vale, no se preocupe. ",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_446(void){
+    h("[ Renne ]");
+                d("¿Y usted? ¿Ha visto algo ",1);
+    d("sospechoso que le haya llamado la ",2);
+    d("atención estos últimos días?",3);
+}
+
+void dialog_447(void){
+    h("[ Maria ]");
+                d("Déjeme pensar...",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_448(void){
+    h("[ Maria ]");
+                d("Creo recordar que hará ",1);
+    d("una semana dos hombres tuvieron una ",2);
+    d("fuerte pelea en la calle.",3);
+}
+
+void dialog_449(void){
+    h("[ Maria ]");
+                d("Estaban gritandose el ",1);
+    d("uno al otro a media noche.",2);
+    d("",3);
+}
+
+void dialog_450(void){
+    h("[ Renne ]");
+                d("Parece que hemos ",1);
+    d("llegado a un punto muerto.  ",2);
+    d("",3);
+}
+
+void dialog_451(void){
+    h("[ Renne ]");
+                d("¿Recuerda algo de lo ",1);
+    d("que se estaban gritando?",2);
+    d("",3);
+}
+
+void dialog_452(void){
+    h("[ Maria ]");
+                d("Si no recuerdo mal ",1);
+    d("estaban hablando sobre no dejar",2);
+    d("cabos sueltos, o algo así.",3);
+}
+
+void dialog_453(void){
+    h("[ Renne ]");
+                d("Interesante. ",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_192(void){
+    h("[ Renne ]");
+                d("Maria, si no le importa ",1);
+    d("me gustaría hacerle unas cuantas ",2);
+    d("preguntas más.",3);
+}
+
+void dialog_193(void){
+    h("[ Maria ]");
+                d("Puede preguntar lo que ",1);
+    d("quiera.",2);
+    d("",3);
+}
+
+void dialog_194(void){
+    h("[ Renne ]");
+                d("Antes comentó que ",1);
+    d("Cristiano era famoso en la ciuadad, ",2);
+    d("¿por qué piensa eso?",3);
+}
+
+void dialog_195(void){
+    h("[ Maria ]");
+                d("Es el abogado más famoso ",1);
+    d("de la ciudad, tiene muchos clientes ",2);
+    d("y siempre hay alguien que lo conoce.",3);
+}
+
+void dialog_196(void){
+    h("[ Renne ]");
+                d("Entoces era muy buen",1);
+    d("abogado.  ",2);
+    d("",3);
+}
+
+void dialog_197(void){
+    h("[ Maria ]");
+                d("Según sus clientes,",1);
+    d("era el mejor.",2);
+    d("",3);
+}
+
+void dialog_198(void){
+    h("[ Renne ]");
+                d("¿Sabe si estaba llevando ",1);
+    d("algún caso en los últimos diez",2);
+    d("días?",3);
+}
+
+void dialog_199(void){
+    h("[ Maria ]");
+                d("No, lo siento.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_200(void){
+    h("[ Renne ]");
+                d("No pasa nada.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_201(void){
+    h("[ Renne ]");
+                d("Tengo más preguntas ",1);
+    d("sobre Cristiano pero creo que ya no ",2);
+    d("sabe más, así que las omitimremos.",3);
+}
+
+void dialog_202(void){
+    h("[ Maria ]");
+                d("...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_203(void){
+    h("[ Renne ]");
+                d("Antes de que se me ",1);
+    d("olvide, quisiera ir al faro. Por ",2);
+    d("favor, ¿podría indicarme el camino?",3);
+}
+
+void dialog_204(void){
+    h("[ Maria ]");
+                d("Bordee la frontera de ",1);
+    d("Sao Paulo y luego gire a la ",2);
+    d("izquierda. No tiene pérdida.",3);
+}
+
+void dialog_205(void){
+    h("[ Renne ]");
+                d("¡Lo tengo! Muchas ",1);
+    d("gracias por su ayuda Maria.",2);
+    d("",3);
+}
+
+void dialog_206(void){
+    h("[ Maria ]");
+                d("No hay de qué.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_207(void){
+    h("[ Renne ]");
+                d("¿Puedo compersarle el ",1);
+    d("tiempo perdido de alguna manera?",2);
+    d("",3);
+}
+
+void dialog_208(void){
+    h("[ Maria ]");
+                d("No se preocupe, no ",1);
+    d("tenía nada importante que hacer. ",2);
+    d("Si el club estuviera abierto...",3);
+}
+
+void dialog_209(void){
+    h("[ Maria ]");
+                d("En fin, que tenga un",1);
+    d("buen día.",2);
+    d("",3);
+}
+
+void dialog_210(void){
+    h("[ Renne ]");
+                d("Igualmente.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_211(void){
+    jo_nbg2_clear();
+    set_background("LIGHT.TGA", "BG");
+    dialog_212();
+}
+
+void dialog_212(void){
+  d_n("Sao Bento do Oeste",1);
+    d("Faro de la ciudad",2);
+    d("Unos minutos después",3);
+}
+
+void dialog_213(void){
+    jo_nbg2_clear();
+    set_background("LIGHT1.TGA", "BG");
+    dialog_214();
+}
+
+void dialog_214(void){
+    h("[ Lucas ]");
+                d("Por fin.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_215(void){
+    h("[ Lucas ]");
+                d("El faro de la ciudad.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_216(void){
+    h("[ Renne ]");
+                d("¡Oiga! ¡Usted!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_217(void){
+    jo_nbg2_clear();
+    set_background("LIGHT2.TGA", "BG");
+    dialog_214();
+}
+
+void dialog_218(void){
+    h("[ Renne ]");
+                d("¡Deténgase!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_219(void){
+    h("[ Lucas ]");
+                d("Muy bien...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_220(void){
+    h("[ Renne ]");
+                d("Espere un momento.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_221(void){
+    h("[ Lucas ]");
+                d("Vale, vale.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_222(void){
+    h("[ Renne ]");
+                d("Es usted sospechoso de la ",1);
+    d("desaparición de Cristiano Machado ",2);
+    d("y Alice Zena.",3);
+}
+
+void dialog_223(void){
+    h("[ Lucas ]");
+                d("¿Perdón? ¡¿Yo?!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_224(void){
+    h("[ Renne ]");
+                d("Así es, necesito su ",1);
+    d("nombre, edad y situación laboral. ",2);
+    d("",3);
+}
+
+void dialog_225(void){
+    h("[ Lucas ]");
+                d("Me llamo Lucas Matos, ",1);
+    d("tengo 19 años y trabajo en el ",2);
+    d("hospital de la ciudad.",3);
+}
+
+void dialog_226(void){
+    h("[ Renne ]");
+                d("¿Dónde se encontraba ",1);
+    d("hace diez días? ",2);
+    d("",3);
+}
+
+void dialog_227(void){
+    h("[ Lucas ]");
+                d("Hace diez días... Era ",1);
+    d("sábado, así que estaba trabajando ",2);
+    d("en el hospital.",3);
+}
+
+void dialog_228(void){
+    h("[ Renne ]");
+                d("¿Qué sabe sobre la ",1);
+    d("feria de compraventa de coches?",2);
+    d("",3);
+}
+
+void dialog_229(void){
+    h("[ Lucas ]");
+                d("Sinceramente, no sé qué ",1);
+    d("quiere que le diga. No sé mucho ",2);
+    d("sobre la feria.",3);
+}
+
+void dialog_230(void){
+    h("[ Lucas ]");
+                d("No puedo permitirme ",1);
+    d("comprar un coche así que no piso",2);
+    d("por allí.",3);
+}
+
+void dialog_231(void){
+    h("[ Renne ]");
+                d("¿Le suena el nombre de ",1);
+    d("Cristiano Machado?",2);
+    d("",3);
+}
+
+void dialog_232(void){
+    h("[ Lucas ]");
+                d("Pues claro. Es el abogado",1);
+    d("más famoso de la ciudad, todo",2);
+    d("el mundo lo conoce.",3);
+}
+
+void dialog_233(void){
+    h("[ Renne ]");
+                d("Tengo entendido que un",1);
+    d("chaval de tu edad con un pañuelo",2);
+    d("estaba con Cristiano en la feria.",3);
+}
+
+void dialog_234(void){
+    h("[ Lucas ]");
+                d("Le aseguro que no era yo.",1);
+    d("No tengo mucha relación con",2);
+    d("Cristiano.",3);
+}
+
+void dialog_235(void){
+    h("[ Lucas ]");
+                d("Pero si era un chaval ",1);
+    d("joven es posible que fuera el hermano ",2);
+    d("de Cristiano.",3);
+}
+
+void dialog_236(void){
+    h("[ Renne ]");
+                d("¿¡Cristiano tenía un ",1);
+    d("hermano!?",2);
+    d("",3);
+}
+
+void dialog_237(void){
+    h("[ Lucas ]");
+                d("Así es, un chaval de ",1);
+    d("mi edad.",2);
+    d("",3);
+}
+
+void dialog_238(void){
+    h("[ Renne ]");
+                d("¿Por qué Julia no me ha ",1);
+    d("dicho nada de esto?",2);
+    d("",3);
+}
+
+void dialog_239(void){
+    h("[ Lucas ]");
+                d("Lo cierto es que poca",1);
+    d(" gente sabía que Cristiano tenía",2);
+    d("un hermano.",3);
+}
+
+void dialog_240(void){
+    h("[ Lucas ]");
+                d("Piénselo. Para un abogado ",1);
+    d("de prestigio sería muy peligroso",2);
+    d("tener un allegado en la ciudad.",3);
+}
+
+void dialog_241(void){
+    h("[ Renne ]");
+                d("Mmm...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_242(void){
+    h("[ Renne ]");
+                d("Supongo que tiene sentido.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_243(void){
+    h("[ Renne ]");
+                d("¿Le puedo hacer algunas ",1);
+    d("preguntas?",2);
+    d("",3);
+}
+
+void dialog_244(void){
+    h("[ Lucas ]");
+                d("Dispare.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_245(void){
+    h("[ Renne ]");
+                d("Aquí, en el faro, fue el ",1);
+    d("último lugar donde se vió a",2);
+    d("Cristiano y Alice, ¿qué hace aquí?",3);
+}
+
+void dialog_246(void){
+    h("[ Lucas ]");
+                d("Suelo venir al faro a ",1);
+    d("descansar.",2);
+    d("",3);
+}
+
+void dialog_247(void){
+    h("[ Renne ]");
+                d("Entiendo.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_248(void){
+  d_n("Elige tu próxima pregunta",1);
+    d("  Pulsa B, pregunta por Maria",2);
+    d("  Pulsa C, pregunta por el hermano",3);
+}
+
+
+void dialog_461(void){
+    h("[ Renne ]");
+                d("Hace un rato interrogué a",1);
+    d("una muchacha en la esquina de la ",2);
+    d("iglesia que se llamaba Maria...",3);
+}
+
+void dialog_462(void){
+    h("[ Lucas ]");
+                d("¿Maria? ¿Por qué sacas ",1);
+    d("ese nombre ahora?",2);
+    d("",3);
+}
+
+void dialog_463(void){
+    h("[ Renne ]");
+                d("Solamente he dicho que ",1);
+    d("acabo de interrogarla hace unos ",2);
+    d("minutos.",3);
+}
+
+void dialog_464(void){
+    h("[ Lucas ]");
+                d("Pff.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_465(void){
+    h("[ Renne ]");
+                d("¿Por qué te pones a la ",1);
+    d("defensiva?",2);
+    d("",3);
+}
+
+void dialog_466(void){
+    h("[ Lucas ]");
+                d("Conozco muy bien a Maria  ",1);
+    d("Vieira, es mi exnovia.",2);
+    d("",3);
+}
+
+void dialog_467(void){
+    h("[ Renne ]");
+                d("¡Vaya! Así que era eso. ",1);
+    d("Te sientes incómodo hablando de ella ",2);
+    d("¿fue una mala ruptura?",3);
+}
+
+void dialog_468(void){
+    h("[ Lucas ]");
+                d("No se trata de eso.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_469(void){
+    h("[ Lucas ]");
+                d("He cometido muchos ",1);
+    d("errores en mi vida, sobretodo en la ",2);
+    d("forma en que traté a Maria.",3);
+}
+
+void dialog_470(void){
+    h("[ Renne ]");
+                d("No te martirices, yo ",1);
+    d("también he cometido errores en mis",2);
+    d("relaciones.",3);
+}
+
+void dialog_471(void){
+    h("[ Renne ]");
+                d("Pero es reconociendo ",1);
+    d("nuestros errores cuando de verdad se ",2);
+    d("aprende a ser mejor persona.",3);
+}
+
+void dialog_472(void){
+    h("[ Lucas ]");
+                d("Supongo que tienes razón. ",1);
+    d("Perdóname por lo de antes, ¿qué ",2);
+    d("querías preguntar sobre Maria?",3);
+}
+
+void dialog_473(void){
+    h("[ Renne ]");
+                d("¿Crees que me puede ",1);
+    d("estar ocultando algo sobre el caso? ",2);
+    d("",3);
+}
+
+void dialog_474(void){
+    h("[ Lucas ]");
+                d("¿Maria? Qué vá, siempre ",1);
+    d("intenta ayudar a los demás, sin ",2);
+    d("importar lo que le cueste.",3);
+}
+
+void dialog_475(void){
+    h("[ Lucas ]");
+                d("Bueno es saberlo.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_481(void){
+    h("[ Renne ]");
+                d("¿Qué me puedes decir del ",1);
+    d("hermano de Cristiano? Quiero que me ",2);
+    d("cuentes todo lo que sepas.",3);
+}
+
+void dialog_482(void){
+    h("[ Lucas ]");
+                d("No recuerdo su nombre, ",1);
+    d("pero estoy casi seguro de que le ",2);
+    d("llamaban Silva Machado.",3);
+}
+
+void dialog_483(void){
+    h("[ Renne ]");
+                d("¿Cómo era la relación ",1);
+    d("con su hermano?",2);
+    d("",3);
+}
+
+void dialog_484(void){
+    h("[ Lucas ]");
+                d("Es bastante complicado, ",1);
+    d("por lo que sé se peleaban a todas ",2);
+    d("horas, pero nunca en público.",3);
+}
+
+void dialog_485(void){
+    h("[ Renne ]");
+                d("¿Qué me puedes decir de  ",1);
+    d("su aspecto físico? ¿Es alto? ¿Fuerte?",2);
+    d("",3);
+}
+
+void dialog_486(void){
+    h("[ Lucas ]");
+                d("Es un chaval de lo más ",1);
+    d("normal, como yo más menos. Con pelo ",2);
+    d("negro y una cicatriz en el cuello.",3);
+}
+
+void dialog_487(void){
+    h("[ Renne ]");
+                d("Entendido. ¿Hay algo ",1);
+    d("más que quieras contarme sobre él ",2);
+    d("que pueda ser de utilidad?",3);
+}
+
+void dialog_488(void){
+    h("[ Lucas ]");
+                d("La verdad, creo que ",1);
+    d("lo sabe todo, aunque no tenga nada ",2);
+    d("que ver con lo ocurrido.",3);
+}
+
+void dialog_489(void){
+    h("[ Renne ]");
+                d("¿Por qué estás tan ",1);
+    d("seguro?",2);
+    d("",3);
+}
+
+void dialog_490(void){
+    h("[ Lucas ]");
+                d("Le gustaba estar al tanto",1);
+    d("de todo lo que pasaba en la ciudad. ",2);
+    d("Recuerdo como preguntaba a Cristiano.",3);
+}
+
+void dialog_491(void){
+    h("[ Renne ]");
+                d("Interesante.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_249(void){
+    h("[ Renne ]");
+                d("Muchas gracias por todo ",1);
+    d("Lucas. Has sido de gran ayuda.",2);
+    d("",3);
+}
+
+void dialog_250(void){
+    h("[ Lucas ]");
+                d("Lo que sea por ayudar.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_251(void){
+    h("[ Renne ]");
+                d("Voy a seguir con la ",1);
+    d("investigación. Que tengas un muy ",2);
+    d("buen día Lucas.",3);
+}
+
+void dialog_252(void){
+    h("[ Lucas ]");
+                d("Igualmente, Renne.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_253(void){
+    jo_nbg2_clear();
+    set_background("LIGHT.TGA", "BG");
+    dialog_254();
+}
+
+void dialog_254(void){
+  d_n("Sao Bento do Oeste",1);
+    d("Faro de la ciudad",2);
+    d("Unos minutos después",3);
+}
+
+void dialog_255(void){
+    jo_nbg2_clear();
+    set_background("LIGHT3.TGA", "BG");
+    dialog_256();
+}
+
+void dialog_256(void){
+    d_n("Has estado buscando pruebas por ",1);
+    d("el faro.",2);
+    d("",3);
+}
+
+void dialog_257(void){
+    d_n("Por desgracia, no has econtrado ",1);
+    d("nada útil.",2);
+    d("",3);
+}
+
+void dialog_258(void){
+    h("[ Renne ]");
+                d("¡Maldita sea! Vuelvo a",1);
+    d("estar en un punto muerto.",2);
+    d("",3);
+}
+
+void dialog_259(void){
+    h("[ Renne ]");
+                d("Vamos a repasar lo que ",1);
+    d("sabemos.",2);
+    d("",3);
+}
+
+void dialog_260(void){
+    h("[ Renne ]");
+                d("La pareja desapareció ",1);
+    d("hace una semana en el faro.",2);
+    d("",3);
+}
+
+void dialog_261(void){
+    h("[ Renne ]");
+                d("Aperentemente, tenían",1);
+    d("una buena relación, aunque Sabrina",2);
+    d("sospecha de Cristiano.",3);
+}
+
+void dialog_262(void){
+    h("[ Renne ]");
+                d("Pero antes de eso, está ",1);
+    d("el tema de la feria. Cristiano y su ",2);
+    d("hermano compraron un Golf verde.",3);
+}
+
+void dialog_263(void){
+    h("[ Renne ]");
+                d("Pocos días después, los ",1);
+    d("dos llegaron al faro en coche y lo ",2);
+    d("abandonaron. ¿Qué fue lo que pasó?",3);
+}
+
+void dialog_264(void){
+    h("[ Renne ]");
+                d("Hay piezas que no encajan ",1);
+    d("de la discusión que escuchó Maria. ",2);
+    d("",3);
+}
+
+void dialog_265(void){
+    h("[ Renne ]");
+                d("...no dejar cabos sueltos.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_266(void){
+    h("[ Renne ]");
+                d("Podemos trabajar en la ",1);
+    d("teoría de que los dos que estaban en ",2);
+    d("la feria eran Cristiano y su hermano.",3);
+}
+
+void dialog_267(void){
+    h("[ Renne ]");
+                d("Pero, hay otra pieza que ",1);
+    d("no encaja, y es la figura del hermano ",2);
+    d("de Cristiano.",3);
+}
+
+void dialog_268(void){
+    h("[ Renne ]");
+                d("Si estaba al tanto de ",1);
+    d("todo podía seguir manteniendo el ",2);
+    d("contacto sin levantar sospechas.",3);
+}
+
+void dialog_269(void){
+    h("[ Renne ]");
+                d("Para hacerlo, era tan ",1);
+    d("fácil como trabajar en algo que le ",2);
+    d("tuviera moviéndose por la ciudad.",3);
+}
+
+void dialog_270(void){
+  d_n("Elige tu deducción",1);
+    d("Pulsa B - Carlos es hermano de Cris",2);
+    d("Pulsa C - Maria es hermana de Cris",3);
+}
+
+void dialog_501(void){
+    h("[ Renne ]");
+                d("¡Carlos es el hermano ",1);
+    d("de Cristiano!",2);
+    d("",3);
+}
+
+void dialog_502(void){
+    h("[ Renne ]");
+                d("Tendría sentido. Empezó ",1);
+    d("a mentir en cuanto supo que estaba ",2);
+    d("investigando a su hermano. ",3);
+}
+
+void dialog_503(void){
+    h("[ Renne ]");
+                d("Eso explicaría por qué ",1);
+    d("señaló a Lucas como un posible ",2);
+    d("culpable, era un falso sospechoso.",3);
+}
+
+void dialog_504(void){
+    h("[ Renne ]");
+                d("Y los contenedores fue ",1);
+    d("Carlos intentando deshacerse de las ",2);
+    d("pruebas contra su hermano.",3);
+}
+
+void dialog_505(void){
+    h("[ Renne ]");
+                d("Carlos tiene la clave ",1);
+    d("para resolver este caso. ",2);
+    d("¡Hay que encontrarlo!",3);
+}
+
+void dialog_506(void){
+  d_n("Has ido a la ciudad en busca ",1);
+    d("de Carlos.",2);
+    d("",3);
+}
+
+void dialog_511(void){
+    h("[ Renne ]");
+                d("Maria es la hermana ",1);
+    d("de Cristiano. Lo cierto es que no ",2);
+    d("tiene mucho sentido.",3);
+}
+
+void dialog_512(void){
+    d_n("Seguiste una pista erronea y ",1);
+    d("llegaste a un punto muerto.",2);
+    d("",3);
+}
+
+void dialog_513(void){
+    d_n("No conseguiste resolver el caso.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_271(void){
+    jo_nbg2_clear();
+    set_background("EXIT0.TGA", "BG");
+    dialog_272();
+}
+
+void dialog_272(void){
+
+  d_n("Sao Bento do Oeste",1);
+    d("Minas Gerais - Brasil",2);
+    d("Entrada de la ciudad",3);
+}
+
+void dialog_273(void){
+    jo_nbg2_clear();
+    set_background("EXIT.TGA", "BG");
+    dialog_274();
+}
+
+void dialog_274(void){
+    h("[ Renne ]");
+                d("¿Dónde se habrá metido?",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_275(void){
+    h("[ Renne ]");
+                d("Tengo que encontrarlo.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_276(void){
+    h("[ Renne ]");
+                d("Cuando lo encuentre este",1);
+    d("caso llegará a su fin.",2);
+    d("",3);
+}
+
+void dialog_277(void){
+    d_n("Has estado buscando a Carlos en ",1);
+    d("la entrada de la ciudad.",2);
+    d("",3);
+}
+
+void dialog_278(void){
+    h("[ Renne ]");
+                d("...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_279(void){
+    h("[ Renne ]");
+                d("¡Maldita sea! No está",1);
+    d(" aquí.",2);
+    d("",3);
+}
+
+void dialog_280(void){
+    d_n("Sigues buscando a Carlos por toda",1);
+    d("la ciudad.",2);
+    d("",3);
+}
+
+void dialog_281(void){
+    jo_nbg2_clear();
+    set_background("CHURCH.TGA", "BG");
+    dialog_282();
+}
+
+void dialog_282(void){
+  d_n("Media hora después.",1);
+    d(" ",2);
+    d(" ",3);
+}
+
+void dialog_283(void){
+    jo_nbg2_clear();
+    set_background("CHURCH2.TGA", "BG");
+    dialog_284();
+}
+
+void dialog_284(void){
+    h("[ Renne ]");
+                d("¡Alto ahí!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_285(void){
+    h("[ Carlos ]");
+                d("...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_286(void){
+    h("[ Renne ]");
+                d("Estás detenido por ",1);
+    d("encubrimiento de pruebas.",2);
+    d("",3);
+}
+
+void dialog_287(void){
+    jo_nbg2_clear();
+    set_background("CHURCH.TGA", "BG");
+    dialog_288();
+}
+
+void dialog_288(void){
+  d_n("Media hora después.",1);
+    d(" ",2);
+    d(" ",3);
+}
+
+void dialog_289(void){
+    jo_nbg2_clear();
+    set_background("CHURCH2.TGA", "BG");
+    dialog_290();
+}
+
+void dialog_290(void){
+    h("[ Renne ]");
+                d("Solo lo voy a preguntar ",1);
+    d("una vez, ¿qué les ha pasado a ",2);
+    d("Cristiano Machado y Alice Zena?",3);
+}
+
+void dialog_291(void){
+    h("[ Carlos ]");
+                d("Se han ido para siempre...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_292(void){
+    h("[ Renne ]");
+                d("Así que finalmente sí ",1);
+    d("que era un caso de asesinato.",2);
+    d("",3);
+}
+
+void dialog_293(void){
+    h("[ Carlos ]");
+                d("Se suponía que esto no ",1);
+    d("tenía a acabar así, Alice no hizo ",2);
+    d("nada malo.",3);
+}
+
+void dialog_294(void){
+    h("[ Renne ]");
+                d("Dime, ¿qué pasó en ",1);
+    d("en faro?",2);
+    d("",3);
+}
+
+void dialog_295(void){
+    h("[ Carlos ]");
+                d("¡Una ruptura!",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_296(void){
+  d_n("Poco a poco empiezas a juntar",1);
+    d("las piezas del rompecabezas.",2);
+    d(" ",3);
+}
+
+void dialog_297(void){
+    h("[ Renne ]");
+                d("Alice y Cristiano se",1);
+    d("pelearon hace diez días después",2);
+    d("de comprar el coche.",3);
+}
+
+void dialog_298(void){
+    h("[ Renne ]");
+                d("Alice rompió con ",1);
+    d("Cristiano en el faro.",2);
+    d("",3);
+}
+
+void dialog_299(void){
+    h("[ Renne ]");
+                d("Cristiano se quedó ",1);
+    d("en shock.",2);
+    d("",3);
+}
+
+void dialog_300(void){
+    h("[ Renne ]");
+                d("Como siempre estabas ",1);
+    d("al tanto de todo, descubriste ",2);
+    d("que habían roto.",3);
+}
+
+void dialog_301(void){
+  d_n("Elige quién crees que es el culpable",1);
+    d("  Pulsa B para elegir a Cristiano",2);
+    d("  Pulsa C para elegir a Carlos",3);
+}
+
+void dialog_302(void){
+    h("[ Renne ]");
+                d("Cristiano es el culpable ",1);
+    d("de todo.",2);
+    d("",3);
+}
+
+void dialog_531(void){
+    h("[ Renne ]");
+                d("Tú eres el culpable de",1);
+    d("todo.",2);
+    d("",3);
+}
+
+void dialog_532(void){
+    d_n("Te has equivocado de culpable.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_533(void){
+    d_n("No has resuelto el caso.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_303(void){
+    h("[ Carlos ]");
+                d("...",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_304(void){
+    h("[ Renne ]");
+                d("¡Vamos! ¡Admítelo!",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_305(void){
+    h("[ Carlos ]");
+                d("Es verdad. Mi hermano ",1);
+    d("fue quien metió la pata.",2);
+    d("",3);
+}
+
+void dialog_306(void){
+    h("[ Renne ]");
+                d("Explícamelo todo ",1);
+    d("Carlos, quizá pueda hacer algo ",2);
+    d("para reducir tu condena. ",3);
+}
+
+void dialog_307(void){
+    h("[ Carlos ]");
+                d("A Cristiano le gustaba",1);
+    d("celebrar la victoria de los casos en ",2);
+    d("el bar de enfrente de su oficina.",3);
+}
+
+void dialog_308(void){
+    h("[ Carlos ]");
+                d("Hace diez días decidió ",1);
+    d("comprarse un coche en la feria de ",2);
+    d("la ciudad, un Golf verde.",3);
+}
+
+void dialog_309(void){
+    h("[ Carlos ]");
+                d("Desgraciadamente, dos ",1);
+    d("días después, tras una de sus ",2);
+    d("celebraciones, cometió un delito.",3);
+}
+void dialog_310(void){
+    h("[ Carlos ]");
+                d("Atropelló a una chica ",1);
+    d("que iba por la calle.",2);
+    d("",3);
+}
+void dialog_311(void){
+    h("[ Carlos ]");
+                d("Decidió desaparecer ",1);
+    d("con el cuerpo para ocultar el crimen",2);
+    d("y mantener su estatus como abogado.",3);
+}
+
+void dialog_312(void){
+    h("[ Carlos ]");
+                d("Todo ocurrió en el ",1);
+    d("faro. Hasta ese momento yo no ",2);
+    d("estaba metido en este embrollo.",3);
+}
+
+void dialog_313(void){
+    h("[ Carlos ]");
+                d("No tengo ni idea de ",1);
+    d("cómo pero Alice se enteró de todo.",2);
+    d("",3);
+}
+
+void dialog_314(void){
+    h("[ Carlos ]");
+                d("Rompió con mi hermano ",1);
+    d("y dijo que iría a la policía.",2);
+    d("",3);
+}
+
+void dialog_315(void){
+    h("[ Carlos ]");
+                d("Entonces mi hermano ",1);
+    d("la mató.",2);
+    d("",3);
+}
+
+void dialog_316(void){
+    h("[ Carlos ]");
+                d("Fue al día siguiente ",1);
+    d("cuando me enteré de todo y decidí ",2);
+    d("encubrir a mi hermano.",3);
+}
+
+void dialog_317(void){
+    h("[ Carlos ]");
+                d("Fue un día de locos.",1);
+    d("",2);
+    d("",3);
+}
+
+void dialog_318(void){
+    h("[ Carlos ]");
+                d("Por desgracia, las ganas ",1);
+    d("de vivir de Cristiano se fueron con ",2);
+    d("la muerte de Alice.",3);
+}
+
+void dialog_319(void){
+    h("[ Carlos ]");
+                d("Y al día siguiente se ",1);
+    d("suicidó.",2);
+    d("",3);
+}
+
+void dialog_320(void){
+    h("[ Carlos ]");
+                d("Con el objetivo de ",1);
+    d("ocultar el crimen he quemado las",2);
+    d("pruebas que incriminaban a Cris.",3);
+}
+
+void dialog_321(void){
+    h("[ Carlos ]");
+                d("Por un momento pensaba ",1);
+    d("que estaba haciendo bien ayudando ",2);
+    d("a mi hermano.",3);
+}
+
+void dialog_322(void){
+    h("[ Carlos ]");
+                d("Pero lo cierto es que ",1);
+    d("estaba equivocado, no se merecía ",2);
+    d("ningún tipo de ayuda.",3);
+}
+
+void dialog_323(void){
+    h("[ Renne ]");
+                d("Me dejas sin palabras.",1);
+    d(" ",2);
+    d("",3);
+}
+
+void dialog_324(void){
+    h("[ Renne ]");
+                d("Espero que con la muerte ",1);
+    d("de tu hermano hayas pagado por los ",2);
+    d("crímenes que has cometido.",3);
 }
 
 void define_dialogs(void){

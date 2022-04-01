@@ -11,6 +11,30 @@
 #ifndef neptune
 #define neptune
 
+#define TRANSPARENT_COLOR_INDEX_IN_FONT_PALETTE (2)
+
+jo_palette font_palette;
+
+/**
+ * load_nbg2_font()
+ * load a nbg2 font which supports English, Portuguese, Spanish and related languages
+ */
+void load_nbg2_font(void){
+    jo_img_8bits img;
+    img.data = NULL;
+    jo_tga_8bits_loader(&img, JO_ROOT_DIR, "FONT.TGA", TRANSPARENT_COLOR_INDEX_IN_FONT_PALETTE);
+    jo_vdp2_set_nbg2_8bits_font(&img, " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!_?=/@',.[]*+-àèìòùáéíóúýâêîôûãñõ¿:", font_palette.id, false, true);
+    jo_free_img(&img);
+}
+/**
+ * tga_palette_handling()
+ * function that handle tga palette
+ */
+jo_palette *tga_palette_handling(void){
+    jo_create_palette(&font_palette);
+    return (&font_palette);
+}
+
 /**
  * set_background()
  * plot background image
@@ -29,11 +53,10 @@ void set_background(char* filename, char* folder){
  * draw text on the screen
  */
 void d(char* text, int line){
-    jo_set_printf_color_index(JO_COLOR_INDEX_White);
     if (line == 1)
-        jo_printf(12, 21+(2), text);
+        jo_nbg2_printf(12, 21+(2), text);
     else
-        jo_printf(1, 21+(2*line), text);
+        jo_nbg2_printf(1, 21+(2*line), text);
 }
 
 /**
@@ -41,8 +64,7 @@ void d(char* text, int line){
  * draw text on the screen
  */
 void h(char* text){
-    jo_set_printf_color_index(JO_COLOR_INDEX_Red);
-    jo_printf(1, 21+(2*1), text);
+    jo_nbg2_printf(1, 21+(2*1), text);
 }
 
 /**
@@ -50,11 +72,10 @@ void h(char* text){
  * draw text on the screen
  */
 void d_n(char* text, int line){
-    jo_set_printf_color_index(JO_COLOR_INDEX_White);
     if (line == 1)
-        jo_printf(1, 21+(2), text);
+        jo_nbg2_printf(1, 21+(2), text);
     else
-        jo_printf(1, 21+(2*line), text);
+        jo_nbg2_printf(1, 21+(2*line), text);
 }
 
 #endif

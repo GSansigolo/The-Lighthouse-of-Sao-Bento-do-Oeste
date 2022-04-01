@@ -27,13 +27,12 @@ static int knows_about_the_brother = 0;
 void controller(){
 
     //debug
-    //jo_set_printf_color_index(JO_COLOR_INDEX_White);
-    //jo_printf(1, 1, "%d", d_pointer);
+    //jo_nbg2_printf(1, 1, "%d", d_pointer);
 
     //main menu
     if (jo_is_pad1_key_down(JO_KEY_START) && start_menu == 1){
         start_menu = 0;
-        jo_clear_screen();
+        jo_nbg2_clear();
         d_pointer = 0;
         start();
     }
@@ -41,167 +40,167 @@ void controller(){
     //pointer motion trigger
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0){
 
-        jo_clear_screen();
+        jo_nbg2_clear();
 
         d_pointer++;
 
         //backgrounds
         if (d_pointer == 8){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[8]();
             dialogs[8] = JO_NULL;
             d_pointer = 9;
         }
 
         else if (d_pointer == 11){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[11]();
             dialogs[11] = JO_NULL;
             d_pointer = 12;
         }
 
         else if (d_pointer == 14){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[14]();
             dialogs[14] = JO_NULL;
             d_pointer = 15;
         }
 
         else if (d_pointer == 67){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[67]();
             dialogs[67] = JO_NULL;
             d_pointer = 68;
         }
 
         else if (d_pointer == 69){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[69]();
             dialogs[69] = JO_NULL;
             d_pointer = 70;
         }
 
         else if (d_pointer == 74){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[74]();
             dialogs[74] = JO_NULL;
             d_pointer = 75;
         }
 
         else if (d_pointer == 108){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[108]();
             dialogs[108] = JO_NULL;
             d_pointer = 109;
         }
 
         else if (d_pointer == 124){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[124]();
             dialogs[124] = JO_NULL;
             d_pointer = 125;
         }
 
         else if (d_pointer == 126){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[126]();
             dialogs[126] = JO_NULL;
             d_pointer = 127;
         }
 
         else if (d_pointer == 128){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[128]();
             dialogs[128] = JO_NULL;
             d_pointer = 129;
         }
 
         else if (d_pointer == 164){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[164]();
             dialogs[164] = JO_NULL;
             d_pointer = 165;
         }
 
         else if (d_pointer == 167){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[167]();
             dialogs[167] = JO_NULL;
             d_pointer = 168;
         }
 
         else if (d_pointer == 211){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[211]();
             dialogs[211] = JO_NULL;
             d_pointer = 212;
         }
 
         else if (d_pointer == 213){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[213]();
             dialogs[213] = JO_NULL;
             d_pointer = 214;
         }
 
         else if (d_pointer == 217){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[217]();
             dialogs[217] = JO_NULL;
             d_pointer = 218;
         }
 
         else if (d_pointer == 253){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[253]();
             dialogs[253] = JO_NULL;
             d_pointer = 254;
         }
 
         else if (d_pointer == 255){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[255]();
             dialogs[255] = JO_NULL;
             d_pointer = 256;
         }
 
         else if (d_pointer == 271){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[271]();
             dialogs[271] = JO_NULL;
             d_pointer = 272;
         }
 
         else if (d_pointer == 273){
-                jo_clear_screen();
+                jo_nbg2_clear();
                 dialogs[273]();
                 dialogs[273] = JO_NULL;
                 d_pointer = 274;
             }
 
         else if (d_pointer == 281){
-                jo_clear_screen();
+                jo_nbg2_clear();
                 dialogs[281]();
                 dialogs[281] = JO_NULL;
                 d_pointer = 282;
             }
 
         else if (d_pointer == 283){
-                jo_clear_screen();
+                jo_nbg2_clear();
                 dialogs[283]();
                 dialogs[283] = JO_NULL;
                 d_pointer = 284;
             }
 
         else if (d_pointer == 287){
-                jo_clear_screen();
+                jo_nbg2_clear();
                 dialogs[287]();
                 dialogs[287] = JO_NULL;
                 d_pointer = 288;
             }
 
         else if (d_pointer == 289){
-                jo_clear_screen();
+                jo_nbg2_clear();
                 dialogs[289]();
                 dialogs[289] = JO_NULL;
                 d_pointer = 290;
@@ -209,35 +208,35 @@ void controller(){
 
         //choices
         else if (d_pointer == 104){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[104]();
             dialogs[104] = JO_NULL;
             choice_pause = 1;
         }
 
         else if (d_pointer == 191){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[191]();
             dialogs[191] = JO_NULL;
             choice_pause = 1;
         }
 
         else if (d_pointer == 248){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[248]();
             dialogs[248] = JO_NULL;
             choice_pause = 1;
         }
 
         else if (d_pointer == 270){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[270]();
             dialogs[270] = JO_NULL;
             choice_pause = 1;
         }
 
         else if (d_pointer == 301){
-            jo_clear_screen();
+            jo_nbg2_clear();
             dialogs[301]();
             dialogs[301] = JO_NULL;
             choice_pause = 1;
@@ -268,7 +267,7 @@ void controller(){
 
         else if(d_pointer == 325){
             d_pointer = 999;
-            jo_clear_screen();
+            jo_nbg2_clear();
             draw_intro();
             start_menu = 1;
         }
@@ -281,8 +280,8 @@ void controller(){
 
     //choices content
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 104 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 401;
         dialogs[401]();
@@ -290,8 +289,8 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 104 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 411;
         dialogs[411]();
@@ -299,7 +298,7 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && choice_pause == 0 && d_pointer == 408){
-        jo_clear_screen();
+        jo_nbg2_clear();
         dialogs[105]();
         dialogs[105] = JO_NULL;
         d_pointer = 106;
@@ -307,7 +306,7 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && choice_pause == 0 && d_pointer == 420){
-        jo_clear_screen();
+        jo_nbg2_clear();
         dialogs[105]();
         dialogs[105] = JO_NULL;
         d_pointer = 106;
@@ -315,8 +314,8 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 191 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 421;
         dialogs[421]();
@@ -324,8 +323,8 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 191 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 441;
         dialogs[441]();
@@ -333,7 +332,7 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && choice_pause == 0 && d_pointer == 435){
-        jo_clear_screen();
+        jo_nbg2_clear();
         dialogs[192]();
         dialogs[192] = JO_NULL;
         d_pointer = 192;
@@ -341,7 +340,7 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && choice_pause == 0 && d_pointer == 453){
-        jo_clear_screen();
+        jo_nbg2_clear();
         dialogs[192]();
         dialogs[192] = JO_NULL;
         d_pointer = 192;
@@ -349,8 +348,8 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 248 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 461;
         dialogs[461]();
@@ -358,8 +357,8 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 248 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 481;
         dialogs[481]();
@@ -367,15 +366,15 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && choice_pause == 0 && (d_pointer == 475 || d_pointer == 491)){
-        jo_clear_screen();
+        jo_nbg2_clear();
         dialogs[249]();
         dialogs[249] = JO_NULL;
         d_pointer = 249;
     }
 
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 270 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 501;
         dialogs[501]();
@@ -383,8 +382,8 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 270 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 501;
         dialogs[511]();
@@ -392,21 +391,21 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 506){
-        jo_clear_screen();
+        jo_nbg2_clear();
         dialogs[271]();
         dialogs[271] = JO_NULL;
         d_pointer = 271;
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 513){
-        jo_clear_screen();
+        jo_nbg2_clear();
         draw_intro();
         start_menu = 1;
     }
 
     if (jo_is_pad1_key_down(JO_KEY_B) && d_pointer == 301 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 302;
         dialogs[302]();
@@ -414,8 +413,8 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_C) && d_pointer == 301 && choice_pause == 1){
-        jo_printf(1, 1, "%d", d_pointer);
-        jo_clear_screen();
+        jo_nbg2_printf(1, 1, "%d", d_pointer);
+        jo_nbg2_clear();
         choice_pause = 0;
         d_pointer = 531;
         dialogs[531]();
@@ -423,7 +422,7 @@ void controller(){
     }
 
     if (jo_is_pad1_key_down(JO_KEY_A) && start_menu == 0 && choice_pause == 0 && d_pointer == 533){
-        jo_clear_screen();
+        jo_nbg2_clear();
         draw_intro();
         start_menu = 1;
     }
