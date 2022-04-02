@@ -2879,7 +2879,7 @@ void draw_menu(void){
     jo_nbg2_clear();
     set_background("TITLE.TGA", "BG");
     jo_nbg2_printf(11, 23, "PULSA EL BOTON START");
-    jo_nbg2_printf(25, 28, "@NeptuneEngine");
+    jo_nbg2_printf(21, 28, "Jose Ramon Carceles");
     jo_nbg2_printf(1, 28, "@G_Sansigolo");
 };
 
@@ -5695,6 +5695,7 @@ void dialog_324(void){
     d("de tu hermano hayas pagado por los ",2);
     d("crímenes que has cometido.",3);
 }
+
 
 void define_dialogs(void){
     dialogs[0] = dialog_000;

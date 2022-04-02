@@ -404,7 +404,7 @@ SLSTART         0x0000000006004000       0x30
 .text           0x0000000006004040    0x1e360
  *(.text)
  .text          0x0000000006004040        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
- .text          0x0000000006004040     0xa488 /tmp/ccFYHKvp.ltrans0.ltrans.o
+ .text          0x0000000006004040     0xa488 /tmp/ccvV6sm3.ltrans0.ltrans.o
  *fill*         0x000000000600e4c8        0x8 
  .text          0x000000000600e4d0      0xac4 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
                 0x000000000600e4d0                CPK_Init
@@ -1243,7 +1243,7 @@ SLSTART         0x0000000006004000       0x30
                 0x0000000006022394                __etext = .
 
 .text.startup   0x00000000060223a0      0x780
- .text.startup  0x00000000060223a0      0x778 /tmp/ccFYHKvp.ltrans0.ltrans.o
+ .text.startup  0x00000000060223a0      0x778 /tmp/ccvV6sm3.ltrans0.ltrans.o
                 0x00000000060223a0                main
 
 SLPROG          0x0000000006022b20    0x126d0
@@ -1602,7 +1602,7 @@ SLPROG          0x0000000006022b20    0x126d0
 .data           0x00000000060351f0     0x6e50
  *(.data)
  .data          0x00000000060351f0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
- .data          0x00000000060351f0     0x680c /tmp/ccFYHKvp.ltrans0.ltrans.o
+ .data          0x00000000060351f0     0x680c /tmp/ccvV6sm3.ltrans0.ltrans.o
  *fill*         0x000000000603b9fc        0x4 
  .data          0x000000000603ba00        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
  .data          0x000000000603ba00        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_gfs.o)
@@ -1793,7 +1793,7 @@ SLPROG          0x0000000006022b20    0x126d0
 
 .rodata         0x000000000603c040      0x510
  *(.rodata)
- .rodata        0x000000000603c040        0x4 /tmp/ccFYHKvp.ltrans0.ltrans.o
+ .rodata        0x000000000603c040        0x4 /tmp/ccvV6sm3.ltrans0.ltrans.o
  .rodata        0x000000000603c044       0x20 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
  .rodata        0x000000000603c064        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-impure.o)
                 0x000000000603c064                _global_impure_ptr
@@ -1810,261 +1810,261 @@ SLPROG          0x0000000006022b20    0x126d0
  .rodata        0x000000000603c444      0x100 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_clz.o)
                 0x000000000603c444                __clz_tab
 
-.rodata.str1.4  0x000000000603c550     0x5ad0
+.rodata.str1.4  0x000000000603c550     0x5ae0
  .rodata.str1.4
-                0x000000000603c550     0x5a27 /tmp/ccFYHKvp.ltrans0.ltrans.o
- *fill*         0x0000000006041f77        0x1 
+                0x000000000603c550     0x5a37 /tmp/ccvV6sm3.ltrans0.ltrans.o
+ *fill*         0x0000000006041f87        0x1 
  .rodata.str1.4
-                0x0000000006041f78       0x3a /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
- *fill*         0x0000000006041fb2        0x2 
+                0x0000000006041f88       0x3a /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
+ *fill*         0x0000000006041fc2        0x2 
  .rodata.str1.4
-                0x0000000006041fb4       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-dtoa.o)
- *fill*         0x0000000006041fc6        0x2 
+                0x0000000006041fc4       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-dtoa.o)
+ *fill*         0x0000000006041fd6        0x2 
  .rodata.str1.4
-                0x0000000006041fc8       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-locale.o)
- *fill*         0x0000000006041fda        0x2 
+                0x0000000006041fd8       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-locale.o)
+ *fill*         0x0000000006041fea        0x2 
  .rodata.str1.4
-                0x0000000006041fdc       0x25 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfiprintf.o)
- *fill*         0x0000000006042001        0x3 
+                0x0000000006041fec       0x25 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfiprintf.o)
+ *fill*         0x0000000006042011        0x3 
  .rodata.str1.4
-                0x0000000006042004       0x1a /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
+                0x0000000006042014       0x1a /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
 
-.bss            0x0000000006042020    0x65690
-                0x0000000006042020                __bstart = .
+.bss            0x0000000006042030    0x65690
+                0x0000000006042030                __bstart = .
  *(.bss)
- .bss           0x0000000006042020        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
- .bss           0x0000000006042020    0x64574 /tmp/ccFYHKvp.ltrans0.ltrans.o
- *fill*         0x00000000060a6594        0xc 
- .bss           0x00000000060a65a0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
- .bss           0x00000000060a65a0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_gfs.o)
- .bss           0x00000000060a65a0       0x10 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_mp.o)
- .bss           0x00000000060a65b0        0x6 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_time.o)
- *fill*         0x00000000060a65b6        0xa 
- .bss           0x00000000060a65c0        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_vide.o)
- *fill*         0x00000000060a65cc        0x4 
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_audi.o)
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_etc.o)
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_deb.o)
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(slavesh.o)
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_ra15.o)
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_er15.o)
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_mc15.o)
- .bss           0x00000000060a65d0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_scu.o)
- .bss           0x00000000060a65d0       0x28 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSND.A(snd_main.o)
- *fill*         0x00000000060a65f8        0x8 
- .bss           0x00000000060a6600        0x4 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SEGA_SYS.A(sys_exit.o)
- *fill*         0x00000000060a6604        0xc 
- .bss           0x00000000060a6610        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SEGA_SYS.A(sys_sub.o)
- .bss           0x00000000060a6610        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_CMN.O)
- .bss           0x00000000060a6610        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_DRV.O)
- .bss           0x00000000060a6610        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_CFS.O)
- .bss           0x00000000060a6610        0x2 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_REG.O)
- *fill*         0x00000000060a6612        0xe 
- .bss           0x00000000060a6620        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_SUB.O)
- *fill*         0x00000000060a662c        0x4 
- .bss           0x00000000060a6630        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS.O)
- .bss           0x00000000060a6630        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_BUF.O)
- .bss           0x00000000060a6630        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDB.O)
- .bss           0x00000000060a6630        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDC.O)
- .bss           0x00000000060a6630        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDF.O)
- .bss           0x00000000060a6630        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_DIR.O)
- .bss           0x00000000060a6630        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_TRN.O)
+ .bss           0x0000000006042030        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
+ .bss           0x0000000006042030    0x64574 /tmp/ccvV6sm3.ltrans0.ltrans.o
+ *fill*         0x00000000060a65a4        0xc 
+ .bss           0x00000000060a65b0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
+ .bss           0x00000000060a65b0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_gfs.o)
+ .bss           0x00000000060a65b0       0x10 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_mp.o)
+ .bss           0x00000000060a65c0        0x6 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_time.o)
+ *fill*         0x00000000060a65c6        0xa 
+ .bss           0x00000000060a65d0        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_vide.o)
+ *fill*         0x00000000060a65dc        0x4 
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_audi.o)
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_etc.o)
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_deb.o)
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(slavesh.o)
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_ra15.o)
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_er15.o)
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_mc15.o)
+ .bss           0x00000000060a65e0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_scu.o)
+ .bss           0x00000000060a65e0       0x28 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSND.A(snd_main.o)
+ *fill*         0x00000000060a6608        0x8 
+ .bss           0x00000000060a6610        0x4 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SEGA_SYS.A(sys_exit.o)
+ *fill*         0x00000000060a6614        0xc 
+ .bss           0x00000000060a6620        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SEGA_SYS.A(sys_sub.o)
+ .bss           0x00000000060a6620        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_CMN.O)
+ .bss           0x00000000060a6620        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_DRV.O)
+ .bss           0x00000000060a6620        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_CFS.O)
+ .bss           0x00000000060a6620        0x2 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_REG.O)
+ *fill*         0x00000000060a6622        0xe 
+ .bss           0x00000000060a6630        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_SUB.O)
  *fill*         0x00000000060a663c        0x4 
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_DEV.O)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_SEL.O)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_BIF.O)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_BIO.O)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA15.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA20.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA21.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA27.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB001.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB011.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB014.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB015.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB016.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB020.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB021.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB023.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB031.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB032.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB033.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB034.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB035.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB036.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB038.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB039.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB040.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB041.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB043.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB047.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB048.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB055.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB056.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB057.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB058.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB059.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB060.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB063.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB087.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB088.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB090.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB200.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC04.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC05.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC06.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC07.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC08.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC17.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC19.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC20.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC21.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD00.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD03.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD12.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD14.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD15.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD16.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD17.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD18.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglF08.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG00.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG19.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG21.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG22.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG25.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH00.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH02.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH04.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglI01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglI04.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglIc0.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ02.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ03.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ04.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ05.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglK01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglM01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA00.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA01.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB000.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC00.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD02.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglI00.o)
- .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH03.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ashiftrt.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ashiftrt_n.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_sdivsi3.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udivsi3.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memcmp.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memcpy.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memset.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sprintf.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strncmp.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strncpy.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-dtoa.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-impure.o)
- .bss           0x00000000060a6640        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-localeconv.o)
- .bss           0x00000000060a6640        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-locale.o)
-                0x00000000060a6640                _PathLocale
- .bss           0x00000000060a6644        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-mbtowc_r.o)
- .bss           0x00000000060a6644        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memchr.o)
- .bss           0x00000000060a6644        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-mprec.o)
- .bss           0x00000000060a6644        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-callocr.o)
- .bss           0x00000000060a6644        0x8 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-mallocr.o)
-                0x00000000060a6644                __malloc_sbrk_start
-                0x00000000060a6648                __malloc_free_list
- .bss           0x00000000060a664c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sbrkr.o)
- .bss           0x00000000060a664c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strcmp.o)
- .bss           0x00000000060a664c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strlen.o)
- .bss           0x00000000060a664c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfiprintf.o)
- .bss           0x00000000060a664c        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-trap.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-wctomb_r.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-abort.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-ctype_.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memmove.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-mlock.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-freer.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-reallocr.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-signal.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-signalr.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-msizer.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ashiftlt.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_lshiftrt.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udivdi3.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_umoddi3.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_addsub_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_mul_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_div_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_eq_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ne_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_gt_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ge_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_lt_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_le_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_unord_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_si_to_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_df_to_si.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_thenan_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_usi_to_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udiv_qrnnd_16.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_clz.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_clzsi2.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_pack_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_unpack_df.o)
- .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_fpcmp_parts_df.o)
+ .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS.O)
+ .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_BUF.O)
+ .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDB.O)
+ .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDC.O)
+ .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDF.O)
+ .bss           0x00000000060a6640        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_DIR.O)
+ .bss           0x00000000060a6640        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_TRN.O)
+ *fill*         0x00000000060a664c        0x4 
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_DEV.O)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_SEL.O)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_BIF.O)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(CDC_BIO.O)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA15.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA20.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA21.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA27.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB001.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB011.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB014.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB015.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB016.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB020.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB021.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB023.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB031.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB032.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB033.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB034.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB035.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB036.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB038.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB039.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB040.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB041.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB043.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB047.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB048.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB055.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB056.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB057.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB058.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB059.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB060.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB063.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB087.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB088.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB090.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB200.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC04.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC05.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC06.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC07.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC08.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC17.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC19.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC20.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC21.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD00.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD03.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD12.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD14.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD15.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD16.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD17.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD18.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglF08.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG00.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG19.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG21.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG22.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglG25.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH00.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH02.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH04.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglI01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglI04.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglIc0.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ02.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ03.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ04.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglJ05.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglK01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglM01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA00.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglA01.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglB000.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglC00.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglD02.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglI00.o)
+ .bss           0x00000000060a6650        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSGL.A(sglH03.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ashiftrt.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ashiftrt_n.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_sdivsi3.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udivsi3.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memcmp.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memcpy.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memset.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sprintf.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strncmp.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strncpy.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-dtoa.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-impure.o)
+ .bss           0x00000000060a6650        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-localeconv.o)
+ .bss           0x00000000060a6650        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-locale.o)
+                0x00000000060a6650                _PathLocale
+ .bss           0x00000000060a6654        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-mbtowc_r.o)
+ .bss           0x00000000060a6654        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memchr.o)
+ .bss           0x00000000060a6654        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-mprec.o)
+ .bss           0x00000000060a6654        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-callocr.o)
+ .bss           0x00000000060a6654        0x8 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-mallocr.o)
+                0x00000000060a6654                __malloc_sbrk_start
+                0x00000000060a6658                __malloc_free_list
+ .bss           0x00000000060a665c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sbrkr.o)
+ .bss           0x00000000060a665c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strcmp.o)
+ .bss           0x00000000060a665c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strlen.o)
+ .bss           0x00000000060a665c        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfiprintf.o)
+ .bss           0x00000000060a665c        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-trap.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-wctomb_r.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-abort.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-ctype_.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memmove.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-mlock.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-freer.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-reallocr.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-signal.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-signalr.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-nano-msizer.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ashiftlt.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_lshiftrt.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udivdi3.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_umoddi3.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_addsub_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_mul_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_div_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_eq_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ne_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_gt_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_ge_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_lt_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_le_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_unord_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_si_to_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_df_to_si.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_thenan_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_usi_to_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_udiv_qrnnd_16.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_clz.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_clzsi2.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_pack_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_unpack_df.o)
+ .bss           0x00000000060a6660        0x0 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/libgcc.a(_fpcmp_parts_df.o)
  *(COMMON)
- COMMON         0x00000000060a6650        0x4 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
-                0x00000000060a6650                CPK_lib_stm_init
- *fill*         0x00000000060a6654        0xc 
- COMMON         0x00000000060a6660       0xc8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_mp.o)
-                0x00000000060a6660                cpk_cnt_vbl_in
-                0x00000000060a6664                cpk_err_func
-                0x00000000060a6668                cpk_system_status
-                0x00000000060a666c                cpk_cpu
-                0x00000000060a6670                cpk_hn_mask
-                0x00000000060a6674                cpk_hn_next
-                0x00000000060a6680                cpk_hn_tbl
-                0x00000000060a6700                cpk_version
-                0x00000000060a6720                cpk_err_code
-                0x00000000060a6724                cpk_err_obj
- *fill*         0x00000000060a6728        0x8 
- COMMON         0x00000000060a6730      0xf20 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_vide.o)
-                0x00000000060a6730                cpk_kikakuka_0_31_tbl
-                0x00000000060a68b0                cpk_process_copy_cb_tbl
-                0x00000000060a68d0                cpk_kikakuka_0_255_tbl
-                0x00000000060a74d0                cpk_process_tbl
- COMMON         0x00000000060a7650        0x8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_audi.o)
-                0x00000000060a7650                cpk_pcm_play_address_last
- *fill*         0x00000000060a7658        0x8 
- COMMON         0x00000000060a7660       0x24 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_deb.o)
-                0x00000000060a7660                cpkd_sys
- COMMON         0x00000000060a7684        0x8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSND.A(snd_main.o)
-                0x00000000060a7684                snd_adr_sys_int_work
-                0x00000000060a7688                snd_msk_work_work
- COMMON         0x00000000060a768c        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS.O)
-                0x00000000060a768c                GFMC_base
-                0x00000000060a7690                gfs_mng_ptr
-                0x00000000060a7694                gfs_use_scudma
- COMMON         0x00000000060a7698        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDC.O)
-                0x00000000060a7698                gfcd_fatal_err
-                0x00000000060a769c                gfcd_work
-                0x00000000060a76a0                gfcd_playflag
- COMMON         0x00000000060a76a4        0x8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDF.O)
-                0x00000000060a76a4                gfcf_fad
-                0x00000000060a76a8                gfcf_stat
- COMMON         0x00000000060a76ac        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
-                0x00000000060a76ac                errno
-                0x00000000060a76b0                __bend = .
-                0x00000000060a76b0                _end = .
+ COMMON         0x00000000060a6660        0x4 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
+                0x00000000060a6660                CPK_lib_stm_init
+ *fill*         0x00000000060a6664        0xc 
+ COMMON         0x00000000060a6670       0xc8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_mp.o)
+                0x00000000060a6670                cpk_cnt_vbl_in
+                0x00000000060a6674                cpk_err_func
+                0x00000000060a6678                cpk_system_status
+                0x00000000060a667c                cpk_cpu
+                0x00000000060a6680                cpk_hn_mask
+                0x00000000060a6684                cpk_hn_next
+                0x00000000060a6690                cpk_hn_tbl
+                0x00000000060a6710                cpk_version
+                0x00000000060a6730                cpk_err_code
+                0x00000000060a6734                cpk_err_obj
+ *fill*         0x00000000060a6738        0x8 
+ COMMON         0x00000000060a6740      0xf20 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_vide.o)
+                0x00000000060a6740                cpk_kikakuka_0_31_tbl
+                0x00000000060a68c0                cpk_process_copy_cb_tbl
+                0x00000000060a68e0                cpk_kikakuka_0_255_tbl
+                0x00000000060a74e0                cpk_process_tbl
+ COMMON         0x00000000060a7660        0x8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_audi.o)
+                0x00000000060a7660                cpk_pcm_play_address_last
+ *fill*         0x00000000060a7668        0x8 
+ COMMON         0x00000000060a7670       0x24 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_deb.o)
+                0x00000000060a7670                cpkd_sys
+ COMMON         0x00000000060a7694        0x8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSND.A(snd_main.o)
+                0x00000000060a7694                snd_adr_sys_int_work
+                0x00000000060a7698                snd_msk_work_work
+ COMMON         0x00000000060a769c        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS.O)
+                0x00000000060a769c                GFMC_base
+                0x00000000060a76a0                gfs_mng_ptr
+                0x00000000060a76a4                gfs_use_scudma
+ COMMON         0x00000000060a76a8        0xc ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDC.O)
+                0x00000000060a76a8                gfcd_fatal_err
+                0x00000000060a76ac                gfcd_work
+                0x00000000060a76b0                gfcd_playflag
+ COMMON         0x00000000060a76b4        0x8 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCD.A(GFS_CDF.O)
+                0x00000000060a76b4                gfcf_fad
+                0x00000000060a76b8                gfcf_stat
+ COMMON         0x00000000060a76bc        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-syscalls.o)
+                0x00000000060a76bc                errno
+                0x00000000060a76c0                __bend = .
+                0x00000000060a76c0                _end = .
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
-LOAD /tmp/ccFYHKvp.ltrans0.ltrans.o
+LOAD /tmp/ccvV6sm3.ltrans0.ltrans.o
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSND.A
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/SEGA_SYS.A
@@ -2079,7 +2079,7 @@ LOAD /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-el
 OUTPUT(game.elf coff-sh)
 
 .comment        0x0000000000000000      0x380
- .comment       0x0000000000000000       0x12 /tmp/ccFYHKvp.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x12 /tmp/ccvV6sm3.ltrans0.ltrans.o
  .comment       0x0000000000000012       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memcmp.o)
  .comment       0x0000000000000024       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sprintf.o)
  .comment       0x0000000000000036       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strncmp.o)
