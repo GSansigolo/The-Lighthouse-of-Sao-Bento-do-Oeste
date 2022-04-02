@@ -2878,7 +2878,7 @@ void dialog_324(void){
 void draw_menu(void){
     jo_nbg2_clear();
     set_background("TITLE.TGA", "BG");
-    jo_nbg2_printf(11, 23, "àèìòùáéíóúýâêîôûãñõ¿");
+    jo_nbg2_printf(11, 23, "PULSA EL BOTON START");
     jo_nbg2_printf(25, 28, "@NeptuneEngine");
     jo_nbg2_printf(1, 28, "@G_Sansigolo");
 };
