@@ -23,9 +23,10 @@ void load_nbg2_font(void){
     jo_img_8bits img;
     img.data = NULL;
     jo_tga_8bits_loader(&img, JO_ROOT_DIR, "FONT.TGA", TRANSPARENT_COLOR_INDEX_IN_FONT_PALETTE);
-    jo_vdp2_set_nbg2_8bits_font(&img, " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!_?=/@',.[]*+-àèìòùáéíóúâêîôûãñõ", font_palette.id, false, true);
+    jo_vdp2_set_nbg2_8bits_font(&img, " 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz!_?/@',.[]=+-)(*&|$#^~{}[]<>", font_palette.id, false, true);
     jo_free_img(&img);
 }
+
 /**
  * tga_palette_handling()
  * function that handle tga palette

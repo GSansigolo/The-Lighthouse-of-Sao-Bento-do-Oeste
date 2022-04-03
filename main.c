@@ -1,7 +1,8 @@
 //imports
 #include <jo/jo.h>
 #include "neptune.h"
-#include "model.h"
+#include "model_formatter.h"
+#include <string.h>
 #include "control.h"
 
 //main function

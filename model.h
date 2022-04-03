@@ -2878,7 +2878,7 @@ void dialog_324(void){
 void draw_menu(void){
     jo_nbg2_clear();
     set_background("TITLE.TGA", "BG");
-    jo_nbg2_printf(11, 23, "PULSA EL BOTON START");
+    jo_nbg2_printf(10, 23, "PULSA EL BOTON START");
     jo_nbg2_printf(21, 28, "Jose Ramon Carceles");
     jo_nbg2_printf(1, 28, "@G_Sansigolo");
 };

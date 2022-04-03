@@ -8,5 +8,6 @@ rm -f ./*.elf
 rm -f ./*.map
 rm -f ./*.iso
 rm -f ./*.cue
+rm -f ./model_formatter.h
 echo "Done."
 exit 0
