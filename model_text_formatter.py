@@ -21,6 +21,8 @@ filedata = filedata.replace('û', '[')
 filedata = filedata.replace('ã', ']')
 filedata = filedata.replace('ñ', '<')
 filedata = filedata.replace('õ', '>')
+filedata = filedata.replace('¡', '`')
+filedata = filedata.replace('¿', ';')
 
 # Write the file out again
 with open('model_formatter.h', 'w') as file:
