@@ -404,7 +404,7 @@ SLSTART         0x0000000006004000       0x30
 .text           0x0000000006004040    0x1e360
  *(.text)
  .text          0x0000000006004040        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
- .text          0x0000000006004040     0xa488 /tmp/ccSgjIpE.ltrans0.ltrans.o
+ .text          0x0000000006004040     0xa488 /tmp/ccaqwAZm.ltrans0.ltrans.o
  *fill*         0x000000000600e4c8        0x8 
  .text          0x000000000600e4d0      0xac4 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
                 0x000000000600e4d0                CPK_Init
@@ -1243,7 +1243,7 @@ SLSTART         0x0000000006004000       0x30
                 0x0000000006022394                __etext = .
 
 .text.startup   0x00000000060223a0      0x780
- .text.startup  0x00000000060223a0      0x778 /tmp/ccSgjIpE.ltrans0.ltrans.o
+ .text.startup  0x00000000060223a0      0x778 /tmp/ccaqwAZm.ltrans0.ltrans.o
                 0x00000000060223a0                main
 
 SLPROG          0x0000000006022b20    0x126d0
@@ -1602,7 +1602,7 @@ SLPROG          0x0000000006022b20    0x126d0
 .data           0x00000000060351f0     0x6e50
  *(.data)
  .data          0x00000000060351f0        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
- .data          0x00000000060351f0     0x680c /tmp/ccSgjIpE.ltrans0.ltrans.o
+ .data          0x00000000060351f0     0x680c /tmp/ccaqwAZm.ltrans0.ltrans.o
  *fill*         0x000000000603b9fc        0x4 
  .data          0x000000000603ba00        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
  .data          0x000000000603ba00        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_gfs.o)
@@ -1793,7 +1793,7 @@ SLPROG          0x0000000006022b20    0x126d0
 
 .rodata         0x000000000603c040      0x510
  *(.rodata)
- .rodata        0x000000000603c040        0x4 /tmp/ccSgjIpE.ltrans0.ltrans.o
+ .rodata        0x000000000603c040        0x4 /tmp/ccaqwAZm.ltrans0.ltrans.o
  .rodata        0x000000000603c044       0x20 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
  .rodata        0x000000000603c064        0x4 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-impure.o)
                 0x000000000603c064                _global_impure_ptr
@@ -1812,7 +1812,7 @@ SLPROG          0x0000000006022b20    0x126d0
 
 .rodata.str1.4  0x000000000603c550     0x58c0
  .rodata.str1.4
-                0x000000000603c550     0x5817 /tmp/ccSgjIpE.ltrans0.ltrans.o
+                0x000000000603c550     0x5817 /tmp/ccaqwAZm.ltrans0.ltrans.o
  *fill*         0x0000000006041d67        0x1 
  .rodata.str1.4
                 0x0000000006041d68       0x3a /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-svfprintf.o)
@@ -1833,7 +1833,7 @@ SLPROG          0x0000000006022b20    0x126d0
                 0x0000000006041e10                __bstart = .
  *(.bss)
  .bss           0x0000000006041e10        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
- .bss           0x0000000006041e10    0x64574 /tmp/ccSgjIpE.ltrans0.ltrans.o
+ .bss           0x0000000006041e10    0x64574 /tmp/ccaqwAZm.ltrans0.ltrans.o
  *fill*         0x00000000060a6384        0xc 
  .bss           0x00000000060a6390        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_lib.o)
  .bss           0x00000000060a6390        0x0 ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A(cpk_gfs.o)
@@ -2064,7 +2064,7 @@ SLPROG          0x0000000006022b20    0x126d0
                 0x00000000060a74a0                __bend = .
                 0x00000000060a74a0                _end = .
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/SGLAREA.O
-LOAD /tmp/ccSgjIpE.ltrans0.ltrans.o
+LOAD /tmp/ccaqwAZm.ltrans0.ltrans.o
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBCPK.A
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/LIBSND.A
 LOAD ../../Compiler/COMMON/SGL_302j/LIB_ELF/SEGA_SYS.A
@@ -2079,7 +2079,7 @@ LOAD /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-el
 OUTPUT(game.elf coff-sh)
 
 .comment        0x0000000000000000      0x380
- .comment       0x0000000000000000       0x12 /tmp/ccSgjIpE.ltrans0.ltrans.o
+ .comment       0x0000000000000000       0x12 /tmp/ccaqwAZm.ltrans0.ltrans.o
  .comment       0x0000000000000012       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-memcmp.o)
  .comment       0x0000000000000024       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-sprintf.o)
  .comment       0x0000000000000036       0x12 /home/sansigolo/Documents/joengine/Compiler/LINUX/bin/../lib/gcc/sh-none-elf/8.2.0/../../../../sh-none-elf/lib/libc.a(lib_a-strncmp.o)
